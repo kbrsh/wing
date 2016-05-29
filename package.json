@@ -1,7 +1,7 @@
 {
   "name": "wingcss",
   "version": "0.0.2",
-  "description": "Make your website grow wings with this mnimal CSS framework",
+  "description": "Make your website grow wings with this minimal CSS framework",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
