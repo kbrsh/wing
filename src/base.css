@@ -1,0 +1,16 @@
+/*------------------------------------------------------------
+  Base Style
+------------------------------------------------------------*/
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+
+body {
+  letter-spacing: 0.01em;
+  line-height: 1.6;
+  font-size: 1.5em;
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}

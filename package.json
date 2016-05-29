@@ -1,0 +1,30 @@
+{
+  "name": "wingcss",
+  "version": "0.0.0",
+  "description": "Make your website grow wings with this mnimal CSS framework",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kingpixil/wing.git"
+  },
+  "author": "Kabir Shah",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kingpixil/wing/issues"
+  },
+  "homepage": "https://github.com/kingpixil/wing#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cli": "^1.2.1",
+    "gulp-load-plugins": "^1.2.4",
+    "gulp-preprocess": "^1.1.1",
+    "gulp-qunit": "^1.4.0",
+    "gulp-concat": "latest",
+    "gulp-size": "~0.1.2",
+    "gulp-uglify": "^1.5.3",
+    "gulp-util": "~2.2.9"
+  }
+}
