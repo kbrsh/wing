@@ -1,0 +1,26 @@
+/*------------------------------------------------------------
+  Forms
+------------------------------------------------------------*/
+
+input.one {
+  display: block;
+  box-sizing: border-box;
+  padding: 5px;
+  line-height: 1;
+  font-size: 1.25rem;
+  border: 1px solid #e5e5e5;
+  border-radius: 2px;
+  outline-width: 20px;
+  outline-style: solid;
+  outline-color: transparent;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+input.one:focus {
+  outline-width: 3px;
+  outline-color: #6BCBF6;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}

@@ -1,0 +1,32 @@
+/*------------------------------------------------------------
+  Utilities
+------------------------------------------------------------*/
+
+.full-width {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.max-full-width {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.pull-right {
+  float: right;
+}
+
+.pull-left {
+  float: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

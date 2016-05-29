@@ -1,3 +1,11 @@
+/*
+* Wing 0.0.0 Alpha
+* Copyright 2016, Kabir Shah
+* http://kingpixil.github.io/wing/
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+*/
+
 /* Table of contents
 ––––––––––––––––––––––––––––––––––––––––––––––––––
 - Base
@@ -14,6 +22,14 @@
 */
 @import url(https://fonts.googleapis.com/css?family=Quicksand);
 @import url(https://fonts.googleapis.com/css?family=Raleway:100,400,700);
+/*
+* Wing 0.0.0 Alpha
+* Copyright 2016, Kabir Shah
+* http://kingpixil.github.io/wing/
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+*/
+
 /*------------------------------------------------------------
   Base Style
 ------------------------------------------------------------*/
@@ -30,6 +46,14 @@ body {
   font-size: 1.5em;
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+/*
+* Wing 0.0.0 Alpha
+* Copyright 2016, Kabir Shah
+* http://kingpixil.github.io/wing/
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+*/
 
 /*------------------------------------------------------------
   Typography
@@ -105,6 +129,14 @@ h6 {
     font-size: 1.5rem;
   }
 }
+
+/*
+* Wing 0.0.0 Alpha
+* Copyright 2016, Kabir Shah
+* http://kingpixil.github.io/wing/
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+*/
 
 .container {
   position: relative;
@@ -189,10 +221,330 @@ h6 {
   .offset-by-one-half.columns     { margin-left: 52%; }
 
 }
+/*
+* Wing 0.0.0 Alpha
+* Copyright 2016, Kabir Shah
+* http://kingpixil.github.io/wing/
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+*/
 
 
+/*
+* Wing 0.0.0 Alpha
+* Copyright 2016, Kabir Shah
+* http://kingpixil.github.io/wing/
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+*/
+
+/*------------------------------------------------------------
+  Buttons/Components
+------------------------------------------------------------*/
+
+.btn {
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background: none;
+  cursor: pointer;
+  padding: 2vh 8vh;
+  display: inline-block;
+  margin: 15px 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.btn:after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
 
 
+/* Button Outline */
+
+.btn-outline {
+  border: 3px solid #fff;
+  color: #fff;
+}
+
+.btn-outline:hover,
+.btn-outline:active {
+  color: #000;
+  background: #fff;
+}
 
 
+/* Button 3D */
+
+.btn-3d {
+  background: #323133;
+  color: #fff;
+  box-shadow: 0 6px #3C3B3D;
+  -webkit-transition: none;
+  transition: none;
+  border-radius: 5px;
+}
+
+.btn-3d:hover {
+  box-shadow: 0 4px #3C3B3D;
+  top: 2px;
+}
+
+.btn-3d:active {
+  box-shadow: 0 0 #3C3B3D;
+  top: 6px;
+}
+
+
+/* Button Round */
+
+.btn-round {
+  border-radius: 50px;
+  border: 3px solid #fff;
+  color: #fff;
+}
+
+
+.btn-round:hover, .btn-round:active {
+  color: #000;
+  background: #fff;
+}
+
+/* Button Clear */
+
+.btn-clear {
+    background: transparent;
+    color: gray;
+}
+
+/*
+* Wing 0.0.0 Alpha
+* Copyright 2016, Kabir Shah
+* http://kingpixil.github.io/wing/
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+*/
+
+/*------------------------------------------------------------
+  Forms
+------------------------------------------------------------*/
+
+input.one {
+  display: block;
+  box-sizing: border-box;
+  padding: 5px;
+  line-height: 1;
+  font-size: 1.25rem;
+  border: 1px solid #e5e5e5;
+  border-radius: 2px;
+  outline-width: 20px;
+  outline-style: solid;
+  outline-color: transparent;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+input.one:focus {
+  outline-width: 3px;
+  outline-color: #6BCBF6;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+/*
+* Wing 0.0.0 Alpha
+* Copyright 2016, Kabir Shah
+* http://kingpixil.github.io/wing/
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+*/
+
+/*------------------------------------------------------------
+  Lists
+------------------------------------------------------------*/
+
+ul {
+  list-style: circle inside;
+}
+
+ol {
+  list-style: decimal inside;
+}
+
+ol,
+ul {
+  padding-left: 0;
+  margin-top: 0;
+}
+
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+  margin: 1.5rem 0 1.5rem 3rem;
+  font-size: 90%;
+}
+
+li {
+  margin-bottom: 1rem;
+}
+/*
+* Wing 0.0.0 Alpha
+* Copyright 2016, Kabir Shah
+* http://kingpixil.github.io/wing/
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+*/
+
+/*------------------------------------------------------------
+  Animations
+------------------------------------------------------------*/
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+@-webkit-keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.fadeOut {
+  -webkit-animation-name: fadeOut;
+  animation-name: fadeOut;
+}
+
+.animate {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+/*
+* Wing 0.0.0 Alpha
+* Copyright 2016, Kabir Shah
+* http://kingpixil.github.io/wing/
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+*/
+
+/*------------------------------------------------------------
+  Utilities
+------------------------------------------------------------*/
+
+.full-width {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.max-full-width {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.pull-right {
+  float: right;
+}
+
+.pull-left {
+  float: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/*
+* Wing 0.0.0 Alpha
+* Copyright 2016, Kabir Shah
+* http://kingpixil.github.io/wing/
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+*/
+
+/*------------------------------------------------------------
+  Misc
+------------------------------------------------------------*/
+
+#hr {
+  height: 1px;
+  background: white;
+  border: none;
+  outline: none;
+  margin: 3em 3em 5em;
+  position: relative;
+}
+#hr:before {
+  content: attr(data-wing-symbol);
+  position: absolute;
+  top: 0;
+  left: 50%;
+  background: black;
+  color: white;
+  padding: 0.5em 3em;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#hr:before {
+  border: 1px solid white;
+  padding: 1em 1.25em;
+  border-radius: 50%;
+}
+/*
+* Wing 0.0.0 Alpha
+* Copyright 2016, Kabir Shah
+* http://kingpixil.github.io/wing/
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+*/
 

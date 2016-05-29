@@ -1,6 +1,6 @@
 {
   "name": "wingcss",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Make your website grow wings with this mnimal CSS framework",
   "main": "gulpfile.js",
   "scripts": {
@@ -19,12 +19,12 @@
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-cli": "^1.2.1",
-    "gulp-load-plugins": "^1.2.4",
-    "gulp-preprocess": "^1.1.1",
-    "gulp-qunit": "^1.4.0",
     "gulp-concat": "latest",
+    "gulp-header": "^1.8.2",
+    "gulp-load-plugins": "^1.2.4",
+    "gulp-minify-css": "latest",
     "gulp-size": "~0.1.2",
-    "gulp-uglify": "^1.5.3",
-    "gulp-util": "~2.2.9"
+    "gulp-util": "~2.2.9",
+    "owl-tool": "0.0.3"
   }
 }

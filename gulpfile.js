@@ -2,11 +2,13 @@
 
 var gulp = require('gulp');
 var pkg = require('./package.json');
+var minifyCSS = require('gulp-minify-css');
 var comment = '\/*\r\n* Wing ' + pkg.version + ' Alpha\r\n* Copyright 2016, Kabir Shah\r\n* http:\/\/kingpixil.github.io\/wing\/\r\n* Free to use under the MIT license.\r\n* http:\/\/www.opensource.org\/licenses\/mit-license.php\r\n*\/\r\n'
 var $ = require('gulp-load-plugins')();
 
 gulp.task('build', function () {
   return gulp.src(['./src/top.css', './src/base.css', './src/typography.css', './src/grid.css', './src/links.css', './src/buttons.css', './src/forms.css', './src/lists.css', './src/animation.css', './src/util.css', './src/misc.css', './src/clear.css'])
+    .pipe($.header(comment + '\n'))
     .pipe($.concat('wing.css'))
     .pipe($.size())
     .pipe(gulp.dest('./dist/'));
@@ -14,6 +16,8 @@ gulp.task('build', function () {
 
 gulp.task('minify', ['build'], function() {
   return gulp.src(['./dist/wing.css'])
+    .pipe(minifyCSS())
+    .pipe($.header(comment))
     .pipe($.size())
     .pipe($.concat('wing.min.css'))
     .pipe(gulp.dest('./dist/'));
