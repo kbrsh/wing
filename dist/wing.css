@@ -1,5 +1,5 @@
 /*
-* Wing 0.0.0 Alpha
+* Wing 0.0.2 Alpha
 * Copyright 2016, Kabir Shah
 * http://kingpixil.github.io/wing/
 * Free to use under the MIT license.
@@ -22,14 +22,6 @@
 */
 @import url(https://fonts.googleapis.com/css?family=Quicksand);
 @import url(https://fonts.googleapis.com/css?family=Raleway:100,400,700);
-/*
-* Wing 0.0.0 Alpha
-* Copyright 2016, Kabir Shah
-* http://kingpixil.github.io/wing/
-* Free to use under the MIT license.
-* http://www.opensource.org/licenses/mit-license.php
-*/
-
 /*------------------------------------------------------------
   Base Style
 ------------------------------------------------------------*/
@@ -44,16 +36,9 @@ body {
   letter-spacing: 0.01em;
   line-height: 1.6;
   font-size: 1.5em;
+  font-weight: 400;
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-
-/*
-* Wing 0.0.0 Alpha
-* Copyright 2016, Kabir Shah
-* http://kingpixil.github.io/wing/
-* Free to use under the MIT license.
-* http://www.opensource.org/licenses/mit-license.php
-*/
 
 /*------------------------------------------------------------
   Typography
@@ -129,14 +114,6 @@ h6 {
     font-size: 1.5rem;
   }
 }
-
-/*
-* Wing 0.0.0 Alpha
-* Copyright 2016, Kabir Shah
-* http://kingpixil.github.io/wing/
-* Free to use under the MIT license.
-* http://www.opensource.org/licenses/mit-license.php
-*/
 
 .container {
   position: relative;
@@ -221,22 +198,6 @@ h6 {
   .offset-by-one-half.columns     { margin-left: 52%; }
 
 }
-/*
-* Wing 0.0.0 Alpha
-* Copyright 2016, Kabir Shah
-* http://kingpixil.github.io/wing/
-* Free to use under the MIT license.
-* http://www.opensource.org/licenses/mit-license.php
-*/
-
-
-/*
-* Wing 0.0.0 Alpha
-* Copyright 2016, Kabir Shah
-* http://kingpixil.github.io/wing/
-* Free to use under the MIT license.
-* http://www.opensource.org/licenses/mit-license.php
-*/
 
 /*------------------------------------------------------------
   Buttons/Components
@@ -327,14 +288,6 @@ h6 {
     color: gray;
 }
 
-/*
-* Wing 0.0.0 Alpha
-* Copyright 2016, Kabir Shah
-* http://kingpixil.github.io/wing/
-* Free to use under the MIT license.
-* http://www.opensource.org/licenses/mit-license.php
-*/
-
 /*------------------------------------------------------------
   Forms
 ------------------------------------------------------------*/
@@ -361,14 +314,6 @@ input.one:focus {
   -moz-transition: all 0.4s;
   transition: all 0.4s;
 }
-/*
-* Wing 0.0.0 Alpha
-* Copyright 2016, Kabir Shah
-* http://kingpixil.github.io/wing/
-* Free to use under the MIT license.
-* http://www.opensource.org/licenses/mit-license.php
-*/
-
 /*------------------------------------------------------------
   Lists
 ------------------------------------------------------------*/
@@ -398,14 +343,6 @@ ol ul {
 li {
   margin-bottom: 1rem;
 }
-/*
-* Wing 0.0.0 Alpha
-* Copyright 2016, Kabir Shah
-* http://kingpixil.github.io/wing/
-* Free to use under the MIT license.
-* http://www.opensource.org/licenses/mit-license.php
-*/
-
 /*------------------------------------------------------------
   Animations
 ------------------------------------------------------------*/
@@ -463,14 +400,6 @@ li {
   animation-fill-mode: both;
 }
 
-/*
-* Wing 0.0.0 Alpha
-* Copyright 2016, Kabir Shah
-* http://kingpixil.github.io/wing/
-* Free to use under the MIT license.
-* http://www.opensource.org/licenses/mit-license.php
-*/
-
 /*------------------------------------------------------------
   Utilities
 ------------------------------------------------------------*/
@@ -503,14 +432,6 @@ li {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-/*
-* Wing 0.0.0 Alpha
-* Copyright 2016, Kabir Shah
-* http://kingpixil.github.io/wing/
-* Free to use under the MIT license.
-* http://www.opensource.org/licenses/mit-license.php
-*/
-
 /*------------------------------------------------------------
   Misc
 ------------------------------------------------------------*/
@@ -540,11 +461,3 @@ li {
   padding: 1em 1.25em;
   border-radius: 50%;
 }
-/*
-* Wing 0.0.0 Alpha
-* Copyright 2016, Kabir Shah
-* http://kingpixil.github.io/wing/
-* Free to use under the MIT license.
-* http://www.opensource.org/licenses/mit-license.php
-*/
-

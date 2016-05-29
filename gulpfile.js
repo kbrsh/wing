@@ -8,8 +8,8 @@ var $ = require('gulp-load-plugins')();
 
 gulp.task('build', function () {
   return gulp.src(['./src/top.css', './src/base.css', './src/typography.css', './src/grid.css', './src/links.css', './src/buttons.css', './src/forms.css', './src/lists.css', './src/animation.css', './src/util.css', './src/misc.css', './src/clear.css'])
-    .pipe($.header(comment + '\n'))
     .pipe($.concat('wing.css'))
+    .pipe($.header(comment + '\n'))
     .pipe($.size())
     .pipe(gulp.dest('./dist/'));
 });
