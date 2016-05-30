@@ -30,8 +30,15 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,
 }
 
 #wingHead {
+    font-weight:bolder;
     font-size: 15vh;
     text-transform: uppercase;
+    color: white;
+    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(transparent, transparent),
+             url(http://lorempixel.com/480/200/abstract/7) repeat;
+    background: -o-linear-gradient(transparent, transparent);
+    -webkit-background-clip: text;
 }
 
 #about {
