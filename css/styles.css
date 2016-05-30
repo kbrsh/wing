@@ -60,6 +60,18 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,
     color: #3684fc;
 }
 
+#docs {
+    top:0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+    min-height: 100vh;
+    height: 100vh;
+    width: 100vw;
+}
+
 
 #loading {
   transition: all 2s ease;
