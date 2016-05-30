@@ -5,6 +5,15 @@ window.onfocus = function() {
   document.title = "Wing"
 }
 
+$('.button_container').click(function() {
+   $('.button_container').toggleClass('active');
+   $('.overlay').toggleClass('open');
+ });
+
+ $(".menuLink").click(function() {
+   $('.button_container').toggleClass('active');
+   $('.overlay').toggleClass('open');
+ });
 
 function changeTitle() {
   document.title = "We Miss You - Wing"
