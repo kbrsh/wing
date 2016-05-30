@@ -65,13 +65,15 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,
     left: 0;
     margin: 0;
     padding: 0;
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     min-height: 100vh;
-    height: 100vh;
     width: 100vw;
 }
 
+.color {
+    background: gray;
+}
 
 #loading {
   transition: all 2s ease;
@@ -136,9 +138,13 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,
   }
 }
 
-code {
+code, pre {
     background: #E6E9ED;
     color: black;
+}
+
+pre {
+  padding: 2px;
 }
 
 
@@ -147,6 +153,7 @@ code {
   mix-blend-mode: difference;
   bottom: 5%;
   right: 5%;
+  z-index: 100;
 }
 
 a {
@@ -342,6 +349,7 @@ a {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
+  text-align: center;
 }
 
 .underline {
