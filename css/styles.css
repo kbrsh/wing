@@ -52,6 +52,10 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,
     width: 100vw;
 }
 
+#about ul li {
+  text-align: center;
+}
+
 #getstarted {
     top:0;
     left: 0;
@@ -76,6 +80,15 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,
     color: white;
     min-height: 100vh;
     width: 100vw;
+}
+
+#docsHead {
+  padding-top: 20px;
+}
+
+.docSection {
+  text-align: center;
+  padding: 7vh;
 }
 
 .color {
@@ -386,3 +399,5 @@ a {
 .underline:hover::after {
 	width:100%;
 }
+
+
