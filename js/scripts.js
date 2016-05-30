@@ -51,7 +51,16 @@ $(document).ready(function() {
       $('.notLoader').show();
   }, 500);
 }, 1000);
-
+    
+    $("#fadeInBtn").on("click", function() {
+        $("#animExample").removeClass("fadeOut")
+       $("#animExample").addClass("fadeIn"); 
+    });
+    
+    $("#fadeOutBtn").on("click", function() {
+        $("#animExample").removeClass("fadeIn")
+       $("#animExample").addClass("fadeOut"); 
+    });
 
 });
 
