@@ -131,7 +131,8 @@ code {
 
 
 #footer {
-  position: absolute;
+  position: fixed;
+  mix-blend-mode: difference;
   bottom: 5%;
   right: 5%;
 }
@@ -153,17 +154,20 @@ a {
   height: 25px;
   z-index: 100;
   right: 5%;
+  mix-blend-mode: difference;
+  background: transparent;
   top: 5%;
   cursor: pointer;
   -webkit-transition: opacity .25s;
   transition: opacity .25s;
+  transition: background 1s;
 }
 
 .button_container span {
   position: absolute;
   height: 2px;
+  background-color: white;
   width: 100%;
-  background: #FFF;
   -webkit-transition: all .35s ease;
   transition: all .35s ease;
 }
