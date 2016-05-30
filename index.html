@@ -75,9 +75,18 @@
       <section id="docs">
           <div class="container">
             <div class="text-center">
+                <div class="docSection">
              <h1 id="docsHead">Docs</h1>
              <p>Here is how you actually use wing.</p>
-             <div class="docSection">
+             <a href="#doctypography" class="scroll" data-scroll="1000"><button class="btn btn-3d">Typography</button></a>
+             <a href="#docgrid" class="scroll" data-scroll="1000"><button class="btn btn-3d">The Grid</button></a>
+             <a href="#docbuttons" class="scroll" data-scroll="1000"><button class="btn btn-3d">Buttons</button></a>
+             <a href="#forms" class="scroll" data-scroll="1000"><button class="btn btn-3d">Forms</button></a>
+             <a href="#docanim" class="scroll" data-scroll="1000"><button class="btn btn-3d">Basic Animations</button></a>
+             <a href="#docutil" class="scroll" data-scroll="1000"><button class="btn btn-3d">Utilities</button></a>
+             <a href="#docmisc" class="scroll" data-scroll="1000"><button class="btn btn-3d">Misc</button></a>
+             </div>
+             <div class="docSection" id="doctypography">
                <h4>Typography</h4>
                <p>Here is the responsive typography that Wing comes with. Based on Quicksand and Raleway. Try resizing your screen.</p>
                <h1>H1 Heading</h1>
@@ -89,7 +98,7 @@
                <p>Paragraph</p>
                </div>
                </div>
-               <div class="docSection">
+               <div class="docSection" id="docgrid">
                <h4 class="text-center">Grid</h4>
                <p class="text-center">Wing comes with a responsive grid. Built at its core.</p>
                <pre>
@@ -138,9 +147,23 @@
                </div>
              </div>
              </div>
-             <div class="docSection">
+             <div class="docSection" id="docbuttons">
              <h4>Buttons</h4>
              <p>Wing has a variety of sleek, modern buttons</p>
+             <code>&lt;button class=&quot;btn btn-outline&quot;&gt;&lt;/button&gt;</code>
+             <p>Replace 'outline' with 'round', '3d', or 'clear'</p>
+             <button class="btn btn-outline">Outline</button>
+             <button class="btn btn-round">Round</button>
+             <button class="btn btn-3d">3D</button>
+             <button class="btn btn-clear">Clear</button>
+             </div>
+             
+             <div class="docSection" id='forms'>
+                 <h4>Forms</h4>
+                 <p>Wing will continue to develop more form styles, for now, here is what we have</p>
+                 <form>
+                     <input type="text" placeholder="text input"/>
+                 </form>
              </div>
           </div>
           
