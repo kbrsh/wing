@@ -34,6 +34,17 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,
     text-transform: uppercase;
 }
 
+#about {
+    top:0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    height: 100vh;
+    width: 100vw;
+}
+
 #getstarted {
     top:0;
     left: 0;
