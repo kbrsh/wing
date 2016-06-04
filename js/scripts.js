@@ -1,4 +1,3 @@
-var konamiActivated = false;
 window.onunload = changeTitle
 window.onblur = changeTitle
 window.onfocus = function() {
@@ -19,38 +18,19 @@ function changeTitle() {
   document.title = "We Miss You - Wing"
 }
 
-var pressedK = [];
-  var konamiCode = '38,38,40,40,37,39,37,39,66,65';
-  window.addEventListener('keydown', function(k) {
-    pressedK.push(k.keyCode);
-    if (pressedK.toString().indexOf(konamiCode) >= 0) {
-      surpriseK();
-      pressedK = [];
-    }
-  }, true);
-var surpriseK = function() {
-  alert('Try Editing the Text, reload to reset :)');
-  konamiActivated = true;
-  document.getElementsByTagName("HTML")[0].setAttribute("contenteditable", "true");
-  //(function() {var ds = document.getElementsByTagName('div');var d = ds[Math.round(Math.random()*ds.length)];function transform(r) {d.style.transform=d.style['WebkitTransform']=d.style['MozTransform']='scale(' + r + ')';setTimeout(function() {transform(++r % 10);}, 100);}transform(1);})();
-  //(function() {var ds = document.getElementsByTagName('div');var d = ds[Math.round(Math.random()*ds.length)];function transform(r) {d.style.transform=d.style['WebkitTransform']=d.style['MozTransform']='rotate(' + r + 'deg)';setTimeout(function() {transform(++r % 360);}, 100);}transform(1);})()
-  (function(){var elems=document.getElementsByTagName("*");for(var i = 0; i<elems.length;i++){elems[i].style.fontFamily="Comic Sans MS";}})();
-};
 
-
-
-$('.notLoader').hide();
-document.write(`<div class='centered text-center' id='loading'><div class='loader'></div></div>`);
+//$('.notLoader').hide();
+//document.write(`<div class='centered text-center' id='loading'><div class='loader'></div></div>`);
 
 $(document).ready(function() {
-  setTimeout(function() {
+  /*setTimeout(function() {
     $('#loading').addClass("animate");
     $("#loading").addClass("fadeOut");
     setTimeout(function() {
       $('#loading').hide();
       $('.notLoader').show();
   }, 500);
-}, 1000);
+}, 1000);*/
     
     $("#fadeInBtn").on("click", function() {
         $("#animExample").removeClass("fadeOut")
