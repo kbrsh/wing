@@ -338,25 +338,35 @@ h6 {
   Forms
 ------------------------------------------------------------*/
 
-input[type=text] {
-  box-sizing: border-box;
-  padding: 5px;
-  font-size: 1.25rem;
-  border: 1px solid #e5e5e5;
-  border-radius: 2px;
-  outline-width: 20px;
-  outline-style: solid;
-  outline-color: transparent;
-  -webkit-transition: all 0.4s;
-  -moz-transition: all 0.4s;
-  transition: all 0.4s;
+form {
+  display: block;
+  clear: both;
+  font-family: 'Raleway';
 }
-input[type=text]:focus {
-  outline-width: 3px;
-  outline-color: #6BCBF6;
-  -webkit-transition: all 0.4s;
-  -moz-transition: all 0.4s;
-  transition: all 0.4s;
+form label {
+  padding: 10px 0;
+  display: inline-block;
+  color: #575757;
+}
+form input[type=text],
+form input[type=email],
+form textarea {
+  padding: 10px 15px;
+  border-radius: 5px;
+  box-shadow: none;
+  display: block;
+  border: 2px solid #e0e0e4;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+form input[type=text]:focus,
+form input[type=email]:focus,
+form textarea:focus {
+  border-color: #3BAFDA;
+}
+
+form input:focus {
+  outline: none;
 }
 /*------------------------------------------------------------
   Lists
