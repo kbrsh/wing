@@ -143,11 +143,6 @@ body {
   -webkit-animation-delay: -0.16s;
   animation-delay: -0.16s;
 }
-.loader:before {
-  left: -3.5em;
-  -webkit-animation-delay: -0.32s;
-  animation-delay: -0.32s;
-}
 
 
 #social {
