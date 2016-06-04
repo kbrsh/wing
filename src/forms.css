@@ -17,7 +17,7 @@ input[type=text], select {
     font-family: 'Raleway';
 }
 
-set border on focus
+/*set border on focus*/
 input[type=text]:focus {
     border: 1px solid #99b3ff;
     border-radius: 4px;
