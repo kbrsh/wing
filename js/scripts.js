@@ -19,8 +19,6 @@ function changeTitle() {
 }
 
 
-//$('.notLoader').hide();
-//document.write(`<div class='centered text-center' id='loading'><div class='loader'></div></div>`);
 
 $(document).ready(function() {
   /*setTimeout(function() {
