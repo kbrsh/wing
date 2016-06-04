@@ -55,7 +55,7 @@
   animation-name: fadeOut;
 }
 
-animate
+/*animate class*/
 
 .animate {
   -webkit-animation-duration: 1s;
