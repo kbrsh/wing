@@ -43,6 +43,17 @@
   background: #fff;
 }
 
+.btn-outline.inverted {
+  border: 3px solid #000;
+  color: #000;
+}
+
+.btn-outline.inverted:hover,
+.btn-outline.inverted:active {
+  color: #fff;
+  background: #000;
+}
+
 
 /* Button 3D */
 
