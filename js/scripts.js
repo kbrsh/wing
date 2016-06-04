@@ -20,14 +20,6 @@ function changeTitle() {
 
 
 $(document).ready(function() {
-  /*setTimeout(function() {
-    $('#loading').addClass("animate");
-    $("#loading").addClass("fadeOut");
-    setTimeout(function() {
-      $('#loading').hide();
-      $('.notLoader').show();
-  }, 500);
-}, 1000);*/
     
     $("#fadeInBtn").on("click", function() {
         $("#animExample").removeClass("fadeOut")
