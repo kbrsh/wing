@@ -2,6 +2,7 @@
   Base Style
 ------------------------------------------------------------*/
 
+/*making font-sizes base 10*/
 html {
   box-sizing: border-box;
   font-size: 62.5%;
