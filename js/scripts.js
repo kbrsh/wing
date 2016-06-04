@@ -19,7 +19,6 @@ function changeTitle() {
 }
 
 
-
 $(document).ready(function() {
   /*setTimeout(function() {
     $('#loading').addClass("animate");
