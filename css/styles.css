@@ -40,12 +40,6 @@ body {
 }
 
 
-/* Opera < 12.1 */
-@-o-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
 
 #hero {
     top:0;
