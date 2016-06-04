@@ -28,6 +28,8 @@
   animation-name: fadeIn;
 }
 
+/*fade out keyframes */
+
 @-webkit-keyframes fadeOut {
   from {
     opacity: 1;
