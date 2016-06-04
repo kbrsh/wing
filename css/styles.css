@@ -5,7 +5,7 @@ html,body {
 
 body {
     color: white;
-    background-color: black;
+    background-color: transparent;
     overflow-x: hidden;
 }
 
@@ -20,7 +20,7 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,
     left: 0;
     margin: 0;
     padding: 0;
-    background-image: url('https://images.unsplash.com/photo-1433190152045-5a94184895da?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=4578a679069b9fb7be2d39d5d2d1e2bf');
+    background-image: url('https://images.unsplash.com/photo-1460131548611-36aac9b6a901?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=41a712c23c30eaedccbcba1d26469274');
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -41,8 +41,8 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,
     left: 0;
     margin: 0;
     padding: 0;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     height: 100vh;
     width: 100vw;
 }
