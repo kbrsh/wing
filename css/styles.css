@@ -37,61 +37,34 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,
 }
 
 #about {
-    top:0;
-    left: 0;
-    margin: 0;
-    padding: 0;
     background-color: white;
     color: black;
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
+    text-align: left;
 }
 
-#about ul li {
-  text-align: center;
-}
-
-#getstarted {
-    top:0;
-    left: 0;
-    margin: 0;
-    padding: 0;
-    background-color: white;
-    color: black;
-    height: 100vh;
-    width: 100vw;
-}
-
-#docsLink {
-    color: #3684fc;
+#about .container {
+  padding-top: calc(100vh/3);
 }
 
 #docs {
-    top:0;
-    left: 0;
-    margin: 0;
-    padding: 0;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     min-height: 100vh;
     width: 100vw;
+    text-align: left;
 }
 
-#docsHead {
-  padding-top: 20px;
+#docs .container {
+  padding-top: calc(100vh/3);
 }
 
 .docSection {
-  text-align: center;
-  min-height: 100vh;
-  padding-top: calc(100vh/4);
+  padding: 4rem 0;
 }
 
 
-
-.color {
-    background: gray;
-}
 
 #loading {
   transition: all 2s ease;
@@ -165,6 +138,13 @@ pre {
   padding: 2px;
 }
 
+#social {
+  position: fixed;
+  bottom: 5%;
+  left: 5%;
+  z-index: 100;
+  display: inline;
+}
 
 #footer {
   position: fixed;
