@@ -67,18 +67,14 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,
 #gridExample [class^='col-'] {
   background: #EEE;
   text-align: center;
-  border-radius: 4px;
-  font-size: 1rem;
+  border-radius: 5px;
+  font-size: 1.1rem;
   text-transform: uppercase;
-  height: 30px;
+  min-height: 30px !important;
   line-height: 30px;
   margin-bottom: .75rem;
-  font-weight: 600;
+  font-weight: bold;
   letter-spacing: .1rem;
-}
-
-#gridExample .row {
-  margin-bottom: 0;
 }
 
 
