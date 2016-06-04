@@ -77,7 +77,7 @@ body {
 }
 
 #about .container {
-  padding-top: calc(100vh/3);
+  padding-top: 1rem;
 }
 
 #about .gitLink {
