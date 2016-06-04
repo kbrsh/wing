@@ -148,15 +148,7 @@ body {
   -webkit-animation-delay: -0.32s;
   animation-delay: -0.32s;
 }
-.loader:after {
-  left: 3.5em;
-}
-.loader:before,
-.loader:after {
-  content: '';
-  position: absolute;
-  top: 0;
-}
+
 
 #social {
   position: fixed;
