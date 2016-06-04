@@ -21,6 +21,8 @@
   }
 }
 
+/* fade in class */
+
 .fadeIn {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
