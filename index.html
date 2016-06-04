@@ -249,7 +249,15 @@
                   <h5>Forms</h5>
                   <p>Forms are pretty difficult to style, which is why Wing makes forms a <strong>piece of cake</strong>. We want it to be really easy for developers to make forms that look nice, work, and are responsive.</p>
                   <form>
-                      <input type="text" placeholder="Your Name"/>
+                      <div class="row">
+                          <div class="col-6"><input type="text" placeholder="Your Name"/></div>
+                          <div class="col-6"><input type="email" placeholder="Email Please, No Spam"/></div>
+                      </div>
+                      <div class="row">
+                          <div class="col-12"><textarea placeholder="Your Message"></textarea></div>
+                      </div>
+                      
+                      <input type="submit" class="btn btn-outline-inverted"/>
                   </form>
               </div>
               <div class="docSection">
