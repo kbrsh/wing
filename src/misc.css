@@ -2,28 +2,10 @@
   Misc
 ------------------------------------------------------------*/
 
-#hr {
+.horizontal-rule {
   height: 1px;
   background: white;
   border: none;
-  outline: none;
   margin: 3em 3em 5em;
   position: relative;
-}
-#hr:before {
-  content: attr(data-wing-symbol);
-  position: absolute;
-  top: 0;
-  left: 50%;
-  background: black;
-  color: white;
-  padding: 0.5em 3em;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-
-#hr:before {
-  border: 1px solid white;
-  padding: 1em 1.25em;
-  border-radius: 50%;
 }
