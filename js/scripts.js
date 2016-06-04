@@ -16,7 +16,7 @@ $('.button_container').click(function() {
 
 /*function changeTitle() {
   document.title = "We Miss You - Wing"
-}
+}*/
 
 (function() {
 
