@@ -1,8 +1,8 @@
-window.onunload = changeTitle
-window.onblur = changeTitle
-window.onfocus = function() {
-  document.title = "Wing"
-}
+// window.onunload = changeTitle
+// window.onblur = changeTitle
+// window.onfocus = function() {
+//   document.title = "Wing"
+// }
 
 $('.button_container').click(function() {
    $('.button_container').toggleClass('active');
