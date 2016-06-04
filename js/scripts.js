@@ -14,7 +14,7 @@ $('.button_container').click(function() {
    $('.overlay').toggleClass('open');
  });
 
-function changeTitle() {
+/*function changeTitle() {
   document.title = "We Miss You - Wing"
 }
 
