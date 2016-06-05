@@ -8,7 +8,7 @@ A minimal CSS framework.
 - [x] Typography
 - [] Code
 - [x] Buttons
-- [] Forms
+- [x] Forms
 - [] Lists
 - [] Animations
 - [] Utilities
