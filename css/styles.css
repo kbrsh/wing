@@ -86,6 +86,10 @@ body {
   padding: 4rem 0;
 }
 
+code {
+  overflow-x: auto;
+}
+
 #gridExample [class^='col-'] {
   background: #EEE;
   text-align: center;
