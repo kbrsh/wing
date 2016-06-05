@@ -10,7 +10,7 @@ A minimal CSS framework.
 - [] Buttons
 - [] Forms
 - [] Lists
-[] Animations
+- [] Animations
 [] Utilities
 
 ### What Happend to The Commit Messages?
