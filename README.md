@@ -4,7 +4,7 @@ A minimal CSS framework.
 
 ### Docs Coverage:
 
-- [x] Grid
+-[x] Grid
 - [x] Typography
 - [] Code
 - [x] Buttons
