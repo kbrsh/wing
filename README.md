@@ -4,11 +4,11 @@ A minimal CSS framework.
 
 ### Docs Coverage:
 
-[] Grid
-[] Typography
-[] Code
-[] Buttons
-[] Forms
+- [] Grid
+- [] Typography
+- [] Code
+- [] Buttons
+- [] Forms
 [] Lists
 [] Animations
 [] Utilities
