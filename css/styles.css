@@ -87,7 +87,7 @@ body {
 }
 
 code, pre {
-  overflow-x: auto;
+  overflow: auto;
 }
 
 #gridExample [class^='col-'] {
