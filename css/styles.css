@@ -86,7 +86,7 @@ body {
   padding: 4rem 0;
 }
 
-code {
+code, pre {
   overflow-x: auto;
 }
 
