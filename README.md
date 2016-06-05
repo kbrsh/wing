@@ -8,7 +8,9 @@ A minimal CSS framework.
 [] Typography
 [] Buttons
 [] Forms
-
+[] Lists
+[] Animations
+[] Utilities
 
 ### What Happend to The Commit Messages?
 
