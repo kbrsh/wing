@@ -11,7 +11,7 @@ A minimal CSS framework.
 - [] Forms
 - [] Lists
 - [] Animations
-[] Utilities
+- [] Utilities
 
 ### What Happend to The Commit Messages?
 
