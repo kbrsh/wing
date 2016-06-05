@@ -9,7 +9,7 @@ A minimal CSS framework.
 - [] Code
 - [] Buttons
 - [] Forms
-[] Lists
+- [] Lists
 [] Animations
 [] Utilities
 
