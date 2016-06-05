@@ -6,7 +6,7 @@ A minimal CSS framework.
 
 - [x] Grid
 - [x] Typography
-- [] Code
+- [ ] Code
 - [x] Buttons
 - [x] Forms
 - [x] Lists
