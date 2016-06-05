@@ -26,12 +26,13 @@
   Base Style
 ------------------------------------------------------------*/
 
+/*making font-sizes base 10*/
 html {
   box-sizing: border-box;
   font-size: 62.5%;
 }
 
-
+/*setting up font sizes and base font family*/
 body {
   letter-spacing: 0.01em;
   line-height: 1.6;
@@ -338,6 +339,7 @@ h6 {
   Forms
 ------------------------------------------------------------*/
 
+/*base form styles*/
 input[type=text], select {
     width: 100%;
     padding: 12px 20px;
@@ -351,12 +353,14 @@ input[type=text], select {
     outline: none;
     font-family: 'Raleway';
 }
+
+/*set border on focus*/
 input[type=text]:focus {
     border: 1px solid #99b3ff;
     border-radius: 4px;
 }
 
-
+/*styling textarea*/
 textarea {
     font-family: 'Raleway';
     width: 100%;
@@ -408,6 +412,7 @@ li {
   Animations
 ------------------------------------------------------------*/
 
+/*fadeIn*/
 @-webkit-keyframes fadeIn {
   from {
     opacity: 0;
@@ -426,10 +431,14 @@ li {
   }
 }
 
+/* fade in class */
+
 .fadeIn {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
 }
+
+/*fade out keyframes */
 
 @-webkit-keyframes fadeOut {
   from {
@@ -449,10 +458,14 @@ li {
   }
 }
 
+/*class name for fadeOut*/
+
 .fadeOut {
   -webkit-animation-name: fadeOut;
   animation-name: fadeOut;
 }
+
+/*animate class*/
 
 .animate {
   -webkit-animation-duration: 1s;
@@ -493,6 +506,11 @@ li {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.full-screen {
+  width: 100vw;
+  height: 100vh;
+}
 /*------------------------------------------------------------
   Misc
 ------------------------------------------------------------*/
@@ -502,6 +520,7 @@ li {
   background: white;
   border: none;
   margin: 3em 3em 5em;
+  position: relative;
 }
 
 code {
@@ -511,10 +530,15 @@ code {
   white-space: nowrap;
   background: #F1F1F1;
   border: 1px solid #E1E1E1;
-  border-radius: 4px;
+  border-radius: 4px; 
 }
 pre > code {
   display: block;
   padding: 1rem 1.5rem;
-  white-space: pre; 
+  white-space: pre-wrap;       /* css-3 */
+  white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+  white-space: -pre-wrap;      /* Opera 4-6 */
+  white-space: -o-pre-wrap;    /* Opera 7 */
+  word-wrap: break-word;       /* Internet Explorer 5.5+ */
 }
+ /*Just Clearing */
