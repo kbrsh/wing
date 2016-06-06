@@ -24,7 +24,7 @@ input[type=text]:focus {
 }
 
 /*styling textarea*/
-textarea {
+textarea, textarea[type=text] {
     font-family: 'Raleway';
     width: 100%;
     height: 100px;
