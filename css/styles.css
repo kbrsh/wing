@@ -82,7 +82,6 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,
   font-weight: bold;
   letter-spacing: .1rem;
 }
-
 #social {
   position: fixed;
   bottom: 5%;
@@ -97,7 +96,15 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,
   bottom: 5%;
   right: 5%;
   z-index: 100;
+  display: invert;
 }
+
+@media (max-width: 400px) {
+  #social, #footer {
+    display: none;
+  }
+}
+
 
 
 #linkP {
