@@ -381,19 +381,27 @@ button {
               <div class="docSection">
                   <h5>Code</h5>
                   <p>Wing styles code examples for you, and makes them responsive.</p>
-                  <div class="container">
                       <div class="row">
                           <div class="col-12">
-                              <code>console.log("Hello Wing");</code>
-                              <pre><code>
-function sayHello() {
-    console.log("Hello Wing");
-}
-                              </code></pre>
+                              <p>To style code in a single line, simply wrap the code in <code>&lt;code&gt;</code>. To style big blocks of code, wrap the code inside of <code>&lt;code&gt;</code>, and wrap in a <code>&lt;pre&gt;</code></p>
                           </div>
                       </div>
                       
-                      
+                      <div class="row">
+                          <div class="col-12">
+                              <pre><code>
+&lt;!-- Single Line Code Examples should be wrapped in &lt;code&gt; --&gt;
+&lt;code&gt;console.log(&quot;Hello World&quot;);&lt;/code&gt;
+
+&lt;!-- Blocks Of Code Should be in &lt;code&gt; wrapped with &lt;pre&gt; --&gt;
+&lt;pre&gt;&lt;code&gt;
+function sayHello() {
+    console.log(&quot;Hello Wing&quot;);
+}
+&lt;/code&gt;&lt;/pre&gt;
+                              </code></pre>
+                          </div>
+                      </div>
                   </div>
               </div>
 
