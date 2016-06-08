@@ -1,6 +1,6 @@
 {
   "name": "wingcss",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Make your website grow wings with this minimal CSS framework",
   "main": "gulpfile.js",
   "scripts": {
