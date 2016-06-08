@@ -10,6 +10,5 @@ A minimal CSS framework.
 - [x] Buttons
 - [x] Forms
 - [x] Lists
-- [x] Animations
 - [x] Utilities
 
