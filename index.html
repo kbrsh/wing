@@ -226,8 +226,20 @@
 
               <div class='docSection'>
                   <h5>BUTTONS</h5>
-                  <p>Wing comes with a variety of buttons, some simple, some a little more complex. Buttons come in four styles, <strong>outline, 3D, round, and clear</strong>.</p>
+                  <p>Wing comes with a variety of buttons, some simple, some a little more complex. Buttons come in three styles, <strong>primary, outline, and clear</strong>.</p>
                   <div id="buttonExample">
+                      <div class="row">
+                          <div class="col-6">
+                              <strong>Primary</strong>
+                              <p>This is the default button, a vibrant button for the main task.</p>
+                              <code>&lt;button&gt;Primary Button&lt;/button&gt;</code> - outlined button
+                          </div>
+
+                          <div class="col-6">
+                              <button>Primary</button>
+                          </div>
+                      </div>
+                      
                       <div class="row">
                           <div class="col-6">
                               <strong>Outline</strong>
@@ -238,31 +250,6 @@
 
                           <div class="col-6">
                               <button class="btn btn-outline-inverted">OUTLINE</button>
-                          </div>
-                      </div>
-
-                      <div class="row">
-                          <div class="col-6">
-                              <strong>Round</strong>
-                              <p>This is the rounded button, an alternative to an outlined button.</p>
-                              <code>&lt;button class=&quot;btn btn-round&quot;&gt;round&lt;/button&gt;</code> - round button
-                              <code>&lt;button class=&quot;btn btn-round&quot;&gt;round-inverted&lt;/button&gt;</code> - inverted colors round button
-                          </div>
-
-                          <div class="col-6">
-                              <button class="btn btn-round-inverted">ROUND</button>
-                          </div>
-                      </div>
-
-                      <div class="row">
-                          <div class="col-6">
-                              <strong>3D</strong>
-                              <p>This is the 3D button, an nice twist to the everyday button.</p>
-                              <code>&lt;button class=&quot;btn btn-3d&quot;&gt;3D&lt;/button&gt;</code>
-                          </div>
-
-                          <div class="col-6">
-                              <button class="btn btn-3d">3D</button>
                           </div>
                       </div>
 
@@ -297,7 +284,7 @@
                           <div class="col-12"><textarea type="text" placeholder="Your Message"></textarea></div>
                       </div>
                       
-                      <input type="submit" class="btn btn-outline-inverted"/>
+                      <input type="submit"/>
                   </form>
                   
                   <div class="row">
@@ -319,7 +306,7 @@
         &lt;div class=&quot;col-12&quot;&gt;&lt;textarea type=&quot;text&quot; placeholder=&quot;Your Message&quot;&gt;&lt;/textarea&gt;&lt;/div&gt;
     &lt;/div&gt;
                       
-    &lt;input type=&quot;submit&quot; class=&quot;btn btn-outline-inverted&quot;/&gt;
+    &lt;input type=&quot;submit&quot; /&gt;
 &lt;/form&gt;
 </code>
                           </pre>
