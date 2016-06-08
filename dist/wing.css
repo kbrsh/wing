@@ -1,5 +1,5 @@
 /*
-* Wing 0.1.1
+* Wing 0.1.2
 * Copyright 2016, Kabir Shah
 * http://kingpixil.github.io/wing/
 * Free to use under the MIT license.
@@ -21,7 +21,7 @@
 - Clear
 */
 @import url(https://fonts.googleapis.com/css?family=Quicksand);
-@import url(https://fonts.googleapis.com/css?family=Raleway:100,400,700);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
 /*------------------------------------------------------------
   Base Style
 ------------------------------------------------------------*/
@@ -222,6 +222,9 @@ h6 {
   }
 }
 
+/*------------------------------------------------------------
+  Links
+------------------------------------------------------------*/
 a {
     color: #2a92ea;
 }
@@ -244,7 +247,7 @@ a {
   white-space: nowrap;
   text-decoration: none !important;
   text-transform: none;
-  text-transform: capitalize;
+  text-transform: uppercase;
   border: 0 none;
   border-radius: 4px;
   color: #FFFFFF;
@@ -301,54 +304,6 @@ a {
   background: #000;
 }
 
-
-/* Button 3D */
-
-/*.btn-3d {*/
-/*  background: #323133;*/
-/*  color: #fff;*/
-/*  box-shadow: 0 6px #3C3B3D;*/
-/*  -webkit-transition: none;*/
-/*  transition: none;*/
-/*  border-radius: 5px;*/
-/*}*/
-
-/*.btn-3d:hover {*/
-/*  box-shadow: 0 4px #3C3B3D;*/
-/*  top: 2px;*/
-/*}*/
-
-/*.btn-3d:active {*/
-/*  box-shadow: 0 0 #3C3B3D;*/
-/*  top: 6px;*/
-/*}*/
-
-
-/* Button Round */
-
-/*.btn-round {*/
-/*  border-radius: 50px;*/
-/*  border: 3px solid #fff;*/
-/*  color: #fff;*/
-/*}*/
-
-
-/*.btn-round:hover, .btn-round:active {*/
-/*  color: #000;*/
-/*  background: #fff;*/
-/*}*/
-
-/*.btn-round-inverted {*/
-/*  border-radius: 50px;*/
-/*  border: 3px solid #000;*/
-/*  color: #000;*/
-/*}*/
-
-
-/*.btn-round-inverted:hover, .btn-round-inverted:active {*/
-/*  color: #fff;*/
-/*  background: #000;*/
-/*}*/
 
 /* Button Clear */
 
@@ -413,88 +368,6 @@ ol {
   list-style: decimal inside;
 }
 
-ol,
-ul {
-  padding-left: 0;
-  margin-top: 0;
-}
-
-ul ul,
-ul ol,
-ol ol,
-ol ul {
-  margin: 1.5rem 0 1.5rem 3rem;
-  font-size: 90%;
-}
-
-li {
-  margin-bottom: 1rem;
-}
-/*------------------------------------------------------------
-  Animations
-------------------------------------------------------------*/
-
-/*fadeIn*/
-@-webkit-keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-/* fade in class */
-
-.fadeIn {
-  -webkit-animation-name: fadeIn;
-  animation-name: fadeIn;
-}
-
-/*fade out keyframes */
-
-@-webkit-keyframes fadeOut {
-  from {
-    opacity: 1;
-  }
-  to {
-    opacity: 0;
-  }
-}
-
-@keyframes fadeOut {
-  from {
-    opacity: 1;
-  }
-  to {
-    opacity: 0;
-  }
-}
-
-/*class name for fadeOut*/
-
-.fadeOut {
-  -webkit-animation-name: fadeOut;
-  animation-name: fadeOut;
-}
-
-/*animate class*/
-
-.animate {
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-}
 
 /*------------------------------------------------------------
   Utilities
@@ -527,13 +400,6 @@ li {
   Misc
 ------------------------------------------------------------*/
 
-.horizontal-rule {
-  height: 1px;
-  background: white;
-  border: none;
-  margin: 3em 3em 5em;
-  position: relative;
-}
 
 code {
   padding: .2rem .5rem;
@@ -553,4 +419,3 @@ pre > code {
   white-space: -o-pre-wrap;    /* Opera 7 */
   word-wrap: break-word;       /* Internet Explorer 5.5+ */
 }
- /*Just Clearing */
