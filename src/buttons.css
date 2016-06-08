@@ -57,51 +57,51 @@
 
 /* Button 3D */
 
-.btn-3d {
-  background: #323133;
-  color: #fff;
-  box-shadow: 0 6px #3C3B3D;
-  -webkit-transition: none;
-  transition: none;
-  border-radius: 5px;
-}
+/*.btn-3d {*/
+/*  background: #323133;*/
+/*  color: #fff;*/
+/*  box-shadow: 0 6px #3C3B3D;*/
+/*  -webkit-transition: none;*/
+/*  transition: none;*/
+/*  border-radius: 5px;*/
+/*}*/
 
-.btn-3d:hover {
-  box-shadow: 0 4px #3C3B3D;
-  top: 2px;
-}
+/*.btn-3d:hover {*/
+/*  box-shadow: 0 4px #3C3B3D;*/
+/*  top: 2px;*/
+/*}*/
 
-.btn-3d:active {
-  box-shadow: 0 0 #3C3B3D;
-  top: 6px;
-}
+/*.btn-3d:active {*/
+/*  box-shadow: 0 0 #3C3B3D;*/
+/*  top: 6px;*/
+/*}*/
 
 
 /* Button Round */
 
-.btn-round {
-  border-radius: 50px;
-  border: 3px solid #fff;
-  color: #fff;
-}
+/*.btn-round {*/
+/*  border-radius: 50px;*/
+/*  border: 3px solid #fff;*/
+/*  color: #fff;*/
+/*}*/
 
 
-.btn-round:hover, .btn-round:active {
-  color: #000;
-  background: #fff;
-}
+/*.btn-round:hover, .btn-round:active {*/
+/*  color: #000;*/
+/*  background: #fff;*/
+/*}*/
 
-.btn-round-inverted {
-  border-radius: 50px;
-  border: 3px solid #000;
-  color: #000;
-}
+/*.btn-round-inverted {*/
+/*  border-radius: 50px;*/
+/*  border: 3px solid #000;*/
+/*  color: #000;*/
+/*}*/
 
 
-.btn-round-inverted:hover, .btn-round-inverted:active {
-  color: #fff;
-  background: #000;
-}
+/*.btn-round-inverted:hover, .btn-round-inverted:active {*/
+/*  color: #fff;*/
+/*  background: #000;*/
+/*}*/
 
 /* Button Clear */
 
