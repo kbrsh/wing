@@ -50,9 +50,6 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,
   padding-top: calc(100vh/5);
 }
 
-#about a {
-  color: #2a92ea
-}
 
 #docs {
     background-color: white;
@@ -70,7 +67,6 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,
   padding: 4rem 0;
 }
 
-
 #gridExample [class^='col-'] {
   background: #EEE;
   text-align: center;
@@ -82,6 +78,10 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,
   margin-bottom: .75rem;
   font-weight: bold;
   letter-spacing: .1rem;
+}
+
+#hackButton {
+  background: #40d5de;
 }
 #social {
   position: fixed;
