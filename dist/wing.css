@@ -227,31 +227,47 @@ h6 {
   Buttons/Components
 ------------------------------------------------------------*/
 
-.btn {
-  border: none;
-  font-family: inherit;
-  font-size: inherit;
-  color: inherit;
-  background: none;
+.btn, button, [type=submit] {
+  overflow: hidden;
+  margin: 10px;
+  padding: 12px 12px;
   cursor: pointer;
-  padding: 2vh 8vh;
-  display: inline-block;
-  margin: 15px 30px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-weight: 700;
-  outline: none;
-  position: relative;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-transition: all 60ms ease-in-out;
+  transition: all 60ms ease-in-out;
+  text-align: center;
+  white-space: nowrap;
+  text-decoration: none !important;
+  text-transform: none;
+  text-transform: capitalize;
+  border: 0 none;
+  border-radius: 4px;
+  color: #FFFFFF;
+  background: #333030;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.3;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
-
-.btn:after {
-  content: '';
-  position: absolute;
-  z-index: -1;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
+.btn:hover, button:hover, [type=submit]:hover {
+  -webkit-transition: all 60ms ease;
+  transition: all 60ms ease;
+  opacity: .85;
+}
+.btn:active, button:active, [type=submit]:active {
+  -webkit-transition: all 60ms ease;
+  transition: all 60ms ease;
+  -webkit-transform: scale(0.97);
+          transform: scale(0.97);
+  opacity: .75;
+}
+.btn:focus, button:focus, [type=submit]:focus {
+  outline: none;
 }
 
 
@@ -260,6 +276,8 @@ h6 {
 .btn-outline {
   border: 3px solid #fff;
   color: #fff;
+  background: transparent;
+  transition: all 0.5s ease;
 }
 
 .btn-outline:hover,
@@ -271,6 +289,8 @@ h6 {
 .btn-outline-inverted {
   border: 3px solid #000;
   color: #000;
+  background: transparent;
+  transition: all 0.5s ease;
 }
 
 .btn-outline-inverted:hover,
@@ -282,51 +302,51 @@ h6 {
 
 /* Button 3D */
 
-.btn-3d {
-  background: #323133;
-  color: #fff;
-  box-shadow: 0 6px #3C3B3D;
-  -webkit-transition: none;
-  transition: none;
-  border-radius: 5px;
-}
+/*.btn-3d {*/
+/*  background: #323133;*/
+/*  color: #fff;*/
+/*  box-shadow: 0 6px #3C3B3D;*/
+/*  -webkit-transition: none;*/
+/*  transition: none;*/
+/*  border-radius: 5px;*/
+/*}*/
 
-.btn-3d:hover {
-  box-shadow: 0 4px #3C3B3D;
-  top: 2px;
-}
+/*.btn-3d:hover {*/
+/*  box-shadow: 0 4px #3C3B3D;*/
+/*  top: 2px;*/
+/*}*/
 
-.btn-3d:active {
-  box-shadow: 0 0 #3C3B3D;
-  top: 6px;
-}
+/*.btn-3d:active {*/
+/*  box-shadow: 0 0 #3C3B3D;*/
+/*  top: 6px;*/
+/*}*/
 
 
 /* Button Round */
 
-.btn-round {
-  border-radius: 50px;
-  border: 3px solid #fff;
-  color: #fff;
-}
+/*.btn-round {*/
+/*  border-radius: 50px;*/
+/*  border: 3px solid #fff;*/
+/*  color: #fff;*/
+/*}*/
 
 
-.btn-round:hover, .btn-round:active {
-  color: #000;
-  background: #fff;
-}
+/*.btn-round:hover, .btn-round:active {*/
+/*  color: #000;*/
+/*  background: #fff;*/
+/*}*/
 
-.btn-round-inverted {
-  border-radius: 50px;
-  border: 3px solid #000;
-  color: #000;
-}
+/*.btn-round-inverted {*/
+/*  border-radius: 50px;*/
+/*  border: 3px solid #000;*/
+/*  color: #000;*/
+/*}*/
 
 
-.btn-round-inverted:hover, .btn-round-inverted:active {
-  color: #fff;
-  background: #000;
-}
+/*.btn-round-inverted:hover, .btn-round-inverted:active {*/
+/*  color: #fff;*/
+/*  background: #000;*/
+/*}*/
 
 /* Button Clear */
 
