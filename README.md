@@ -2,6 +2,10 @@
 
 A minimal CSS framework.
 
+## Why should you use it?
+
+Wing provides a base of styles, and you don't even need to learn a gazillion class names, all of your elements will be styled automatially. Not to mention, that unlike Bootstrap or other popular Frameworks, Wing is only **4kb** minified. Hope you enjoy!
+
 ## Download/Use
 
 **Install with npm**
