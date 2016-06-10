@@ -10,6 +10,12 @@ A minimal CSS framework.
 $ npm install wingcss
 ```
 
+**Link to It**
+
+```html
+&lt;link rel="stylesheet" href="http://usewing.ml/dist/wing.min.css"/&gt;
+```
+
 
 ## TODO
 - [ ] Add checkbox/Radio Styles
