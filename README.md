@@ -2,6 +2,14 @@
 
 A minimal CSS framework.
 
+## Download/Use
+
+**Install with npm**
+
+```sh
+$ npm install wingcss
+```
+
 
 ## TODO
 - [ ] Add checkbox/Radio Styles
