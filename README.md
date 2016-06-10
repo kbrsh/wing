@@ -20,7 +20,7 @@ $ npm install wingcss
 <link rel="stylesheet" href="http://usewing.ml/dist/wing.min.css"/>
 ```
 
-## [Documentation]("http://usewing.ml")
+## [Documentation]("http://usewing.ml/#docs")
 
 
 
