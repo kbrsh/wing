@@ -3,7 +3,7 @@
 
 A minimal CSS framework.
 
-[![Join the chat at https://gitter.im/KingPixil/wing](https://badges.gitter.im/KingPixil/wing.svg)](https://gitter.im/KingPixil/wing?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Join the chat at https://gitter.im/KingPixil/wing](https://badges.gitter.im/KingPixil/wing.svg)](https://gitter.im/KingPixil/wing?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg?maxAge=2592000)]()
 
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com) [![forthebadge](http://forthebadge.com/images/badges/uses-css.svg)](http://forthebadge.com)
 
