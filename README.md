@@ -1,11 +1,11 @@
 # [Wing](http://usewing.ml)
 
-[![Join the chat at https://gitter.im/KingPixil/wing](https://badges.gitter.im/KingPixil/wing.svg)](https://gitter.im/KingPixil/wing?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 A minimal CSS framework.
 
-[![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com) [![forthebadge](http://forthebadge.com/images/badges/uses-css.svg)](http://forthebadge.com)
+[![Join the chat at https://gitter.im/KingPixil/wing](https://badges.gitter.im/KingPixil/wing.svg)](https://gitter.im/KingPixil/wing?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
+[![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com) [![forthebadge](http://forthebadge.com/images/badges/uses-css.svg)](http://forthebadge.com)
 
 ## Why should you use it?
 
