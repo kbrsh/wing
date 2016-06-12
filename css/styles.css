@@ -84,6 +84,13 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,
   background: #40d5de;
 }
 
+#examples {
+  background-color: white;
+  color: black;
+  min-height: 50vh;
+  width: 100vw;
+}
+
 #thanks {
   background-color: white;
   color: black;
