@@ -4,7 +4,7 @@ A minimal CSS framework.
 
 ### What?
 
-Welcome to the `gh-pages` branch. Here is the code for the docs pages.
+Welcome to the `gh-pages` branch. Here is the code for the docs.
 
 
 ### Docs Coverage:
