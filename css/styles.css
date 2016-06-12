@@ -245,7 +245,7 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,
 .overlay ul li {
   display: block;
   height: 25%;
-  height: calc(100% / 3);
+  height: calc(100% / 4);
   min-height: 50px;
   position: relative;
   opacity: 0;
