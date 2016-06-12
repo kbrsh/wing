@@ -27,6 +27,8 @@ $ npm install wingcss
 
 ## [Documentation]("http://usewing.ml/#docs") 
 
+[Documentation available here]("http://usewing.ml/#docs") 
+
 
 
 ## TODO
