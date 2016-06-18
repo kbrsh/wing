@@ -28,12 +28,6 @@ $ npm install wingcss
 ## [Documentation](http://usewing.ml/#docs) 
 
 
-
-
-## TODO
-- [ ] Add checkbox/Radio Styles
-- [ ] Add more Vendor Prefixes
-
 ## License
 
 Handcrafted with ♥ by [Kabir](http://kabir.ml). Licensed under the [MIT License](http://kingpixil.github.io/license).
