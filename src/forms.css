@@ -17,7 +17,7 @@ input[type=text], select {
     font-family: 'Open Sans';
 }
 
-/* only safari select height bug fix (lint may)*/
+/* only safari select height bug fix (lint may give)*/
 @media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) {   
   @media {
     select {
