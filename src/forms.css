@@ -17,6 +17,11 @@ input[type=text], select {
     font-family: 'Open Sans';
 }
 
+select {
+  height: 40px;
+  background: transparent;
+}
+
 /*set border on focus*/
 input[type=text]:focus {
     border: 1px solid #99b3ff;
