@@ -331,9 +331,14 @@ input[type=text], select {
     font-family: 'Open Sans';
 }
 
-select {
-  height: 40px;
-  background: transparent;
+/* only safari select height bug fix */
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) {   
+  @media {
+    select {
+      height: 40px;
+      background: transparent;
+    }
+  }
 }
 
 /*set border on focus*/
