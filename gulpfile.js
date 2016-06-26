@@ -23,7 +23,6 @@ gulp.task('minify', ['build'], function() {
     .pipe(gulp.dest('./dist/'));
 });
 
-
 gulp.task('default', ['build', 'minify']);
 
 gulp.task('watch', function() {
