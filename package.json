@@ -1,5 +1,6 @@
 {
   "name": "wingcss",
+  "filename": "wing.min.css",
   "version": "0.1.4",
   "description": "A lightweight, responsive CSS Framework",
   "main": "gulpfile.js",
