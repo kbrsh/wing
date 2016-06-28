@@ -408,7 +408,7 @@ ol {
   height: 100vh;
 }
 
-.horizontal {
+.horizontal-align {
   display: flex;
   justify-content: center;
 }
