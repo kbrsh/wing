@@ -1,0 +1,26 @@
+{
+  "name": "wingcss",
+  "description": "A lightweight, responsive CSS Framework",
+  "main": "dist/wing.min.css",
+  "authors": [
+    "Kabir Shah"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "wing",
+    "css",
+    "framework",
+    "responsive",
+    "css",
+    "framework",
+    "responsive",
+    "lightweight"
+  ],
+  "homepage": "http://usewing.ml",
+  "ignore": [
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

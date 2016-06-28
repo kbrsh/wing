@@ -1,7 +1,7 @@
 {
   "name": "wingcss",
   "version": "0.1.4",
-  "description": "Make your website grow wings with this minimal CSS framework",
+  "description": "A lightweight, responsive CSS Framework",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\""
@@ -26,6 +26,7 @@
     "gulp-size": "~0.1.2",
     "gulp-util": "~2.2.9",
     "owl-tool": "0.0.3",
-    "nob": "latest"
+    "nob": "latest",
+    "bower": "latest"
   }
 }
