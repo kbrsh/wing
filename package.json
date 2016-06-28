@@ -17,6 +17,15 @@
     "url": "https://github.com/kingpixil/wing/issues"
   },
   "homepage": "http://usewing.ml",
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/KingPixil/wing.git",
+    "basePath": "dist",
+    "files": [
+      "wing.min.css",
+      "wing.css"
+    ]
+  }
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-cli": "^1.2.1",
