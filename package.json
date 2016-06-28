@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/kingpixil/wing/issues"
   },
-  "homepage": "https://github.com/kingpixil/wing#readme",
+  "homepage": "http://usewing.ml",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-cli": "^1.2.1",
