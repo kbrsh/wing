@@ -30,4 +30,4 @@ Pull Requests allow you to share your own code with us, and we can merge it into
 
 Have you found a solution to an issue? Here is how you can submit your code to Wing.
 
-1) 
+1) Head [here](https://github.com/KingPixil/wing/pulls/) to submit a new issue.
