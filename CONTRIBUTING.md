@@ -28,4 +28,6 @@ Pull Requests allow you to share your own code with us, and we can merge it into
 
 **Fixing an Issue**
 
-Have you found a solution to an issue? Here is how you can submit your code to Wing
+Have you found a solution to an issue? Here is how you can submit your code to Wing.
+
+1) 
