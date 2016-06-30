@@ -26,8 +26,23 @@ Issues let us know of things we should fix, things we should add, questions, etc
 
 Pull Requests allow you to share your own code with us, and we can merge it into the main repo.
 
+**Adding Code**
+
+1) Fork the repo.
+
+2) Clone the repo by running 
+```sh
+$ git clone https://github.com/YOUR-USERNAME-HERE/wing.git
+```
+
 **Fixing an Issue**
 
 Have you found a solution to an issue? Here is how you can submit your code to Wing.
 
-1) Head [here](https://github.com/KingPixil/wing/pulls/) to submit a new issue.
+1) Fork the repo, and add whatever changes that fix any issue.
+
+1) Head [here](https://github.com/KingPixil/wing/pulls/) to submit a new pull request.
+
+2) Include a title that is straight to the point.
+
+3) Wait for someone to review the pull request, and then merge your pull request!
