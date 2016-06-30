@@ -1,6 +1,6 @@
 # Contributing
 
-We love when people help us out, it makes Wing a better place.
+We love when people help us out, it makes Wing better.
 
 
 ## How to Contribute
