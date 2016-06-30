@@ -2,27 +2,6 @@
 
 We love when people help us out, it makes Wing a better place.
 
-## Getting Started
-
-Fork the repo:
-
-```sh
-$ git clone https://github.com/KingPixil/wing.git
-```
-
-CD into the directory
-
-```sh
-$ cd wing
-```
-
-Open with a text editor
-
-```sh
-$ atom . || sublime .
-```
-
-Get coding!
 
 ## How to Contribute
 
@@ -32,4 +11,17 @@ Here are guides for submitting issues and pull requests.
 
 Issues let us know of things we should fix, things we should add, questions, etc. 
 
-1) 
+1) Head [here](https://github.com/KingPixil/wing/issues/new) to submit a new issue.
+
+2) Include a descriptive title that is straight to the point.
+
+3) Write a detailed description on what the issue is all about.
+
+4) Wait for someone to get to the issue and add labels.
+
+5) The issue will be fixed soon!
+
+
+### Pull Requests
+
+Pull Requests allow you 
