@@ -19,5 +19,5 @@ $ cd wing
 Open with a text editor
 
 ```sh
-$ atom . # Or sublime .
+$ atom . || sublime .
 ```
