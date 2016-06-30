@@ -25,3 +25,7 @@ Issues let us know of things we should fix, things we should add, questions, etc
 ### Pull Requests
 
 Pull Requests allow you to share your own code with us, and we can merge it into the main repo.
+
+**Fixing an Issue**
+
+Have you found a solution to an issue? Here is how you can submit your code to Wing
