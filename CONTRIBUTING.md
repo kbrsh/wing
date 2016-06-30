@@ -21,3 +21,15 @@ Open with a text editor
 ```sh
 $ atom . || sublime .
 ```
+
+Get coding!
+
+## How to Contribute
+
+Here are guides for submitting issues and pull requests.
+
+### Issues
+
+Issues let us know of things we should fix, things we should add, questions, etc. 
+
+1) 
