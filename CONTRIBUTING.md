@@ -35,13 +35,21 @@ Pull Requests allow you to share your own code with us, and we can merge it into
 $ git clone https://github.com/YOUR-USERNAME-HERE/wing.git
 ```
 
+3) Install node.js if you haven't already, and run `npm install`. This installs the required dependencies for building Wing.
+
+4) Edit files in the `src/` folder. For example, if you are fixing up forms, head to `src/forms.css` and add changes. Don't edit any files in the `dist/` folder, this is only for distribution builds, which are automated. 
+
+5) Run `gulp` to run builds, and the new distribution files will be in the `dist/` folder ready to go.
+
+
+
 **Fixing an Issue**
 
 Have you found a solution to an issue? Here is how you can submit your code to Wing.
 
-1) Fork the repo, and add whatever changes that fix any issue.
+1) Fork the repo, and refer above for how to change up code.
 
-1) Head [here](https://github.com/KingPixil/wing/pulls/) to submit a new pull request.
+1) Head to your local fork of the repo, and click the "New Pull Request" button.
 
 2) Include a title that is straight to the point.
 
