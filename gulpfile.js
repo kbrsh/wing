@@ -3,7 +3,7 @@
 var gulp = require('gulp');
 var pkg = require('./package.json');
 var minifyCSS = require('gulp-minify-css');
-var comment = '\/*\r\n* Wing ' + pkg.version + '\r\n* Copyright 2016, Kabir Shah\r\n* http:\/\/kingpixil.github.io\/wing\/\r\n* Free to use under the MIT license.\r\n* http:\/\/www.opensource.org\/licenses\/mit-license.php\r\n*\/\r\n'
+var comment = '\/*\r\n* Wing ' + pkg.version + '\r\n* Copyright 2016, Kabir Shah\r\n* http:\/\/kingpixil.github.io\/wing\/\r\n* Free to use under the MIT license.\r\n* http:\/\/www.opensource.org\/licenses\/mit-license.php\r\n*\/\r\n';
 var $ = require('gulp-load-plugins')();
 
 gulp.task('build', function () {
