@@ -5,7 +5,8 @@
   "description": "A lightweight, responsive CSS Framework",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\""
+    "test": "echo \"Error: no test specified\"",
+    "build": "gulp"
   },
   "repository": {
     "type": "git",
