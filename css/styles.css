@@ -103,8 +103,6 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,
 }
 #social {
   position: fixed;
-  bottom: 5%;
-  left: 5%;
   z-index: 100;
   display: inline;
 }
@@ -112,16 +110,28 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,
 #footer {
   position: fixed;
   mix-blend-mode: difference;
-  bottom: 5%;
-  right: 5%;
   z-index: 100;
   display: invert;
 }
 
+#social {
+    left: 5%;
+  }
+  #footer {
+    right: 5%;
+  }
+
+
+@media (min-width: 600px) {
+  #social, #footer {
+    bottom: 5%;
+  }
+}
+
 @media (max-width: 600px) {
   #social, #footer {
-    display: absolute;
-    bottom: 5%;
+    position: absolute;
+    margin-bottom: 1rem;
   }
 }
 
