@@ -26,8 +26,12 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    height: 100vh;
+    height: 130vh;
     width: 100vw;
+}
+
+.hero-content {
+  height: 100vh;
 }
 
 
@@ -310,6 +314,13 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,
   text-align: center;
 }
 
+/*.center {*/
+/*    position: absolute;*/
+/*    left: 50%;*/
+/*    top: 50%;*/
+/*    transform: translate(-50%,-50%);*/
+/*}*/
+
 .underline {
 	position: relative !important;
 }
@@ -336,4 +347,51 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,
 
 .underline:hover::after {
 	width:100%;
+}
+
+
+/* ads */
+#carbonads {
+  position: relative;
+  /*top: 70vh;*/
+	color: #606c76;
+	font-family: 'Quicksand';
+	line-height: 1.6;
+	margin: 0 auto;
+	max-width: 30rem;
+	background: #fff;
+	background: rgba(256, 256, 256, .8);
+	border-radius: 4px;
+	overflow: hidden;
+	padding: 1.5rem;
+}
+#carbonads span {
+	overflow: hidden;
+}
+
+.carbon-img {
+	display: block;
+	/*text-align: center;*/
+	border: none;
+	float:left;
+}
+
+.carbon-text,
+.carbon-poweredby {
+  max-width: 44%;
+  width: 44%;
+	font-size: 1.2rem;
+	text-align: left;
+	text-decoration: none;
+	display: block;
+	float: right;
+}
+
+.carbon-text {
+  color: #606c76;
+}
+
+.carbon-poweredby {
+  margin-top: 0.5rem;
+  color: #cc301e;
 }
