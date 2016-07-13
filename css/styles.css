@@ -353,7 +353,6 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,
 /* ads */
 #carbonads {
   position: relative;
-  /*top: 70vh;*/
 	color: #606c76;
 	font-family: 'Quicksand';
 	line-height: 1.6;
@@ -371,20 +370,15 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,
 
 .carbon-img {
 	display: block;
-	/*text-align: center;*/
 	border: none;
-	float:left;
 }
 
 .carbon-text,
 .carbon-poweredby {
-  max-width: 44%;
-  width: 44%;
 	font-size: 1.2rem;
 	text-align: left;
 	text-decoration: none;
 	display: block;
-	float: right;
 }
 
 .carbon-text {
@@ -394,4 +388,41 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,
 .carbon-poweredby {
   margin-top: 0.5rem;
   color: #cc301e;
+}
+
+@media screen and (min-width: 400px){ 
+  #carbonads {
+    max-width: 30rem;
+  }
+  
+  .carbon-img {
+	  float: left;
+  }
+  
+  .carbon-text, .carbon-poweredby {
+    float: right;
+    max-width: 44%;
+    width: 44%;
+  }
+  
+}
+
+@media screen and (max-width: 400px){ 
+  #carbonads {
+    max-width: 15rem;
+  }
+  
+  .carbon-img {
+	  float: none;
+	  text-align: center;
+  }
+  
+  .carbon-text, .carbon-poweredby {
+    float: none;
+  }
+  
+  #hero {
+    height: 140vh;
+  }
+  
 }
