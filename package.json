@@ -37,7 +37,6 @@
     "gulp-size": "~0.1.2",
     "gulp-util": "~2.2.9",
     "owl-tool": "0.0.3",
-    "nob": "latest",
     "bower": "latest"
   }
 }
