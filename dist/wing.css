@@ -223,12 +223,6 @@ h6 {
 }
 
 /*------------------------------------------------------------
-  Links
-------------------------------------------------------------*/
-a {
-    color: #2a92ea;
-}
-/*------------------------------------------------------------
   Buttons/Components
 ------------------------------------------------------------*/
 
@@ -238,15 +232,12 @@ a {
   padding: 12px 12px;
   cursor: pointer;
   -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
   -webkit-transition: all 60ms ease-in-out;
   transition: all 60ms ease-in-out;
   text-align: center;
   white-space: nowrap;
   text-decoration: none !important;
-  text-transform: none;
   text-transform: uppercase;
   border: 0 none;
   border-radius: 4px;
@@ -331,15 +322,19 @@ input[type=text], select {
     font-family: 'Open Sans';
 }
 
-/* only safari select height bug fix (lint may give errors)*/
-@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) {   
-  @media {
-    select {
-      height: 40px;
-      background: transparent;
-    }
-  }
+select {
+  -webkit-appearance: none;
 }
+
+/* only safari select height bug fix (lint may give errors)*/
+/*@media screen and(min-color-index:0) and(-webkit-min-device-pixel-ratio:0) {   */
+/*  @media {*/
+/*    select {*/
+/*      height: 40px;*/
+/*      background: transparent;*/
+/*    }*/
+/*  }*/
+/*}*/
 
 /*set border on focus*/
 input[type=text]:focus {
@@ -368,6 +363,12 @@ textarea:focus, textarea[type=text]:focus {
 }
 
 /*------------------------------------------------------------
+  Links
+------------------------------------------------------------*/
+a {
+    color: #2a92ea;
+}
+/*------------------------------------------------------------
   Lists
 ------------------------------------------------------------*/
 
@@ -378,7 +379,6 @@ ul {
 ol {
   list-style: decimal inside;
 }
-
 
 /*------------------------------------------------------------
   Utilities
@@ -408,7 +408,7 @@ ol {
   height: 100vh;
 }
 
-.horizontal {
+.horizontal-align {
   display: flex;
   justify-content: center;
 }
