@@ -320,18 +320,14 @@ input[type=text], select {
     transition: 0.5s;
     outline: none;
     font-family: 'Open Sans';
-    -webkit-appearance: menulist-button;
 }
 
-/* only safari select height bug fix (lint may give errors)*/
-/*@media screen and(min-color-index:0) and(-webkit-min-device-pixel-ratio:0) {   */
-/*  @media {*/
-/*    select {*/
-/*      height: 40px;*/
-/*      background: transparent;*/
-/*    }*/
-/*  }*/
-/*}*/
+@media screen and (-webkit-min-device-pixel-ratio:0) {  /*safari and chrome*/
+    select {
+        height:40px;
+        background: #f4f4f4;
+    } 
+}
 
 /*set border on focus*/
 input[type=text]:focus {
