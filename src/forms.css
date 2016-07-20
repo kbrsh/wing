@@ -3,7 +3,7 @@
 ------------------------------------------------------------*/
 
 /*base form styles*/
-input[type=text], select {
+input[type=text], input[type=password], input[type=email], input[type=search], select {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
