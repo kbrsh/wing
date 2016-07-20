@@ -17,13 +17,6 @@ input[type=text], select {
     font-family: 'Open Sans';
 }
 
-@media screen and (-webkit-min-device-pixel-ratio:0) {  /*safari and chrome*/
-    select {
-        height:40px;
-        background: #f4f4f4;
-    } 
-}
-
 /*set border on focus*/
 input[type=text]:focus {
     border: 1px solid #99b3ff;
