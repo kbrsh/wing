@@ -308,7 +308,7 @@ h6 {
 ------------------------------------------------------------*/
 
 /*base form styles*/
-input[type=text], select {
+input[type=text], input[type=password], input[type=email], input[type=search], select {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -323,7 +323,7 @@ input[type=text], select {
 }
 
 /*set border on focus*/
-input[type=text]:focus {
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, input[type=search]:focus {
     border: 1px solid #99b3ff;
     border-radius: 4px;
 }
