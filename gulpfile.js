@@ -23,7 +23,28 @@ gulp.task('minify', ['build'], function() {
     .pipe(gulp.dest('./dist/'));
 });
 
-gulp.task('default', ['build', 'minify']);
+gulp.task('build-gh', function() {
+  $.git.checkout('gh-pages', function() {
+    return gulp.src(['./src/top.css', './src/base.css', './src/typography.css', './src/grid.css', './src/buttons.css', './src/forms.css', './src/links.css', './src/lists.css', './src/util.css', './src/misc.css'])
+      .pipe($.concat('wing.css'))
+      .pipe($.header(comment + '\n'))
+      .pipe($.size())
+      .pipe(gulp.dest('./dist/'));
+  });
+});
+
+gulp.task('minify-gh', function() {
+  $.git.checkout('gh-pages', function() {
+    return gulp.src(['./dist/wing.css'])
+      .pipe(minifyCSS())
+      .pipe($.header(comment))
+      .pipe($.size())
+      .pipe($.concat('wing.min.css'))
+      .pipe(gulp.dest('./dist/'));
+  });
+});
+
+gulp.task('default', ['build', 'minify', 'build-gh', 'minify-gh']);
 
 gulp.task('watch', function() {
   gulp.watch(['src/*.css'], ['default']);

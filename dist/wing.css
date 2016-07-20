@@ -232,15 +232,12 @@ h6 {
   padding: 12px 12px;
   cursor: pointer;
   -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
   -webkit-transition: all 60ms ease-in-out;
   transition: all 60ms ease-in-out;
   text-align: center;
   white-space: nowrap;
   text-decoration: none !important;
-  text-transform: none;
   text-transform: uppercase;
   border: 0 none;
   border-radius: 4px;
@@ -323,17 +320,18 @@ input[type=text], select {
     transition: 0.5s;
     outline: none;
     font-family: 'Open Sans';
+    -webkit-appearance: menulist-button;
 }
 
 /* only safari select height bug fix (lint may give errors)*/
-@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) {   
-  @media {
-    select {
-      height: 40px;
-      background: transparent;
-    }
-  }
-}
+/*@media screen and(min-color-index:0) and(-webkit-min-device-pixel-ratio:0) {   */
+/*  @media {*/
+/*    select {*/
+/*      height: 40px;*/
+/*      background: transparent;*/
+/*    }*/
+/*  }*/
+/*}*/
 
 /*set border on focus*/
 input[type=text]:focus {
