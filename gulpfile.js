@@ -46,7 +46,7 @@ gulp.task('minify-gh', function() {
   });
 });
 
-gulp.task('default', ['build', 'minify', 'build-gh', 'minify-gh']);
+gulp.task('default', ['build', 'minify']);
 
 gulp.task('watch', function() {
   gulp.watch(['src/*.css'], ['default']);
