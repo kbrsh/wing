@@ -16,7 +16,7 @@ Wing provides a base of styles, and you don't even need to learn a gazillion cla
 **Install with npm**
 
 ```sh
-$ npm install wingcss
+$ npm install --save wingcss
 ```
 
 **Link to It**
@@ -25,7 +25,7 @@ $ npm install wingcss
 <link rel="stylesheet" href="http://usewing.ml/dist/wing.min.css"/>
 ```
 
-## [Documentation](http://usewing.ml/#docs) 
+## [Documentation](http://usewing.ml/#docs)
 
 
 ## License
