@@ -28,6 +28,10 @@ $ npm install --save wingcss
 
 ## [Documentation](http://usewing.ml/#docs)
 
+## Find a bug?
+
+Submit it in the [issues](https://github.com/KingPixil/wing/issues)
+
 
 ## License
 
