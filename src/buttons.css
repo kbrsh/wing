@@ -42,6 +42,11 @@
   outline: none;
 }
 
+.btn:disabled, button:disabled, [type=submit]:disabled {
+  opacity: 0.8;
+  cursor: not-allowed;
+}
+
 
 /* Button Outline */
 
