@@ -1,0 +1,65 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/ubuntu/.nvm/versions/node/v4.4.5/bin/node',
+1 verbose cli   '/home/ubuntu/.nvm/versions/node/v4.4.5/bin/npm',
+1 verbose cli   'version',
+1 verbose cli   'patch' ]
+2 info using npm@2.15.5
+3 info using node@v4.4.5
+4 info git [ 'status', '--porcelain' ]
+5 info preversion wingcss@0.1.6
+6 verbose version.write data { name: 'wingcss',
+6 verbose version.write   filename: 'wing.min.css',
+6 verbose version.write   version: '0.1.6',
+6 verbose version.write   description: 'A lightweight, responsive CSS Framework',
+6 verbose version.write   main: 'gulpfile.js',
+6 verbose version.write   scripts: { test: 'echo "Error: no test yet"', build: 'gulp' },
+6 verbose version.write   repository:
+6 verbose version.write    { type: 'git',
+6 verbose version.write      url: 'git+https://github.com/kingpixil/wing.git' },
+6 verbose version.write   author: 'Kabir Shah',
+6 verbose version.write   license: 'MIT',
+6 verbose version.write   bugs: { url: 'https://github.com/kingpixil/wing/issues' },
+6 verbose version.write   homepage: 'http://usewing.ml',
+6 verbose version.write   autoupdate:
+6 verbose version.write    { source: 'git',
+6 verbose version.write      target: 'git://github.com/KingPixil/wing.git',
+6 verbose version.write      basePath: 'dist',
+6 verbose version.write      files: [ 'wing.min.css', 'wing.css' ] },
+6 verbose version.write   devDependencies:
+6 verbose version.write    { bower: 'latest',
+6 verbose version.write      gulp: '^3.9.1',
+6 verbose version.write      'gulp-cli': '^1.2.1',
+6 verbose version.write      'gulp-concat': 'latest',
+6 verbose version.write      'gulp-git': '^1.9.0',
+6 verbose version.write      'gulp-header': '^1.8.2',
+6 verbose version.write      'gulp-load-plugins': '^1.2.4',
+6 verbose version.write      'gulp-minify-css': 'latest',
+6 verbose version.write      'gulp-size': '~0.1.2',
+6 verbose version.write      'gulp-util': '~2.2.9',
+6 verbose version.write      'owl-tool': '0.0.3' } } to package.json
+7 info version wingcss@0.1.6
+8 info git [ 'add', '/home/ubuntu/workspace/package.json' ]
+9 info git [ 'commit', '-m', '0.1.6' ]
+10 info git [ 'tag', 'v0.1.6', '-am', '0.1.6' ]
+11 verbose stack Error: Command failed: git tag v0.1.6 -am 0.1.6
+11 verbose stack fatal: tag 'v0.1.6' already exists
+11 verbose stack
+11 verbose stack     at ChildProcess.exithandler (child_process.js:213:12)
+11 verbose stack     at emitTwo (events.js:87:13)
+11 verbose stack     at ChildProcess.emit (events.js:172:7)
+11 verbose stack     at maybeClose (internal/child_process.js:827:16)
+11 verbose stack     at Socket.<anonymous> (internal/child_process.js:319:11)
+11 verbose stack     at emitOne (events.js:77:13)
+11 verbose stack     at Socket.emit (events.js:169:7)
+11 verbose stack     at Pipe._onclose (net.js:477:12)
+12 verbose cwd /home/ubuntu/workspace
+13 error Linux 4.2.0-c9
+14 error argv "/home/ubuntu/.nvm/versions/node/v4.4.5/bin/node" "/home/ubuntu/.nvm/versions/node/v4.4.5/bin/npm" "version" "patch"
+15 error node v4.4.5
+16 error npm  v2.15.5
+17 error code 128
+18 error Command failed: git tag v0.1.6 -am 0.1.6
+18 error fatal: tag 'v0.1.6' already exists
+19 error If you need help, you may report this error at:
+19 error     <https://github.com/npm/npm/issues>
+20 verbose exit [ 1, true ]
