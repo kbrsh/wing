@@ -120,6 +120,13 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,
   #footer {
     right: 5%;
   }
+  
+#logo {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 100px;
+}
 
 
 @media (min-width: 600px) {
