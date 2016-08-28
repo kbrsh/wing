@@ -1,4 +1,6 @@
+<img src="http://usewing.ml/img/WingLogoGradient.png" width="200"/>
 # [Wing](http://usewing.ml)
+
 
 
 A minimal CSS framework.
