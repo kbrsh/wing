@@ -5,7 +5,7 @@
   "description": "A lightweight, responsive CSS Framework",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test yet\"",
+    "test": "echo \"Testing\"",
     "build": "gulp"
   },
   "repository": {
