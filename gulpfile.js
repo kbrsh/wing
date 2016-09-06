@@ -23,31 +23,10 @@ gulp.task('minify', ['build'], function() {
     .pipe(gulp.dest('./dist/'));
 });
 
-gulp.task('build-gh', function() {
-  var content = gulp.src(['./src/top.css', './src/base.css', './src/typography.css', './src/grid.css', './src/buttons.css', './src/forms.css', './src/links.css', './src/lists.css', './src/util.css', './src/misc.css'])
-  $.git.checkout('gh-pages', function() {
-    return content
-      .pipe($.concat('wing.css'))
-      .pipe($.header(comment + '\n'))
-      .pipe($.size())
-      .pipe(gulp.dest('./dist/'));
-  });
-});
-
-gulp.task('minify-gh', function() {
-  var content = gulp.src(['./dist/wing.css']);
-  $.git.checkout('gh-pages', function() {
-    return content
-      .pipe(minifyCSS())
-      .pipe($.header(comment))
-      .pipe($.size())
-      .pipe($.concat('wing.min.css'))
-      .pipe(gulp.dest('./dist/'));
-  });
-});
-
-gulp.task('default', ['build', 'minify']);
 
 gulp.task('watch', function() {
   gulp.watch(['src/*.css'], ['default']);
 });
+
+
+gulp.task('default', ['build', 'minify']);
