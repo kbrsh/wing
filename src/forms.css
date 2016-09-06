@@ -17,12 +17,6 @@ input[type=text], input[type=password], input[type=email], input[type=search], s
     font-family: 'Open Sans';
 }
 
-/*set border on focus*/
-input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, input[type=search]:focus {
-    border: 1px solid #99b3ff;
-    border-radius: 4px;
-}
-
 /*styling textarea*/
 textarea, textarea[type=text] {
     font-family: 'Open Sans';
@@ -38,7 +32,9 @@ textarea, textarea[type=text] {
     transition: 0.5s;
     outline: none;
 }
-textarea:focus, textarea[type=text]:focus {
+
+/*set border on focus*/
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, input[type=search]:focus, textarea:focus, textarea[type=text]:focus {
     border: 1px solid #99b3ff;
     border-radius: 4px;
 }
