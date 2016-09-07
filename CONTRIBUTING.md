@@ -32,7 +32,7 @@ Pull Requests allow you to share your own code with us, and we can merge it into
 
 2) Clone the repo by running 
 ```sh
-$ git clone https://github.com/YOUR-USERNAME-HERE/wing.git
+$ git clone https://github.com/KingPixil/wing.git
 ```
 
 3) Install node.js if you haven't already, and run `npm install`. This installs the required dependencies for building Wing.
