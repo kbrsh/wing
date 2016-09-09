@@ -6,7 +6,8 @@
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Testing\"",
-    "build": "gulp"
+    "start": "gulp",
+    "build": "gulp build"
   },
   "repository": {
     "type": "git",
@@ -28,16 +29,13 @@
     ]
   },
   "devDependencies": {
-    "bower": "latest",
+    "babel-preset-es2015": "^6.14.0",
     "gulp": "^3.9.1",
-    "gulp-cli": "^1.2.1",
     "gulp-concat": "latest",
-    "gulp-git": "^1.9.0",
     "gulp-header": "^1.8.2",
-    "gulp-load-plugins": "^1.2.4",
     "gulp-minify-css": "latest",
+    "gulp-rename": "^1.2.2",
     "gulp-size": "~0.1.2",
-    "gulp-util": "~2.2.9",
-    "owl-tool": "0.0.3"
+    "gulp-sourcemaps": "^1.6.0"
   }
 }
