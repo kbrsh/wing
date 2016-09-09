@@ -31,9 +31,9 @@
   "devDependencies": {
     "babel-preset-es2015": "^6.14.0",
     "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.12",
     "gulp-concat": "latest",
     "gulp-header": "^1.8.2",
-    "gulp-minify-css": "latest",
     "gulp-rename": "^1.2.2",
     "gulp-size": "~0.1.2",
     "gulp-sourcemaps": "^1.6.0"
