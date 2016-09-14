@@ -14,6 +14,14 @@
   text-align: center;
 }
 
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
 .centered {
   position: fixed;
   top: 50%;
@@ -29,4 +37,9 @@
 .horizontal-align {
   display: flex;
   justify-content: center;
+}
+
+.vetical-align {
+  display: flex;
+  align-items: center;
 }
