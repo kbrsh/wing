@@ -1,7 +1,7 @@
 /*
 * Wing 0.1.7
 * Copyright 2016, Kabir Shah
-* http://kingpixil.github.io/wing/
+* http://usewing.ml/
 * Free to use under the MIT license.
 * http://www.opensource.org/licenses/mit-license.php
 */
@@ -39,6 +39,8 @@ body {
   font-size: 1.5em;
   font-weight: 400;
   font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  max-width: 100vw;
+  overflow-x: hidden;
 }
 
 /*------------------------------------------------------------
@@ -384,6 +386,14 @@ ol {
   text-align: center;
 }
 
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
 .centered {
   position: fixed;
   top: 50%;
@@ -401,6 +411,10 @@ ol {
   justify-content: center;
 }
 
+.vetical-align {
+  display: flex;
+  align-items: center;
+}
 /*------------------------------------------------------------
   Misc
 ------------------------------------------------------------*/

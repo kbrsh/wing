@@ -15,4 +15,6 @@ body {
   font-size: 1.5em;
   font-weight: 400;
   font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  max-width: 100vw;
+  overflow-x: hidden;
 }
