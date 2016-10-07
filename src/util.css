@@ -22,11 +22,19 @@
 }
 
 .full-screen {
-  width: 100vw;
-  height: 100vh;
+  height: 100%;
+  width: 100%;
 }
 
 .horizontal-align {
   display: flex;
   justify-content: center;
+}
+
+.bg-parallax {
+
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
 }
