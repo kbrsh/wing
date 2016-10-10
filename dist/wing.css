@@ -390,12 +390,18 @@ ol {
 }
 
 .vertical-align {
-  display: flex; /* activates the power of flexbox */
-  align-items: center; /* align items vertically */
+  display: flex;
+  align-items: center;
 }
 
 .horizontal-align {
   display: flex;
+  justify-content: center;
+}
+
+.center {
+  display: flex;
+  align-items: center;
   justify-content: center;
 }
 
