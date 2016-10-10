@@ -19,6 +19,11 @@
   height: 100vh;
 }
 
+.vertical-align {
+  display: flex; /* activates the power of flexbox */
+  align-items: center; /* align items vertically */
+}
+
 .horizontal-align {
   display: flex;
   justify-content: center;
