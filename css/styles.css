@@ -120,7 +120,7 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,
   #footer {
     right: 5%;
   }
-  
+
 #logo {
   position: absolute;
   top: 5%;
@@ -325,7 +325,7 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,
 }
 
 /* Util */
-.center {
+.centered {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
@@ -409,39 +409,39 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,
   color: #cc301e;
 }
 
-@media screen and (min-width: 400px){ 
+@media screen and (min-width: 400px){
   #carbonads {
     max-width: 30rem;
   }
-  
+
   .carbon-img {
 	  float: left;
   }
-  
+
   .carbon-text, .carbon-poweredby {
     float: right;
     max-width: 44%;
     width: 44%;
   }
-  
+
 }
 
-@media screen and (max-width: 400px){ 
+@media screen and (max-width: 400px){
   #carbonads {
     max-width: 15rem;
   }
-  
+
   .carbon-img {
 	  float: none;
 	  text-align: center;
   }
-  
+
   .carbon-text, .carbon-poweredby {
     float: none;
   }
-  
+
   #hero {
     height: 140vh;
   }
-  
+
 }
