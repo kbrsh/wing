@@ -131,10 +131,13 @@ h6 {
 
 
 /* col */
-.col, [class^='col-'], [class*=" col-"]{
+.col {
   flex: 1;
-  display: block;
+}
+
+.col, [class^='col-'], [class*=" col-"] {
   margin: 1rem;
+  display: block;
 }
 
 /* .col-1 */
