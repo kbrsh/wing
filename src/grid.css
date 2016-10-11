@@ -87,12 +87,6 @@
 */
 @media screen and (max-width: 768px) {
   .row {
-    margin-top: 0;
-  }
-
-  .row [class^='col-'], .row [class*=" col-"] {
-    width: 100%;
-    margin-top: 2.0833%;
-    margin-left: 0;
+    display: block;
   }
 }
