@@ -71,7 +71,7 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,
   padding: 4rem 0;
 }
 
-#gridExample .col {
+#gridExample .col, [class^='col-'], [class*=" col-"] {
   background: #EEE;
   text-align: center;
   border-radius: 5px;
