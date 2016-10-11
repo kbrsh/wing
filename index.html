@@ -185,11 +185,19 @@
 
     &lt;!-- For each row, give the class &quot;row&quot; --&gt;
     &lt;div class=&quot;row&quot;&gt;
-        &lt;!-- for columns, add the class col, there are twelve --&gt;
-        &lt;!-- columns in total, and nesting is not recommended --&gt;
-        &lt;div class=&quot;col&quot;&gt;six&lt;/div&gt;
-        &lt;div class=&quot;col&quot;&gt;six&lt;/div&gt;
+        &lt;!-- for columns, add the class col, twelve --&gt;
+        &lt;!-- columns recommended, but you can add as many as you want --&gt;
+        &lt;div class=&quot;col&quot;&gt;Column&lt;/div&gt;
+        &lt;div class=&quot;col&quot;&gt;Column&lt;/div&gt;
     &lt;/div&gt;
+
+    &lt;div class=&quot;row&quot;&gt;
+        &lt;!-- for specific columns, add col-1 through col-12 --&gt;
+        &lt;!-- the rest ".col" will resize --&gt;
+        &lt;div class=&quot;col-6&quot;&gt;Column, Takes Half&lt;/div&gt;
+        &lt;div class=&quot;col&quot;&gt;Column, automatically sized!&lt;/div&gt;
+    &lt;/div&gt;
+
 &lt;/div&gt;
 </code>
                   </pre>
