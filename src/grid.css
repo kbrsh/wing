@@ -8,13 +8,14 @@
 .row {
   display: flex;
   justify-content: space-between;
-  padding: 1rem;
 }
 
 
 /* col */
 .col {
   flex: 1;
+  display: block;
+  padding: 1rem;
 }
 
 /*
