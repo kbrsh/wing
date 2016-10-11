@@ -134,7 +134,7 @@ h6 {
 .col {
   flex: 1;
   display: block;
-  padding: 1rem;
+  margin: 1rem;
 }
 
 /*
