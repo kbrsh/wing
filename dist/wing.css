@@ -133,6 +133,8 @@ h6 {
 /* col */
 .col {
   flex: 1;
+  display: block;
+  padding: 1rem;
 }
 
 /*
