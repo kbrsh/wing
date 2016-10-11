@@ -12,7 +12,7 @@
 
 
 /* col */
-.col {
+.col, [class^='col-'], [class*=" col-"]{
   flex: 1;
   display: block;
   margin: 1rem;
