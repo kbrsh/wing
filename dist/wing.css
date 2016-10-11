@@ -208,8 +208,8 @@ h6 {
   .row {
     display: block;
   }
-  .col, [class^='col-'], [class*=" col-"] {
-    width: 100% !important;
+  .col, .row [class^='col-'], .row [class*=" col-"] {
+    width: 100%;
   }
 }
 
