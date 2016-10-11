@@ -30,6 +30,8 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%;
+  margin: 0;
+  padding: 0;
 }
 
 /*setting up font sizes and base font family*/
@@ -385,8 +387,8 @@ ol {
 }
 
 .full-screen {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  min-height: 100vh;
 }
 
 .vertical-align {
