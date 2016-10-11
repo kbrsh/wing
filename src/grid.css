@@ -89,7 +89,7 @@
   .row {
     display: block;
   }
-  .col, [class^='col-'], [class*=" col-"] {
+  .col, .row [class^='col-'], .row [class*=" col-"] {
     width: 100%;
   }
 }

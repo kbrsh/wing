@@ -209,7 +209,7 @@ h6 {
     display: block;
   }
   .col, [class^='col-'], [class*=" col-"] {
-    width: 100%;
+    width: 100% !important;
   }
 }
 
