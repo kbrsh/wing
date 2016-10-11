@@ -75,24 +75,24 @@
                 <iframe src="https://ghbtns.com/github-btn.html?user=KingPixil&repo=wing&type=fork&count=true" frameborder="0" scrolling="0" width="90px" height="20px"></iframe>
                 </div>
                 <div class="row">
-                    <div class="col">
+                    <div class="col-6">
                         <h5>Open Source</h5>
                         <p>Wing is 100% open source, so you can learn from it, and see what happens under the hood. Check it out on <a href="https://github.com/KingPixil/wing" class="gitLink">Github</a>. Make sure to star it! Wing is also released under the <a href="http://kingpixil.github.io/license/" target="_blank">MIT License</a>, allowing you to use it in a variety of projects.</p>
                     </div>
 
-                    <div class="col">
+                    <div class="col-6">
                         <h5>Mobile Friendly</h5>
                         <p>Wing makes it super-simple to make websites responsive and mobile-friendly. The grid, containers, typography, buttons...everything! It is all mobile-friendly and easy to use.</p>
                         <strong>Try Resizing Your Browser</strong>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col">
+                    <div class="col-6">
                         <h5>Lightweight</h5>
                         <p>Wing is only <strong>~4kb</strong> minified. Making it super fast to load and use. You don't need to compile any files, nothing complex. All you do is link to it and you are done. Because of Wing's lightweight file size, it will load much faster than &lt;place-framework-here&gt;</p>
                     </div>
 
-                    <div class="col">
+                    <div class="col-6">
                         <h5>Browser Support</h5>
                         <p>Wing supports a variety of browsers, including</p>
                         <ul>
@@ -133,50 +133,50 @@
                   <h5>GRID</h5>
                   <p>Wing is built with a grid. The grid is a <strong>12-column fluid grid</strong>. The max-width is 960px. When rendered on smaller devices, it resizes accordingly. The code is minimal and responsive. In fact, try resizing your browser.</p>
                   <div id="gridExample">
-                    <div class="row">
-                        <div class="col-1">ONE</div>
-                        <div class="col-11">ELEVEN</div>
-                    </div>
-                    <div class="row">
-                        <div class="col-2">TWO</div>
-                        <div class="col-10">TEN</div>
-                    </div>
-                    <div class="row">
-                        <div class="col-3">THREE</div>
-                        <div class="col-9">NINE</div>
-                    </div>
-                    <div class="row">
-                        <div class="col-4">FOUR</div>
-                        <div class="col-8">EIGHT</div>
-                    </div>
-                    <div class="row">
-                        <div class="col-5">FIVE</div>
-                        <div class="col-7">SEVEN</div>
-                    </div>
-                    <div class="row">
-                        <div class="col-6">SIX</div>
-                        <div class="col-6">SIX</div>
-                    </div>
-                    <div class="row">
-                        <div class="col-7">SEVEN</div>
-                        <div class="col-5">FIVE</div>
-                    </div>
-                    <div class="row">
-                        <div class="col-8">EIGHT</div>
-                        <div class="col-4">FOUR</div>
-                    </div>
-                    <div class="row">
-                        <div class="col-9">NINE</div>
-                        <div class="col-3">THREE</div>
-                    </div>
-                    <div class="row">
-                        <div class="col-10">TEN</div>
-                        <div class="col-2">TWO</div>
-                    </div>
-                    <div class="row">
-                        <div class="col-11">ELEVEN</div>
-                        <div class="col-1">ONE</div>
-                    </div>
+                      <div class="row">
+                          <div class="col-1">ONE</div>
+                          <div class="col-11">ELEVEN</div>
+                      </div>
+                      <div class="row">
+                          <div class="col-2">TWO</div>
+                          <div class="col-10">TEN</div>
+                      </div>
+                      <div class="row">
+                          <div class="col-3">THREE</div>
+                          <div class="col-9">NINE</div>
+                      </div>
+                      <div class="row">
+                          <div class="col-4">FOUR</div>
+                          <div class="col-8">EIGHT</div>
+                      </div>
+                      <div class="row">
+                          <div class="col-5">FIVE</div>
+                          <div class="col-7">SEVEN</div>
+                      </div>
+                      <div class="row">
+                          <div class="col-6">SIX</div>
+                          <div class="col-6">SIX</div>
+                      </div>
+                      <div class="row">
+                          <div class="col-7">SEVEN</div>
+                          <div class="col-5">FIVE</div>
+                      </div>
+                      <div class="row">
+                          <div class="col-8">EIGHT</div>
+                          <div class="col-4">FOUR</div>
+                      </div>
+                      <div class="row">
+                          <div class="col-9">NINE</div>
+                          <div class="col-3">THREE</div>
+                      </div>
+                      <div class="row">
+                          <div class="col-10">TEN</div>
+                          <div class="col-2">TWO</div>
+                      </div>
+                      <div class="row">
+                          <div class="col-11">ELEVEN</div>
+                          <div class="col-1">ONE</div>
+                      </div>
                   </div>
                   <pre>
                       <code>
@@ -185,19 +185,11 @@
 
     &lt;!-- For each row, give the class &quot;row&quot; --&gt;
     &lt;div class=&quot;row&quot;&gt;
-        &lt;!-- for columns, add the class col, twelve --&gt;
-        &lt;!-- columns recommended, but you can add as many as you want --&gt;
-        &lt;div class=&quot;col&quot;&gt;Column&lt;/div&gt;
-        &lt;div class=&quot;col&quot;&gt;Column&lt;/div&gt;
+        &lt;!-- for columns, add the class col-x, there are twelve --&gt;
+        &lt;!-- columns in total, and nesting is not recommended --&gt;
+        &lt;div class=&quot;col-6&quot;&gt;six&lt;/div&gt;
+        &lt;div class=&quot;col-6&quot;&gt;six&lt;/div&gt;
     &lt;/div&gt;
-
-    &lt;div class=&quot;row&quot;&gt;
-        &lt;!-- for specific columns, add col-1 through col-12 --&gt;
-        &lt;!-- the rest ".col" will resize --&gt;
-        &lt;div class=&quot;col-6&quot;&gt;Column, Takes Half&lt;/div&gt;
-        &lt;div class=&quot;col&quot;&gt;Column, automatically sized!&lt;/div&gt;
-    &lt;/div&gt;
-
 &lt;/div&gt;
 </code>
                   </pre>
@@ -208,12 +200,12 @@
                   <p>Wing is built with responsive typography based on <strong>rems</strong>. Wing also changes everything to base 10, so <code>1 rem</code> is <code>10px</code>.</p>
 
                   <div class="row">
-                      <div class="col">
+                      <div class="col-6">
                           <p>The font for headers, (<code>h1, h2, h3, h4, h5, h6</code>) is Quicksand. For paragraphs, it is Open Sans. Both fonts are free and served via Google Fonts. It will result in beautiful typography, which can always be overridden.</p>
                           <br/>
                           <p>This means that typography comes with things such as <a href="#">links</a>, <strong>bold</strong>, <em>italics</em>, and <u>underline</u>.</p>
                       </div>
-                      <div class="col">
+                      <div class="col-6">
                           <h1>H1 Heading</h1>
                           <h2>H2 Heading</h2>
                           <h3>H3 Heading</h3>
@@ -224,7 +216,7 @@
                   </div>
 
                   <div class="row">
-                      <div class="col">
+                      <div class="col-12">
                           <pre>
                               <code>
 &lt;!-- headings, in Quicksand --&gt;
@@ -253,56 +245,56 @@
                   <p>Wing comes with a variety of buttons, some simple, some a little more complex. Buttons come in three styles, <strong>primary, outline, and clear</strong>.</p>
                   <div id="buttonExample">
                       <div class="row">
-                          <div class="col">
+                          <div class="col-6">
                               <strong>Primary</strong>
                               <p>This is the default button, a vibrant button for the main task.</p>
                               <code>&lt;button&gt;Primary Button&lt;/button&gt;</code>
                           </div>
 
-                          <div class="col">
+                          <div class="col-6">
                               <button>Primary</button>
                           </div>
                       </div>
 
                       <div class="row">
-                          <div class="col">
+                          <div class="col-6">
                               <strong>Outline</strong>
                               <p>This is the outlined button, a nice minimal button for every situation.</p>
                               <code>&lt;button class=&quot;btn btn-outline&quot;&gt;outline&lt;/button&gt;</code> - outlined button
                               <code>&lt;button class=&quot;btn btn-outline-inverted&quot;&gt;outline-inverted&lt;/button&gt;</code> - inverted colors outlined button
                           </div>
 
-                          <div class="col">
+                          <div class="col-6">
                               <button class="btn btn-outline-inverted">OUTLINE</button>
                           </div>
                       </div>
 
                       <div class="row">
-                          <div class="col">
+                          <div class="col-6">
                               <strong>Clear</strong>
                               <p>This is the clear button, a button for the not-important task.</p>
                               <code>&lt;button class=&quot;btn btn-clear&quot;&gt;clear&lt;/button&gt;</code> - clear button
                           </div>
 
-                          <div class="col">
+                          <div class="col-6">
                               <button class="btn btn-clear">CLEAR</button>
                           </div>
                       </div>
 
                       <div class="row">
-                          <div class="col">
+                          <div class="col-6">
                               <strong>Disabled</strong>
                               <p>This is a disabled button, your users will not be able to click it.</p>
                               <code>&lt;button disabled&gt;&lt;/button&gt;</code> - disabled button
                           </div>
 
-                          <div class="col">
+                          <div class="col-6">
                               <button disabled>Disabled</button>
                           </div>
                       </div>
 
                       <div class="row">
-                          <div class="col">
+                          <div class="col-6">
                               <strong>Hack It</strong>
                               <p>Don't like the color, the background? Wing makes it <em>super easy</em> to hack the buttons.</p>
                               <pre><code>
@@ -312,7 +304,7 @@ button {
                               </code></pre>
                           </div>
 
-                          <div class="col">
+                          <div class="col-6">
                               <button id="hackButton">Hacked</button>
                           </div>
                       </div>
@@ -324,8 +316,8 @@ button {
                   <p>Forms are pretty difficult to style, which is why Wing makes forms a <strong>piece of cake</strong>. We want it to be really easy for developers to make forms that look nice, work, and are responsive. So Wing will style all form elements.</p>
                   <form>
                       <div class="row">
-                          <div class="col"><input type="text" placeholder="Your Name"/></div>
-                          <div class="col">
+                          <div class="col-6"><input type="text" placeholder="Your Name"/></div>
+                          <div class="col-6">
                               <select placeholder="Select One">
                                 <option value="awesome">Wing is Awesome</option>
                                 <option value="amazing">Wing is Amazing</option>
@@ -333,21 +325,21 @@ button {
                           </div>
                       </div>
                       <div class="row">
-                          <div class="col"><textarea type="text" placeholder="Your Message"></textarea></div>
+                          <div class="col-12"><textarea type="text" placeholder="Your Message"></textarea></div>
                       </div>
 
                       <input type="submit"/>
                   </form>
 
                   <div class="row">
-                      <div class="col">
+                      <div class="col-12">
                           <p>The code for the form above. All form elements are automatically styled.</p>
                           <pre>
                               <code>
 &lt;form&gt;
     &lt;div class=&quot;row&quot;&gt;
-        &lt;div class=&quot;col&quot;&gt;&lt;input type=&quot;text&quot; placeholder=&quot;Your Name&quot;/&gt;&lt;/div&gt;
-        &lt;div class=&quot;col&quot;&gt;
+        &lt;div class=&quot;col-6&quot;&gt;&lt;input type=&quot;text&quot; placeholder=&quot;Your Name&quot;/&gt;&lt;/div&gt;
+        &lt;div class=&quot;col-6&quot;&gt;
             &lt;select placeholder=&quot;Select One&quot;&gt;
                 &lt;option&gt;Wing is Awesome&lt;/option&gt;
                 &lt;option&gt;Wing is Amazing&lt;/option&gt;
@@ -355,7 +347,7 @@ button {
          &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&quot;row&quot;&gt;
-        &lt;div class=&quot;col&quot;&gt;&lt;textarea type=&quot;text&quot; placeholder=&quot;Your Message&quot;&gt;&lt;/textarea&gt;&lt;/div&gt;
+        &lt;div class=&quot;col-12&quot;&gt;&lt;textarea type=&quot;text&quot; placeholder=&quot;Your Message&quot;&gt;&lt;/textarea&gt;&lt;/div&gt;
     &lt;/div&gt;
 
     &lt;input type=&quot;submit&quot; /&gt;
@@ -369,14 +361,14 @@ button {
                   <h5>Lists</h5>
                   <p>Wing styles your lists for you automagically. After adding wing, your lists will look sleek and modern.</p>
                   <div class="row">
-                      <div class="col">
+                      <div class="col-6">
                           <ul>
                               <li>Item 1</li>
                               <li>Item 2</li>
                               <li>Item 3</li>
                           </ul>
                       </div>
-                      <div class="col">
+                      <div class="col-6">
                           <ol>
                               <li>Item 1</li>
                               <li>Item 2</li>
@@ -386,7 +378,7 @@ button {
                   </div>
 
                   <div class="row">
-                      <div class="col">
+                      <div class="col-6">
                           <p>Unordered Lists</p>
                           <pre>
                               <code>
@@ -398,7 +390,7 @@ button {
 </code>
                           </pre>
                       </div>
-                      <div class="col">
+                      <div class="col-6">
                           <p>Ordered Lists</p>
                           <pre>
                               <code>
@@ -417,13 +409,13 @@ button {
                   <h5>Code</h5>
                   <p>Wing styles code examples for you, and makes them responsive.</p>
                       <div class="row">
-                          <div class="col">
+                          <div class="col-12">
                               <p>To style code in a single line, simply wrap the code in <code>&lt;code&gt;</code>. To style big blocks of code, wrap the code inside of <code>&lt;code&gt;</code>, and wrap in a <code>&lt;pre&gt;</code></p>
                           </div>
                       </div>
 
                       <div class="row">
-                          <div class="col">
+                          <div class="col-12">
                               <pre><code>
 &lt;!-- Single Line Code Examples should be wrapped in &lt;code&gt; --&gt;
 &lt;code&gt;console.log(&quot;Hello World&quot;);&lt;/code&gt;
@@ -443,11 +435,11 @@ function sayHello() {
               <!--    <h5>Animations</h5>-->
               <!--    <p>Wing comes with a couple animations up its sleeve. <strong>fadeIn, and fadeOut</strong></p>-->
               <!--    <div class="row">-->
-              <!--        <div class="col animate fadeIn">-->
+              <!--        <div class="col-6 animate fadeIn">-->
               <!--            <strong>Fade In</strong>-->
               <!--            <p>To make an element fadeIn, just do like so: <code>&lt;div class=&quot;animate fadeIn&quot;&gt;Fading In&lt;/div&gt;</code></p>-->
               <!--        </div>-->
-              <!--        <div class="col">-->
+              <!--        <div class="col-6">-->
               <!--            <strong>Fade Out</strong>-->
               <!--            <p>To make an element fade out, add <code>&lt;div class=&quot;animate fadeOut&quot;&gt;Fading Out&lt;/div&gt;</code></p>-->
               <!--        </div>-->
