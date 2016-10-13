@@ -26,8 +26,6 @@
   transition: all 60ms ease-in-out;
 }
 .btn:hover, button:hover, [type=submit]:hover {
-  -webkit-transition: all 60ms ease;
-  transition: all 60ms ease;
   opacity: .85;
 }
 .btn:active, button:active, [type=submit]:active {
