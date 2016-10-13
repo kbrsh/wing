@@ -121,13 +121,7 @@ h6 {
 
 .container {
   max-width: 960px;
-  margin: 0 auto
-}
-
-.container {
-  max-width: 960px;
-  margin: 0 auto 1.5em;
-  width: 80%;
+  margin: 0 auto;
 }
 
 .row {
