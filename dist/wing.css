@@ -222,7 +222,7 @@ h6 {
 
 .btn, button, [type=submit] {
   margin: 1rem;
-  padding: 1rem 3rem;
+  padding: 1.5rem 3.5rem;
   cursor: pointer;
   -webkit-user-select: none;
           user-select: none;

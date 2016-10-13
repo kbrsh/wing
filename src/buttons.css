@@ -4,7 +4,7 @@
 
 .btn, button, [type=submit] {
   margin: 1rem;
-  padding: 1.5rem 3.5rem;
+  padding: 1.3rem 3.5rem;
   cursor: pointer;
   -webkit-user-select: none;
           user-select: none;
