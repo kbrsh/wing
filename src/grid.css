@@ -71,7 +71,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .col {
+  .col, [class^='col-'], [class*=" col-"] {
     flex-basis: 100%;
   }
 }
