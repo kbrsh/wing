@@ -20,7 +20,7 @@
 - Misc
 - Clear
 */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
 
 /*------------------------------------------------------------
   Base Style
@@ -54,7 +54,7 @@ h4,
 h5,
 h6 {
   margin-bottom: 2rem;
-  font-weight: 700;
+  font-weight: 600;
   font-family: "Open Sans";
 }
 
