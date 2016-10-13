@@ -12,6 +12,9 @@
 
 .col {
   flex-basis: 100%;
+}
+
+.col, [class^='col-'], [class*=" col-"] {
   margin: 1rem;
 }
 
