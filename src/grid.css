@@ -3,12 +3,6 @@
   margin: 0 auto;
 }
 
-.container {
-  max-width: 960px;
-  margin: 0 auto 1.5em;
-  width: 80%;
-}
-
 .row {
   display: flex;
   flex-direction: row;
