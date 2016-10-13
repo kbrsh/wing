@@ -26,6 +26,10 @@
   width: 6.42291%;
 }
 
+.row .offset-by-1 {
+  margin-left: 6.42291%;
+}
+
 /* .col-2 */
 .row .col-2 {
   width: 14.930208%;
