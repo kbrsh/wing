@@ -3,3 +3,25 @@
   margin: 0 auto 1.5em;
   width: 80%;
 }
+
+.container {
+  max-width: 960px;
+  margin: 0 auto 1.5em;
+  width: 80%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.col {
+  flex-basis: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .col {
+    flex: 1;
+  }
+}
