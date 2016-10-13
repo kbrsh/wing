@@ -6,8 +6,7 @@
 
 .row {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .col {
@@ -16,6 +15,7 @@
 
 .col, [class^='col-'], [class*=" col-"] {
   margin: 1rem;
+  display: block;
 }
 
 @media screen and (min-width: 768px) {
@@ -24,6 +24,6 @@
   }
 
   .col-1 {
-    width: 8.33333333%;
+    width: 0.833333333%;
   }
 }
