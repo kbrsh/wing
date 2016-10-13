@@ -127,8 +127,8 @@ h6 {
 
 .row {
   display: flex;
-  justify-content: space-between;
   flex-flow: row wrap;
+  justify-content: space-around;
 }
 
 .col{
@@ -191,10 +191,17 @@ h6 {
   flex: 0 0 100%;
 }
 
-@media screen and (max-width: 768px) {
+.col--30{
+  -webkit-box-flex: 0 0 33.3333%;;
+  -moz-box-flex: 0 0 33.3333%;;
+  -webkit-flex: 0 0 33.3333%;;
+  -ms-flex: 0 0 33.3333%;;
+  flex: 0 0 33.3333%;;
+}
+
+@media (max-width: 768px) {
   .col, [class^='col-'], [class*=" col-"] {
-    flex-basis: 100%;
-    display: block;
+    flex: 0 0 100%;
   }
 }
 
