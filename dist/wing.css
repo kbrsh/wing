@@ -127,8 +127,7 @@ h6 {
 
 .row {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .col {
@@ -137,6 +136,7 @@ h6 {
 
 .col, [class^='col-'], [class*=" col-"] {
   margin: 1rem;
+  display: block;
 }
 
 @media screen and (min-width: 768px) {
@@ -145,7 +145,7 @@ h6 {
   }
 
   .col-1 {
-    flex: 0.00833333333;
+    width: 8.33333333%;
   }
 }
 
