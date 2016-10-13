@@ -34,6 +34,10 @@
   flex-basis: 25%;
 }
 
+.col-4 {
+  flex-basis: 33.3333%;
+}
+
 @media screen and (max-width: 768px) {
   .col {
     flex-basis: 100%;
