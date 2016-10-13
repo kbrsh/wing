@@ -31,8 +31,8 @@
 .btn:active, button:active, [type=submit]:active {
   -webkit-transition: all 60ms ease;
   transition: all 60ms ease;
-  -webkit-transform: scale(0.97);
-          transform: scale(0.97);
+  -webkit-transform: scale(0.98);
+          transform: scale(0.98);
   opacity: .75;
 }
 .btn:focus, button:focus, [type=submit]:focus {
