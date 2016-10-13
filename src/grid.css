@@ -23,55 +23,56 @@
 }
 
 .col-1 {
-  flex-basis: 8.3333%;
+  flex: 0 0 8.3333%;
 }
 
 .col-2 {
-  flex-basis: 16.6666%;
+  flex: 0 0 16.6666%;
 }
 
 .col-3 {
-  flex-basis: 25%;
+  flex: 0 0 25%;
 }
 
 .col-4 {
-  flex-basis: 33.3333%;
+  flex: 0 0 33.3333%;
 }
 
 .col-5 {
-  flex-basis: 41.6666%;
+  flex: 0 0 41.6666%;
 }
 
 .col-6 {
-  flex-basis: 50%;
+  flex: 0 0 50%;
 }
 
 .col-7 {
-  flex-basis: 58.3333%;
+  flex: 0 0 58.3333%;
 }
 
 .col-8 {
-  flex-basis: 66.6666%;
+  flex: 0 0 66.6666%;
 }
 
 .col-9 {
-  flex-basis: 75%;
+  flex: 0 0 75%;
 }
 
 .col-10 {
-  flex-basis: 83.3333%;
+  flex: 0 0 83.3333%;
 }
 
 .col-11 {
-  flex-basis: 91.6666%;
+  flex: 0 0 91.6666%;
 }
 
 .col-12 {
-  flex-basis: 100%;
+  flex: 0 0 100%;
 }
 
 @media screen and (max-width: 768px) {
   .col, [class^='col-'], [class*=" col-"] {
     flex-basis: 100%;
+    display: block;
   }
 }
