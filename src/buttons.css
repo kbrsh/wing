@@ -3,13 +3,11 @@
 ------------------------------------------------------------*/
 
 .btn, button, [type=submit] {
-  margin: 10px;
+  margin: 1rem;
   padding: 12px 12px;
   cursor: pointer;
   -webkit-user-select: none;
           user-select: none;
-  -webkit-transition: all 60ms ease-in-out;
-  transition: all 60ms ease-in-out;
   text-align: center;
   white-space: nowrap;
   text-decoration: none !important;
@@ -24,6 +22,8 @@
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  -webkit-transition: all 60ms ease-in-out;
+  transition: all 60ms ease-in-out;
 }
 .btn:hover, button:hover, [type=submit]:hover {
   -webkit-transition: all 60ms ease;
