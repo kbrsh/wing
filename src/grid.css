@@ -19,6 +19,10 @@
   .col {
     flex: 1;
   }
+
+  .col.offset-1 {
+    flex: 0.00833333333;
+  }
 }
 
 /*[class^='col-'], [class*=" col-"]*/
