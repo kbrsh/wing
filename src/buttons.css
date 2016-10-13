@@ -3,7 +3,6 @@
 ------------------------------------------------------------*/
 
 .btn, button, [type=submit] {
-  overflow: hidden;
   margin: 10px;
   padding: 12px 12px;
   cursor: pointer;
