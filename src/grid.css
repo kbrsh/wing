@@ -11,6 +11,7 @@
 
 .col {
   flex-basis: 100%;
+  margin: 1rem;
 }
 
 @media screen and (min-width: 768px) {
