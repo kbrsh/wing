@@ -122,13 +122,13 @@ h6 {
 .container {
   max-width: 960px;
   margin: 0 auto;
-  width: 85%;
+  width: 80%;
 }
 
 .row {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .col{
@@ -140,66 +140,59 @@ h6 {
 }
 
 .col, [class^='col-'], [class*=" col-"] {
-  margin: 1rem;
+ margin: 1rem;
 }
 
 .col-1 {
-  flex: 0 0 8.3333%;
+  flex: 1;
 }
 
 .col-2 {
-  flex: 0 0 16.6666%;
+  flex: 2;
 }
 
 .col-3 {
-  flex: 0 0 25%;
+  flex: 3;
 }
 
 .col-4 {
-  flex: 0 0 33.3333%;
+  flex: 4;
 }
 
 .col-5 {
-  flex: 0 0 41.6666%;
+  flex: 5;
 }
 
 .col-6 {
-  flex: 0 0 50%;
+  flex: 6;
 }
 
 .col-7 {
-  flex: 0 0 58.3333%;
+  flex: 7;
 }
 
 .col-8 {
-  flex: 0 0 66.6666%;
+  flex: 8;
 }
 
 .col-9 {
-  flex: 0 0 75%;
+  flex: 9;
 }
 
 .col-10 {
-  flex: 0 0 83.3333%;
+  flex: 10;
 }
 
 .col-11 {
-  flex: 0 0 91.6666%;
+  flex: 11;
 }
 
 .col-12 {
-  flex: 0 0 100%;
+  flex: 12;
 }
 
-.col--30{
-  -webkit-box-flex: 0 0 33.3333%;;
-  -moz-box-flex: 0 0 33.3333%;;
-  -webkit-flex: 0 0 33.3333%;;
-  -ms-flex: 0 0 33.3333%;;
-  flex: 0 0 33.3333%;;
-}
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .col, [class^='col-'], [class*=" col-"] {
     flex: 0 0 100%;
   }
