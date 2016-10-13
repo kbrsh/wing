@@ -133,6 +133,9 @@ h6 {
 
 .col {
   flex-basis: 100%;
+}
+
+.col, [class^='col-'], [class*=" col-"] {
   margin: 1rem;
 }
 
@@ -145,8 +148,6 @@ h6 {
     flex: 0.00833333333;
   }
 }
-
-/*[class^='col-'], [class*=" col-"]*/
 
 /*------------------------------------------------------------
   Buttons/Components
