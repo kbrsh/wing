@@ -125,97 +125,25 @@ h6 {
   width: 80%;
 }
 
-/* .row */
+.container {
+  max-width: 960px;
+  margin: 0 auto 1.5em;
+  width: 80%;
+}
+
 .row {
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
-
-/* col */
 .col {
-  flex: 1;
+  flex-basis: 100%;
 }
 
-.col, [class^='col-'], [class*=" col-"] {
-  margin: 1rem;
-  display: block;
-}
-
-/* .col-1 */
-.row .col-1 {
-  width: 6.42291%;
-}
-
-.row .offset-by-11 {
-  margin-left: 91.489583%;
-}
-
-/* .col-2 */
-.row .col-2 {
-  width: 14.930208%;
-}
-
-/* .col-3 */
-.row .col-3 {
-  width: 23.4375%;
-}
-
-/* .col-4 */
-.row .col-4 {
-  width: 31.94375%;
-}
-
-/* .col-5 */
-.row .col-5 {
-  width: 40.25%;
-}
-
-/* .col-6 */
-.row .col-6 {
-  width: 48.958333%;
-}
-
-/* .col-7 */
-.row .col-7 {
-  width: 57.464583%;
-}
-
-/* .col-8 */
-.row .col-8 {
-  width: 65.970833%;
-}
-
-/* .col-9 */
-.row .col-9 {
-  width: 74.404166%;
-}
-
-/* .col-10 */
-.row .col-10 {
-  width: 82.9833%;
-}
-
-/* .col-11 */
-.row .col-11 {
-  width: 91.489583%;
-}
-
-/* .col-12 */
-.row .col-12 {
-  width: 100%;
-}
-/*
-
-    Mediaqueries
-
-*/
-@media screen and (max-width: 768px) {
-  .row {
-    display: block;
-  }
-  .col, .row [class^='col-'], .row [class*=" col-"] {
-    width: 100%;
+@media screen and (min-width: 768px) {
+  .col {
+    flex: 1;
   }
 }
 
