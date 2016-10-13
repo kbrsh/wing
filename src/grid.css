@@ -38,6 +38,38 @@
   flex-basis: 33.3333%;
 }
 
+.col-5 {
+  flex-basis: 41.6666%;
+}
+
+.col-6 {
+  flex-basis: 50%;
+}
+
+.col-7 {
+  flex-basis: 58.3333%;
+}
+
+.col-8 {
+  flex-basis: 66.6666%;
+}
+
+.col-9 {
+  flex-basis: 75%;
+}
+
+.col-10 {
+  flex-basis: 83.3333%;
+}
+
+.col-11 {
+  flex-basis: 91.6666%;
+}
+
+.col-12 {
+  flex-basis: 100%;
+}
+
 @media screen and (max-width: 768px) {
   .col {
     flex-basis: 100%;
