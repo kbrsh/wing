@@ -24,6 +24,6 @@
 
 @media screen and (max-width: 768px) {
   .col {
-    flex: 0 0 100%;
+    flex-basis: 100%;
   }
 }
