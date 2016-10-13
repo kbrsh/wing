@@ -22,6 +22,18 @@
   margin: 1rem;
 }
 
+.col-1 {
+  flex-basis: 8.3333%;
+}
+
+.col-2 {
+  flex-basis: 16.6666%;
+}
+
+.col-3 {
+  flex-basis: 25%;
+}
+
 @media screen and (max-width: 768px) {
   .col {
     flex-basis: 100%;
