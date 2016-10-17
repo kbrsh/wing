@@ -6,6 +6,7 @@
 A minimal CSS framework.
 
 [![Build Status](https://travis-ci.org/KingPixil/wing.svg?branch=master)](https://travis-ci.org/KingPixil/wing)
+[![CDNJS](https://img.shields.io/cdnjs/v/wingcss.svg)](https://cdnjs.com/libraries/wingcss)
 [![Join the chat at https://gitter.im/KingPixil/wing](https://badges.gitter.im/KingPixil/wing.svg)](https://gitter.im/KingPixil/wing?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg?maxAge=2592000)]()
 [![Code Triagers Badge](https://www.codetriage.com/kingpixil/wing/badges/users.svg)](https://www.codetriage.com/kingpixil/wing)
 
