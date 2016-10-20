@@ -24,6 +24,18 @@ Wing provides a base of styles, and you don't even need to learn a gazillion cla
 $ npm install --save wingcss
 ```
 
+**Install with bower**
+
+```sh
+$ bower install wingcss
+```
+
+**Install with yarn**
+
+```sh
+$ yarn install wingcss
+```
+
 **Link to It**
 
 ```html
