@@ -51,7 +51,7 @@
 /* Button Outline */
 
 .btn-outline {
-  box-shadow: inset 0 0 0 3px #000;
+  box-shadow: inset 0 0 0 3px #fff;
   color: #fff;
   background: transparent;
   transition: all 0.5s ease;
