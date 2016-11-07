@@ -3,7 +3,7 @@
 
 
 
-A minimal CSS framework.
+A minimal, responsive CSS framework.
 
 [![Build Status](https://travis-ci.org/KingPixil/wing.svg?branch=master)](https://travis-ci.org/KingPixil/wing)
 [![CDNJS](https://img.shields.io/cdnjs/v/wingcss.svg)](https://cdnjs.com/libraries/wingcss)
