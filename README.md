@@ -33,7 +33,7 @@ $ bower install wingcss
 **Install with yarn**
 
 ```sh
-$ yarn install wingcss
+$ yarn add wingcss
 ```
 
 **Link to It**
