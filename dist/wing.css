@@ -461,3 +461,20 @@ pre > code {
         padding: 0 10px;
     }
 }
+
+/*------------------------------------------------------------
+  Images
+  ------------------------------------------------------------*/
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.img-rounded {
+    border-radius: 3px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
