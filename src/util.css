@@ -34,3 +34,11 @@
   align-items: center;
   justify-content: center;
 }
+
+@media screen and (max-width: 400px) {
+  .hide-phone { display: none; }
+}
+
+@media screen and (max-width: 768px) {
+  .hide-tablet { display: none; }
+}
