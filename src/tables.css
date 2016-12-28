@@ -1,0 +1,77 @@
+/*------------------------------------------------------------
+  Tables
+  ------------------------------------------------------------*/
+
+  .table {
+    width: 100%;
+    border: none;
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-align: left;
+}
+
+.table th, .table td {
+    vertical-align: middle;
+    padding: 12px 4px;
+}
+
+.table thead {
+    border-bottom: 2px solid #333030;
+}
+
+/* striped tables */
+
+.table.striped tbody tr:nth-child(even) {
+    background-color: #f1f1f1;
+}
+
+/* hover tables */
+
+.table.hover tbody tr {
+    transition: background 80ms ease;
+}
+
+.table.hover tbody tr:hover {
+    background-color: #e2e2e2;
+}
+
+/* responsive tables */
+@media (max-width: 768px) {
+    .table.responsive {
+        position: relative;
+        display: block;
+    }
+    .table.responsive th, .table.responsive td {
+        margin: 0;
+    }
+    .table.responsive thead {
+        display: block;
+        float: left;
+        border: 0;
+    }
+    .table.responsive thead tr {
+        display: block;
+        padding: 0 10px 0 0;
+        border-right: 2px solid #333030;
+    }
+    .table.responsive th {
+        display: block;
+        text-align: right;
+    }
+    .table.responsive tbody {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+    .table.responsive tbody tr {
+        display: inline-block;
+    }
+    .table.responsive td {
+        display: block;
+        min-height: 16px;
+        text-align: left;
+    }
+    .table.responsive tr {
+        padding: 0 10px;
+    }
+}
