@@ -376,6 +376,13 @@ ol {
   justify-content: center;
 }
 
+@media screen and (max-width: 400px) {
+  .hide-phone { display: none; }
+}
+
+@media screen and (max-width: 768px) {
+  .hide-tablet { display: none; }
+}
 /*------------------------------------------------------------
   Misc
 ------------------------------------------------------------*/
@@ -422,7 +429,7 @@ pre > code {
 }
 
 /* responsive tables */
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .table.responsive {
         position: relative;
         display: block;
