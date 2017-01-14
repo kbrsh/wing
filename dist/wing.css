@@ -277,11 +277,15 @@ h6 {
 
 /* Button Outline */
 
+.btn-outline, .btn-outline-inverted {
+  padding: 9px 9px;
+  background: transparent;
+  transition: all 0.5s ease;
+}
+
 .btn-outline {
   border: 3px solid #fff;
   color: #fff;
-  background: transparent;
-  transition: all 0.5s ease;
 }
 
 .btn-outline:hover,
@@ -293,8 +297,6 @@ h6 {
 .btn-outline-inverted {
   border: 3px solid #000;
   color: #000;
-  background: transparent;
-  transition: all 0.5s ease;
 }
 
 .btn-outline-inverted:hover,
