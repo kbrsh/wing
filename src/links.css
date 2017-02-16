@@ -2,5 +2,18 @@
   Links
 ------------------------------------------------------------*/
 a {
-    color: #2a92ea;
+    color: #2A92EA;
 }
+a:link {
+    color: #2A92EA;
+}
+a:visited {
+    color: #9CADCE;
+}
+a:hover {
+  color: #FDCA40;
+}
+a:active {
+  color: #2A92EA;
+}
+  
