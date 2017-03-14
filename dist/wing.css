@@ -485,3 +485,46 @@ pre > code {
   max-width: 100%;
   height: auto;
 }
+
+.nav {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 1rem;
+  background: #dadada;
+  color: black;
+}
+
+.nav-fixed {
+  position: fixed;
+  width: 100%;
+}
+
+.nav-list,
+.nav-brand {
+  display: flex;
+}
+
+.nav-list {
+  flex-flow: row;
+  flex: 1 0 auto;
+}
+
+.nav-right {
+  justify-content: flex-end;
+}
+
+.nav-center {
+  justify-content: center;
+}
+
+.nav-item {
+  padding: 1rem 2rem;
+}
+
+.nav-logo {
+  font-weight: bolder;
+  font-size: 2rem;
+  line-height: 0;
+}
