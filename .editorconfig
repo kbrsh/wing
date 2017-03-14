@@ -1,0 +1,30 @@
+# http://editorconfig.org
+#
+# An .editorconfig file describes minor formatting tweaks
+#   to apply to text files to ensure consistent formatting
+#   in a project with multiple developers.
+#
+# Plugins exist to allow editors / IDEs to automatically apply
+#   these tweaks to a project when an .editorconfig file is
+#   found in the project's root directory.
+#
+# Plugins
+#   Sublime - https://packagecontrol.io/packages/EditorConfig
+#   IntelliJ - https://plugins.jetbrains.com/plugin/7294
+#   (most other IDEs/Editors - Google it)
+root = true
+
+[*]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[*.md]
+trim_trailing_whitespace = false
+
+# tools for these files normalize their JSON output with 2 spaces per level (package.json, config.json, .babelrc, npm-shrinkwrap.json)
+[*.json]
+indent_size = 2
