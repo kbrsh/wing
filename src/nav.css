@@ -1,0 +1,42 @@
+.nav {
+  position: relative;
+  display: flex;
+  flex: 1 0 auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.nav-right {
+  justify-content: flex-end;
+}
+
+.nav-left {
+  justify-content: flex-start;
+}
+
+.nav-center {
+  justify-content: flex-center;
+}
+
+.nav-fixed {
+  position: fixed;
+  width: 100%;
+}
+
+.nav-list,
+.nav-brand {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
+  align-self: center;
+  padding: 1rem 2rem;
+}
+
+.nav-logo {
+  font-weight: 900;
+  font-size: 2rem;
+  line-height: 0;
+}
