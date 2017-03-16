@@ -170,7 +170,7 @@ input[type=text]:hover, input[type=password]:hover, input[type=email]:hover, inp
   border: 1px solid #111111;
 }
 
-input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, input[type=search]:focus, textarea:focus, textarea[type=text]:focus {
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, input[type=search]:focus, select:focus textarea:focus, textarea[type=text]:focus {
   outline: none;
   border: 1px solid #104cfb;
 }
