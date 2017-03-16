@@ -8,9 +8,8 @@ h3,
 h4,
 h5,
 h6 {
-  margin-bottom: 2rem;
   font-weight: 400;
-  font-family: "Open Sans";
+  font-family: font-family: -apple-system, BlinkMacSystemFont, Avenir, "Avenir Next", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
 
 h1, h2, h3 {
@@ -49,9 +48,6 @@ h6 {
   line-height: 1.6;
   letter-spacing: 0;
 }
-
-
-/* Larger than phablet */
 
 @media (min-width: 550px) {
   h1 {

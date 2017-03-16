@@ -2,16 +2,17 @@
   Misc
 ------------------------------------------------------------*/
 
-
 code {
-  padding: .2rem .5rem;
-  margin: 0 .2rem;
+  padding: 0.2rem 0.5rem;
+  margin: 0 0.2rem;
   font-size: 90%;
   white-space: nowrap;
   background: #F1F1F1;
   border: 1px solid #E1E1E1;
   border-radius: 4px;
+  font-family: "Consolas", "Monaco", "Menlo", monospace;
 }
+
 pre > code {
   display: block;
   padding: 1rem 1.5rem;

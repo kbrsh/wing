@@ -2,5 +2,13 @@
   Links
 ------------------------------------------------------------*/
 a {
-    color: #2a92ea;
+  text-decoration: none;
+  border-bottom: 1px solid #104cfb;
+  color: #104cfb;
+  transition: all .1s ease;
+}
+
+a:hover {
+  border-bottom: 1px solid #222222;
+  color: #222222;
 }
