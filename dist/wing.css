@@ -6,26 +6,10 @@
 * https://kingpixil.github.io/license
 */
 
-/* Table of contents
-––––––––––––––––––––––––––––––––––––––––––––––––––
-- Base
-- Typography
-- Grid
-- Links
-- Buttons
-- Forms
-- Lists
-- Animations
-- Utilities
-- Misc
-- Clear
-*/
-
 /*------------------------------------------------------------
   Base Style
 ------------------------------------------------------------*/
 
-/*making font-sizes base 10*/
 html {
   box-sizing: border-box;
   font-size: 62.5%;
@@ -33,13 +17,12 @@ html {
   padding: 0;
 }
 
-/*setting up font sizes and base font family*/
 body {
   letter-spacing: 0.01em;
   line-height: 1.6;
   font-size: 1.5em;
   font-weight: 400;
-  font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Avenir, "Avenir Next", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
 
 /*------------------------------------------------------------
@@ -52,9 +35,8 @@ h3,
 h4,
 h5,
 h6 {
-  margin-bottom: 2rem;
   font-weight: 400;
-  font-family: "Open Sans";
+  font-family: font-family: -apple-system, BlinkMacSystemFont, Avenir, "Avenir Next", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
 
 h1, h2, h3 {
@@ -94,9 +76,6 @@ h6 {
   letter-spacing: 0;
 }
 
-
-/* Larger than phablet */
-
 @media (min-width: 550px) {
   h1 {
     font-size: 5.0rem;
@@ -118,6 +97,93 @@ h6 {
   }
 }
 
+/*------------------------------------------------------------
+  Links
+------------------------------------------------------------*/
+a {
+  text-decoration: none;
+  border-bottom: 1px solid #104cfb;
+  color: #104cfb;
+  transition: all .1s ease;
+}
+
+a:hover {
+  border-bottom: 1px solid #222222;
+  color: #222222;
+}
+
+/*------------------------------------------------------------
+  Buttons
+------------------------------------------------------------*/
+
+button, [type=submit] {
+  padding: 1.1rem 3.5rem;
+  margin: 1rem 0;
+  background: #111111;
+  color: #f5f5f5;
+  border-radius: 2px;
+  border: none;
+  font-size: 1.3rem;
+  transition: all .2s ease;
+}
+
+button.outline, [type=submit].outline {
+  padding: 1.1rem 3.5rem;
+  background: none;
+  color: #111111;
+  border: 1.5px solid #111111;
+}
+
+button:hover, [type=submit]:hover {
+  background: #222222;
+}
+
+button.outline:hover, [type=submit].outline:hover {
+  background: none;
+  border: 1.5px solid #444444;
+  color: #444444;
+}
+
+button:focus, [type=submit]:focus {
+  outline: none;
+}
+
+button:active, [type=submit]:active {
+  transform: scale(.99);
+}
+
+/*------------------------------------------------------------
+  Forms
+------------------------------------------------------------*/
+
+input[type=text], input[type=password], input[type=email], input[type=search], input[type=number], select, textarea, textarea[type=text] {
+  margin: 1rem 0;
+  width: 100%;
+  max-width: 100%;
+  border-radius: 2px;
+  border: 1px solid #a4a4a4;
+  font-size: 1.3rem;
+  transition: all .2s ease;
+}
+
+input[type=text]:hover, input[type=password]:hover, input[type=email]:hover, input[type=search]:hover, input[type=number]:hover, select:hover, textarea:hover, textarea[type=text]:hover {
+  border: 1px solid #111111;
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, input[type=search]:focus, textarea:focus, textarea[type=text]:focus {
+  outline: none;
+  border: 1px solid #104cfb;
+}
+
+input[type=text], input[type=password], input[type=email], input[type=search], input[type=number], select {
+  padding: 1.1rem;
+}
+
+textarea, textarea[type=text] {
+  height: 10rem;
+  padding: 14px 20px;
+}
+
 .container {
   max-width: 960px;
   margin: 0 auto;
@@ -130,7 +196,15 @@ h6 {
   justify-content: space-between;
 }
 
-.col{
+.row > :first-child {
+  margin-left: 0;
+}
+
+.row > :last-child {
+  margin-right: 0;
+}
+
+.col {
   -webkit-box-flex: 1;
   -moz-box-flex: 1;
   -webkit-flex: 1;
@@ -139,7 +213,7 @@ h6 {
 }
 
 .col, [class^='col-'], [class*=" col-"] {
- margin: 1rem;
+  margin: 1rem;
 }
 
 .col-1 {
@@ -190,143 +264,13 @@ h6 {
   flex: 12;
 }
 
-
 @media screen and (max-width: 768px) {
   .col, [class^='col-'], [class*=" col-"] {
+    margin: 0;
     flex: 0 0 100%;
   }
 }
 
-/*------------------------------------------------------------
-  Buttons/Components
-------------------------------------------------------------*/
-
-.btn, button, [type=submit] {
-  margin: 1rem;
-  padding: 1.3rem 3.5rem;
-  cursor: pointer;
-  -webkit-user-select: none;
-          user-select: none;
-  text-align: center;
-  white-space: nowrap;
-  text-decoration: none;
-  text-transform: uppercase;
-  border: none;
-  border-radius: 3px;
-  color: #f5f5f5;
-  background: #131313;
-  font-family: "Open Sans";
-  font-weight: 700;
-  line-height: 1.3;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  -webkit-transition: all 60ms ease-in-out;
-  transition: all 60ms ease-in-out;
-}
-.btn:hover, button:hover, [type=submit]:hover {
-  opacity: .85;
-}
-.btn:active, button:active, [type=submit]:active {
-  -webkit-transition: all 60ms ease;
-  transition: all 60ms ease;
-  -webkit-transform: scale(0.98);
-          transform: scale(0.98);
-  opacity: .75;
-}
-.btn:focus, button:focus, [type=submit]:focus {
-  outline: none;
-}
-
-.btn:disabled, button:disabled, [type=submit]:disabled {
-  opacity: 0.8;
-  cursor: not-allowed;
-}
-
-
-/* Button Outline */
-
-.btn-outline {
-  border: 3px solid #f5f5f5;
-  color: #f5f5f5;
-  background: transparent;
-  transition: all 0.5s ease;
-}
-
-.btn-outline:hover,
-.btn-outline:active {
-  color: #131313;
-  background: #f5f5f5;
-}
-
-.btn-outline-inverted {
-  border: 3px solid #131313;
-  color: #131313;
-  background: transparent;
-  transition: all 0.5s ease;
-}
-
-.btn-outline-inverted:hover,
-.btn-outline-inverted:active {
-  color: #f5f5f5;
-  background: #131313;
-}
-
-
-/* Button Clear */
-
-.btn-clear {
-    background: transparent;
-    color: #aaa;
-}
-
-/*------------------------------------------------------------
-  Forms
-------------------------------------------------------------*/
-
-/*base form styles*/
-input[type=text], input[type=password], input[type=email], input[type=search], select {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
-    outline: none;
-    font-family: 'Open Sans';
-}
-
-/*styling textarea*/
-textarea, textarea[type=text] {
-    font-family: 'Open Sans';
-    width: 100%;
-    height: 10rem;
-    margin: 8px 0;
-    padding: 14px 20px;
-    box-sizing: border-box;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    resize: none;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
-    outline: none;
-}
-
-/*set border on focus*/
-input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, input[type=search]:focus, textarea:focus, textarea[type=text]:focus {
-    border: 1px solid #99b3ff;
-    border-radius: 4px;
-}
-
-/*------------------------------------------------------------
-  Links
-------------------------------------------------------------*/
-a {
-    color: #2a92ea;
-}
 /*------------------------------------------------------------
   Lists
 ------------------------------------------------------------*/
@@ -337,74 +281,6 @@ ul {
 
 ol {
   list-style: decimal inside;
-}
-
-/*------------------------------------------------------------
-  Utilities
-------------------------------------------------------------*/
-
-.pull-right {
-  float: right;
-}
-
-.pull-left {
-  float: left;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.full-screen {
-  width: 100%;
-  min-height: 100vh;
-}
-
-.vertical-align {
-  display: flex;
-  align-items: center;
-}
-
-.horizontal-align {
-  display: flex;
-  justify-content: center;
-}
-
-.center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-@media screen and (max-width: 400px) {
-  .hide-phone { display: none; }
-}
-
-@media screen and (max-width: 768px) {
-  .hide-tablet { display: none; }
-}
-/*------------------------------------------------------------
-  Misc
-------------------------------------------------------------*/
-
-
-code {
-  padding: .2rem .5rem;
-  margin: 0 .2rem;
-  font-size: 90%;
-  white-space: nowrap;
-  background: #F1F1F1;
-  border: 1px solid #E1E1E1;
-  border-radius: 4px;
-}
-pre > code {
-  display: block;
-  padding: 1rem 1.5rem;
-  white-space: pre-wrap;
-  white-space: -moz-pre-wrap;
-  white-space: -pre-wrap;
-  white-space: -o-pre-wrap;
-  word-wrap: break-word;
 }
 
 /*------------------------------------------------------------
@@ -470,18 +346,70 @@ pre > code {
 }
 
 /*------------------------------------------------------------
-  Images
-  ------------------------------------------------------------*/
+  Utilities
+------------------------------------------------------------*/
 
-.img-circle {
-  border-radius: 50%;
+.pull-right {
+  float: right;
 }
 
-.img-rounded {
-  border-radius: 3px;
+.pull-left {
+  float: left;
 }
 
-.img-fluid {
-  max-width: 100%;
-  height: auto;
+.text-center {
+  text-align: center;
+}
+
+.full-screen {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.vertical-align {
+  display: flex;
+  align-items: center;
+}
+
+.horizontal-align {
+  display: flex;
+  justify-content: center;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 400px) {
+  .hide-phone { display: none; }
+}
+
+@media screen and (max-width: 768px) {
+  .hide-tablet { display: none; }
+}
+/*------------------------------------------------------------
+  Misc
+------------------------------------------------------------*/
+
+code {
+  padding: 0.2rem 0.5rem;
+  margin: 0 0.2rem;
+  font-size: 90%;
+  white-space: nowrap;
+  background: #F1F1F1;
+  border: 1px solid #E1E1E1;
+  border-radius: 4px;
+  font-family: "Consolas", "Monaco", "Menlo", monospace;
+}
+
+pre > code {
+  display: block;
+  padding: 1rem 1.5rem;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
 }
