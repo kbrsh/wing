@@ -2,7 +2,7 @@
   Forms
 ------------------------------------------------------------*/
 
-input[type=text], input[type=password], input[type=email], input[type=search], input[type=number], select, textarea, textarea[type=text] {
+input[type=text], input[type=password], input[type=email], input[type=search], input[type=number], input[type=file], input[type=tel], select, textarea, textarea[type=text] {
   margin: 1rem 0;
   width: 100%;
   max-width: 100%;
@@ -12,16 +12,16 @@ input[type=text], input[type=password], input[type=email], input[type=search], i
   transition: all .2s ease;
 }
 
-input[type=text]:hover, input[type=password]:hover, input[type=email]:hover, input[type=search]:hover, input[type=number]:hover, select:hover, textarea:hover, textarea[type=text]:hover {
+input[type=text]:hover, input[type=password]:hover, input[type=email]:hover, input[type=search]:hover, input[type=number]:hover, input[type=file], input[type=tel], select:hover, textarea:hover, textarea[type=text]:hover {
   border: 1px solid #111111;
 }
 
-input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, input[type=search]:focus, select:focus textarea:focus, textarea[type=text]:focus {
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, input[type=search]:focus, input[type=number], input[type=file], input[type=tel], select:focus textarea:focus, textarea[type=text]:focus {
   outline: none;
   border: 1px solid #104cfb;
 }
 
-input[type=text], input[type=password], input[type=email], input[type=search], input[type=number], select {
+input[type=text], input[type=password], input[type=email], input[type=search], input[type=number], input[type=file], input[type=tel], select {
   padding: 1.1rem;
 }
 
