@@ -1,32 +1,15 @@
 /*
-* Wing 0.1.9
+* Wing 1.0.0-beta
 * Copyright 2016, Kabir Shah
 * http://usewing.ml/
 * Free to use under the MIT license.
 * https://kingpixil.github.io/license
 */
 
-/* Table of contents
-––––––––––––––––––––––––––––––––––––––––––––––––––
-- Base
-- Typography
-- Grid
-- Links
-- Buttons
-- Forms
-- Lists
-- Animations
-- Utilities
-- Misc
-- Clear
-*/
-@import url(https://fonts.googleapis.com/css?family=Quicksand);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 /*------------------------------------------------------------
   Base Style
 ------------------------------------------------------------*/
 
-/*making font-sizes base 10*/
 html {
   box-sizing: border-box;
   font-size: 62.5%;
@@ -34,13 +17,12 @@ html {
   padding: 0;
 }
 
-/*setting up font sizes and base font family*/
 body {
   letter-spacing: 0.01em;
   line-height: 1.6;
   font-size: 1.5em;
   font-weight: 400;
-  font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Avenir, "Avenir Next", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
 
 /*------------------------------------------------------------
@@ -53,9 +35,8 @@ h3,
 h4,
 h5,
 h6 {
-  margin-bottom: 2rem;
-  font-weight: 300;
-  font-family: "Quicksand";
+  font-weight: 400;
+  font-family: font-family: -apple-system, BlinkMacSystemFont, Avenir, "Avenir Next", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
 
 h1, h2, h3 {
@@ -95,9 +76,6 @@ h6 {
   letter-spacing: 0;
 }
 
-
-/* Larger than phablet */
-
 @media (min-width: 550px) {
   h1 {
     font-size: 5.0rem;
@@ -119,245 +97,180 @@ h6 {
   }
 }
 
-.container {
-  max-width: 960px;
-  margin: 0 auto 1.5em;
-  width: 80%;
+/*------------------------------------------------------------
+  Links
+------------------------------------------------------------*/
+a {
+  text-decoration: none;
+  border-bottom: 1px solid #104cfb;
+  color: #104cfb;
+  transition: all .1s ease;
 }
 
-/* .row */
-.row {
-  margin-top: 2.0833%;
-  padding: 0 1.04165%;
-}
-
-.row:after {
-  display: table;
-  clear: both;
-  content: '';
-}
-
-/* col */
-.row [class^='col-'], .row [class*=" col-"] {
-  float: left;
-  min-height: 50px;
-  margin-left: 2.083333%;
-}
-
-.row [class^='col-']:first-child, .row [class*=" col-"]:first-child{
-  margin-left: 0;
-}
-
-/* .col-1 */
-.row .col-1 {
-  width: 6.42291%;
-}
-
-/* .col-2 */
-.row .col-2 {
-  width: 14.930208%;
-}
-
-/* .col-3 */
-.row .col-3 {
-  width: 23.4375%;
-}
-
-/* .col-4 */
-.row .col-4 {
-  width: 31.94375%;
-}
-
-/* .col-5 */
-.row .col-5 {
-  width: 40.25%;
-}
-
-/* .col-6 */
-.row .col-6 {
-  width: 48.958333%;
-}
-
-/* .col-7 */
-.row .col-7 {
-  width: 57.464583%;
-}
-
-/* .col-8 */
-.row .col-8 {
-  width: 65.970833%;
-}
-
-/* .col-9 */
-.row .col-9 {
-  width: 74.404166%;
-}
-
-/* .col-10 */
-.row .col-10 {
-  width: 82.9833%;
-}
-
-/* .col-11 */
-.row .col-11 {
-  width: 91.489583%;
-}
-
-/* .col-12 */
-.row .col-12 {
-  width: 100%;
-}
-
-/*
-
-    Mediaqueries
-
-*/
-@media screen and (max-width: 768px) {
-  .row {
-    margin-top: 0;
-  }
-
-  .row [class^='col-'], .row [class*=" col-"] {
-    width: 100%;
-    margin-top: 2.0833%;
-    margin-left: 0;
-  }
+a:hover {
+  border-bottom: 1px solid #222222;
+  color: #222222;
 }
 
 /*------------------------------------------------------------
-  Buttons/Components
+  Buttons
 ------------------------------------------------------------*/
 
-.btn, button, [type=submit] {
-  overflow: hidden;
-  margin: 10px;
-  padding: 12px 12px;
-  cursor: pointer;
-  -webkit-user-select: none;
-          user-select: none;
-  -webkit-transition: all 60ms ease-in-out;
-  transition: all 60ms ease-in-out;
-  text-align: center;
-  white-space: nowrap;
-  text-decoration: none !important;
-  text-transform: uppercase;
-  border: 0 none;
-  border-radius: 4px;
-  color: #FFFFFF;
-  background: #333030;
-  font-family: inherit;
-  font-weight: 500;
-  line-height: 1.3;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
+button, [type=submit] {
+  padding: 1.1rem 3.5rem;
+  margin: 1rem 0;
+  background: #111111;
+  color: #f5f5f5;
+  border-radius: 2px;
+  border: none;
+  font-size: 1.3rem;
+  transition: all .2s ease;
 }
-.btn:hover, button:hover, [type=submit]:hover {
-  -webkit-transition: all 60ms ease;
-  transition: all 60ms ease;
-  opacity: .85;
+
+button.outline, [type=submit].outline {
+  padding: 1.1rem 3.5rem;
+  background: none;
+  color: #111111;
+  border: 1.5px solid #111111;
 }
-.btn:active, button:active, [type=submit]:active {
-  -webkit-transition: all 60ms ease;
-  transition: all 60ms ease;
-  -webkit-transform: scale(0.97);
-          transform: scale(0.97);
-  opacity: .75;
+
+button:hover, [type=submit]:hover {
+  background: #222222;
 }
-.btn:focus, button:focus, [type=submit]:focus {
+
+button.outline:hover, [type=submit].outline:hover {
+  background: none;
+  border: 1.5px solid #444444;
+  color: #444444;
+}
+
+button:focus, [type=submit]:focus {
   outline: none;
 }
 
-.btn:disabled, button:disabled, [type=submit]:disabled {
-  opacity: 0.8;
-  cursor: not-allowed;
-}
-
-
-/* Button Outline */
-
-.btn-outline {
-  border: 3px solid #fff;
-  color: #fff;
-  background: transparent;
-  transition: all 0.5s ease;
-}
-
-.btn-outline:hover,
-.btn-outline:active {
-  color: #000;
-  background: #fff;
-}
-
-.btn-outline-inverted {
-  border: 3px solid #000;
-  color: #000;
-  background: transparent;
-  transition: all 0.5s ease;
-}
-
-.btn-outline-inverted:hover,
-.btn-outline-inverted:active {
-  color: #fff;
-  background: #000;
-}
-
-
-/* Button Clear */
-
-.btn-clear {
-    background: transparent;
-    color: gray;
+button:active, [type=submit]:active {
+  transform: scale(.99);
 }
 
 /*------------------------------------------------------------
   Forms
 ------------------------------------------------------------*/
 
-/*base form styles*/
-input[type=text], input[type=password], input[type=email], input[type=search], select {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
-    outline: none;
-    font-family: 'Open Sans';
+input[type=text], input[type=password], input[type=email], input[type=search], input[type=number], input[type=file], input[type=tel], select, textarea, textarea[type=text] {
+  margin: 1rem 0;
+  width: 100%;
+  max-width: 100%;
+  border-radius: 2px;
+  border: 1px solid #a4a4a4;
+  font-size: 1.3rem;
+  transition: all .2s ease;
 }
 
-/*styling textarea*/
+input[type=text]:hover, input[type=password]:hover, input[type=email]:hover, input[type=search]:hover, input[type=number]:hover, input[type=file], input[type=tel], select:hover, textarea:hover, textarea[type=text]:hover {
+  border: 1px solid #111111;
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, input[type=search]:focus, input[type=number], input[type=file], input[type=tel], select:focus textarea:focus, textarea[type=text]:focus {
+  outline: none;
+  border: 1px solid #104cfb;
+}
+
+input[type=text], input[type=password], input[type=email], input[type=search], input[type=number], input[type=file], input[type=tel], select {
+  padding: 1.1rem;
+}
+
 textarea, textarea[type=text] {
-    font-family: 'Open Sans';
-    width: 100%;
-    height: 100px;
-    margin: 8px 0;
-    padding: 14px 20px;
-    box-sizing: border-box;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    resize: none;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
-    outline: none;
+  height: 10rem;
+  padding: 14px 20px;
 }
 
-/*set border on focus*/
-input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, input[type=search]:focus, textarea:focus, textarea[type=text]:focus {
-    border: 1px solid #99b3ff;
-    border-radius: 4px;
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  width: 80%;
 }
 
-/*------------------------------------------------------------
-  Links
-------------------------------------------------------------*/
-a {
-    color: #2a92ea;
+.row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
 }
+
+.row > :first-child {
+  margin-left: 0;
+}
+
+.row > :last-child {
+  margin-right: 0;
+}
+
+.col {
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.col, [class^='col-'], [class*=" col-"] {
+  margin: 1rem;
+}
+
+.col-1 {
+  flex: 1;
+}
+
+.col-2 {
+  flex: 2;
+}
+
+.col-3 {
+  flex: 3;
+}
+
+.col-4 {
+  flex: 4;
+}
+
+.col-5 {
+  flex: 5;
+}
+
+.col-6 {
+  flex: 6;
+}
+
+.col-7 {
+  flex: 7;
+}
+
+.col-8 {
+  flex: 8;
+}
+
+.col-9 {
+  flex: 9;
+}
+
+.col-10 {
+  flex: 10;
+}
+
+.col-11 {
+  flex: 11;
+}
+
+.col-12 {
+  flex: 12;
+}
+
+@media screen and (max-width: 768px) {
+  .col, [class^='col-'], [class*=" col-"] {
+    margin: 0;
+    flex: 0 0 100%;
+  }
+}
+
 /*------------------------------------------------------------
   Lists
 ------------------------------------------------------------*/
@@ -368,6 +281,68 @@ ul {
 
 ol {
   list-style: decimal inside;
+}
+
+/*------------------------------------------------------------
+  Tables
+  ------------------------------------------------------------*/
+
+.table {
+  width: 100%;
+  border: none;
+  border-collapse: collapse;
+  border-spacing: 0;
+  text-align: left;
+}
+
+.table th, .table td {
+  vertical-align: middle;
+  padding: 12px 4px;
+}
+
+.table thead {
+  border-bottom: 2px solid #333030;
+}
+
+/* responsive tables */
+@media screen and (max-width: 768px) {
+  .table.responsive {
+    position: relative;
+    display: block;
+  }
+  .table.responsive th, .table.responsive td {
+    margin: 0;
+  }
+  .table.responsive thead {
+    display: block;
+    float: left;
+    border: 0;
+  }
+  .table.responsive thead tr {
+    display: block;
+    padding: 0 10px 0 0;
+    border-right: 2px solid #333030;
+  }
+  .table.responsive th {
+    display: block;
+    text-align: right;
+  }
+  .table.responsive tbody {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  .table.responsive tbody tr {
+    display: inline-block;
+  }
+  .table.responsive td {
+    display: block;
+    min-height: 16px;
+    text-align: left;
+  }
+  .table.responsive tr {
+    padding: 0 10px;
+  }
 }
 
 /*------------------------------------------------------------
@@ -407,26 +382,34 @@ ol {
   justify-content: center;
 }
 
+@media screen and (max-width: 400px) {
+  .hide-phone { display: none; }
+}
+
+@media screen and (max-width: 768px) {
+  .hide-tablet { display: none; }
+}
 /*------------------------------------------------------------
   Misc
 ------------------------------------------------------------*/
 
-
 code {
-  padding: .2rem .5rem;
-  margin: 0 .2rem;
+  padding: 0.2rem 0.5rem;
+  margin: 0 0.2rem;
   font-size: 90%;
   white-space: nowrap;
   background: #F1F1F1;
   border: 1px solid #E1E1E1;
   border-radius: 4px;
+  font-family: "Consolas", "Monaco", "Menlo", monospace;
 }
+
 pre > code {
   display: block;
   padding: 1rem 1.5rem;
-  white-space: pre-wrap;       /* css-3 */
-  white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
-  white-space: -pre-wrap;      /* Opera 4-6 */
-  white-space: -o-pre-wrap;    /* Opera 7 */
-  word-wrap: break-word;       /* Internet Explorer 5.5+ */
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
 }

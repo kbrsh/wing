@@ -1,23 +1,3 @@
-// window.onunload = changeTitle
-// window.onblur = changeTitle
-// window.onfocus = function() {
-//   document.title = "Wing"
-// }
-
-$('.button_container').click(function() {
-   $('.button_container').toggleClass('active');
-   $('.overlay').toggleClass('open');
- });
-
- $(".menuLink").click(function() {
-   $('.button_container').toggleClass('active');
-   $('.overlay').toggleClass('open');
- });
-
-/*function changeTitle() {
-  document.title = "We Miss You - Wing"
-}*/
-
 (function() {
 
      'use strict';
@@ -64,7 +44,7 @@ $('.button_container').click(function() {
 
             // Loop the animation function
             var runAnimation = setInterval(animateScroll, 16);
-       
+
         };
 
         // Define smooth scroll links
