@@ -376,6 +376,22 @@ ol {
   justify-content: center;
 }
 
+.fixed {
+  position: fixed;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}  
+
 @media screen and (max-width: 400px) {
   .hide-phone { display: none; }
 }
@@ -383,6 +399,7 @@ ol {
 @media screen and (max-width: 768px) {
   .hide-tablet { display: none; }
 }
+
 /*------------------------------------------------------------
   Misc
 ------------------------------------------------------------*/
@@ -492,13 +509,6 @@ pre > code {
   flex-wrap: wrap;
   align-items: center;
   padding: 1rem;
-  background: #dadada;
-  color: black;
-}
-
-.nav-fixed {
-  position: fixed;
-  width: 100%;
 }
 
 .nav-list,
@@ -509,14 +519,6 @@ pre > code {
 .nav-list {
   flex-flow: row;
   flex: 1 0 auto;
-}
-
-.nav-right {
-  justify-content: flex-end;
-}
-
-.nav-center {
-  justify-content: center;
 }
 
 .nav-item {
