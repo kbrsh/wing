@@ -6,12 +6,12 @@
   padding: 1rem;
 }
 
-.nav-list,
+.nav-menu,
 .nav-brand {
   display: flex;
 }
 
-.nav-list {
+.nav-menu {
   flex-flow: row;
   flex: 1 0 auto;
 }
