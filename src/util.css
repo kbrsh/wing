@@ -35,20 +35,21 @@
   justify-content: center;
 }
 
-.right {
+.nav.right {
   display: flex;
   align-items: center;
   justify-content: flex-end;
 }
 
-.left {
+.nav.left {
   display: flex;
   align-items: center;
   justify-content: flex-start;
 }
 
-.fixed {
+.nav.fixed {
   position: fixed;
+  width: 100%;
 }
 
 @media screen and (max-width: 400px) {
