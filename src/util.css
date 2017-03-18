@@ -35,19 +35,19 @@
   justify-content: center;
 }
 
-.nav.right {
+.right {
   display: flex;
   align-items: center;
   justify-content: flex-end;
 }
 
-.nav.left {
+.left {
   display: flex;
   align-items: center;
   justify-content: flex-start;
 }
 
-.nav.fixed {
+.fixed {
   position: fixed;
   width: 100%;
 }
