@@ -7,7 +7,7 @@ var comment = '\/*\r\n* Wing ' + pkg.version + '\r\n* Copyright 2016, Kabir Shah
 var $ = require('gulp-load-plugins')();
 
 gulp.task('build', function () {
-  return gulp.src(['./src/base.css', './src/typography.css', './src/links.css', './src/buttons.css', './src/forms.css', './src/grid.css', './src/lists.css', './src/tables.css', './src/util.css', './src/misc.css'])
+  return gulp.src(['./src/base.css', './src/typography.css', './src/links.css', './src/buttons.css', './src/forms.css', './src/grid.css', './src/lists.css', './src/tables.css', './src/util.css', './src/misc.css', './src/nav.css'])
     .pipe($.concat('wing.css'))
     .pipe($.header(comment + '\n'))
     .pipe($.size())

@@ -35,6 +35,23 @@
   justify-content: center;
 }
 
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.fixed {
+  position: fixed;
+  width: 100%;
+}
+
 @media screen and (max-width: 400px) {
   .hide-phone { display: none; }
 }
