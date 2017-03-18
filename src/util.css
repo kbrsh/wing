@@ -35,21 +35,21 @@
   justify-content: center;
 }
 
-.fixed {
-  position: fixed;
-}
-
 .right {
   display: flex;
   align-items: center;
   justify-content: flex-end;
 }
 
-.center {
+.left {
   display: flex;
   align-items: center;
-  justify-content: center;
-}  
+  justify-content: flex-start;
+}
+
+.fixed {
+  position: fixed;
+}
 
 @media screen and (max-width: 400px) {
   .hide-phone { display: none; }

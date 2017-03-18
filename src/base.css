@@ -2,7 +2,6 @@
   Base Style
 ------------------------------------------------------------*/
 
-/*making font-sizes base 10*/
 html {
   box-sizing: border-box;
   font-size: 62.5%;
@@ -10,11 +9,10 @@ html {
   padding: 0;
 }
 
-/*setting up font sizes and base font family*/
 body {
   letter-spacing: 0.01em;
   line-height: 1.6;
   font-size: 1.5em;
   font-weight: 400;
-  font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Avenir, "Avenir Next", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
