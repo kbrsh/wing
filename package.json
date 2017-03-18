@@ -3,7 +3,7 @@
   "filename": "wing.min.css",
   "version": "1.0.0-beta",
   "description": "A lightweight, responsive CSS Framework",
-  "main": "gulpfile.js",
+  "main": "./dist/wing.min.css",
   "scripts": {
     "test": "echo \"Testing\"",
     "build": "gulp"

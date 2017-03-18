@@ -2,39 +2,30 @@
   Forms
 ------------------------------------------------------------*/
 
-/*base form styles*/
-input[type=text], input[type=password], input[type=email], input[type=search], select {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
-    outline: none;
-    font-family: 'Open Sans';
+input[type=text], input[type=password], input[type=email], input[type=search], input[type=number], input[type=file], input[type=tel], select, textarea, textarea[type=text] {
+  margin: 1rem 0;
+  width: 100%;
+  max-width: 100%;
+  border-radius: 2px;
+  border: 1px solid #a4a4a4;
+  font-size: 1.3rem;
+  transition: all .2s ease;
 }
 
-/*styling textarea*/
+input[type=text]:hover, input[type=password]:hover, input[type=email]:hover, input[type=search]:hover, input[type=number]:hover, input[type=file], input[type=tel], select:hover, textarea:hover, textarea[type=text]:hover {
+  border: 1px solid #111111;
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, input[type=search]:focus, input[type=number], input[type=file], input[type=tel], select:focus textarea:focus, textarea[type=text]:focus {
+  outline: none;
+  border: 1px solid #104cfb;
+}
+
+input[type=text], input[type=password], input[type=email], input[type=search], input[type=number], input[type=file], input[type=tel], select {
+  padding: 1.1rem;
+}
+
 textarea, textarea[type=text] {
-    font-family: 'Open Sans';
-    width: 100%;
-    height: 10rem;
-    margin: 8px 0;
-    padding: 14px 20px;
-    box-sizing: border-box;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    resize: none;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
-    outline: none;
-}
-
-/*set border on focus*/
-input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, input[type=search]:focus, textarea:focus, textarea[type=text]:focus {
-    border: 1px solid #99b3ff;
-    border-radius: 4px;
+  height: 10rem;
+  padding: 14px 20px;
 }
