@@ -3,6 +3,10 @@ body {
   color: #202020;
 }
 
+.container {
+  max-width: 800px;
+}
+
 .nav {
   margin-top: 5rem;
 }
