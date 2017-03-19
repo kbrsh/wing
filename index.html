@@ -74,6 +74,79 @@
       <pre><code>$ npm install wingcss</code></pre>
     </div>
   </section>
+
+  <section id="guide" class="container center">
+    <div>
+      <h3 class="header">GUIDE</h3>
+      <p class="content">Here is a guide of all the things styled by Wing, how to use the grid, and how to use some components.</p>
+      <div class="guide-section">
+        <h3 class="header">TYPOGRAPHY</h3>
+        <p class="content">Wing styles based on <code>rem</code> units. All <code>rem</code> units are converted to base 10, so <code>1rem</code> is equal to <code>10px</code>. By default, all headings, paragraphs, and code use system fonts, using the most modern one available on a user's operating system.</p>
+        <div class="row">
+          <div class="col">
+            <h1>H1 Heading</h1>
+            <h2>H2 Heading</h2>
+            <h3>H3 Heading</h3>
+            <h4>H4 Heading</h4>
+            <h5>H5 Heading</h5>
+            <h6>H6 Heading</h6>
+          </div>
+          <div class="col">
+            <p>Paragraph</p>
+            <p><strong>Bold</strong></p>
+            <p><i>Italic</i></p>
+            <a href="#">Links</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="guide-section">
+        <h3 class="header">BUTTONS</h3>
+        <p class="content">Wing styles buttons with two main styles, filled and outlined. These styles can easily be overwritten, and are there to provide a base for buttons.</p>
+        <div class="row">
+          <div class="col">
+            <button>Default Button</button>
+          </div>
+          <div class="col">
+            <p>This button is available by default, available with:</p><code>&lt;button&gt;Content&lt;/button&gt;</code>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <button class="outline">Outlined Button</button>
+          </div>
+          <div class="col">
+            <p>This button is available with a single class, available with:</p><code>&lt;button class='outline'&gt;Content&lt;/button&gt;</code>
+          </div>
+        </div>
+      </div>
+
+      <div class="guide-section">
+        <h3 class="header">FORMS</h3>
+        <p class="content">Wing styles all common form elements with basic, clean styles.</p>
+        <div class="row">
+          <div class="col">
+            <input type="text" placeholder="What is your name?"/>
+          </div>
+          <div class="col margin-left-3">
+            <input type="email" placeholder="What is your email?"/>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <textarea placeholder="Additional details..."></textarea>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <pre><code>&lt;input type=&quot;text&quot; placeholder=&quot;What is your name?&quot;/&gt;
+&lt;input type=&quot;email&quot; placeholder=&quot;What is your email?&quot;/&gt;
+&lt;textarea placeholder=&quot;Additional details...&quot;&gt;&lt;/textarea&gt;</code></pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <script src="./js/scripts.js"></script>
 </body>
 
