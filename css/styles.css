@@ -40,8 +40,11 @@ body {
   font-weight: 200;
 }
 
-@media screen and (max-width: 768px) {
-  .hero h1 {
-    font-size: 4rem;
-  }
+
+.header {
+  font-weight: 200;
+}
+
+.content {
+  font-size: 1.8rem;
 }
