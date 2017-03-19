@@ -1,3 +1,32 @@
+// Grid Demo
+Moon.component("column", {
+  props: ['col'],
+  template: "<div>  <span m-html='&lt;div id=&quot;col&quot;&gt;{{col}}&lt;/div&gt;'></span></div>"
+});
+
+new Moon({
+  el: "#grid-demo",
+  data: {
+    startHTML: "&lt;div id=&quot;row&quot;&gt;",
+    codeHTML: `<span>&lt;div id=&quot;col&quot;&gt;{{col}}&lt;/div&gt;</span>`,
+    endHTML: "&lt;/div&gt;",
+    cols: [1, 2, 3, 4]
+  },
+  methods: {
+    add: function() {
+      var cols = this.get('cols');
+      cols.push(cols[cols.length - 1] + 1);
+      this.set('cols', cols);
+    },
+    remove: function() {
+      var cols = this.get('cols');
+      cols.pop();
+      this.set('cols', cols);
+    }
+  }
+});
+
+// Smooth Scrolling
 (function() {
 
      'use strict';

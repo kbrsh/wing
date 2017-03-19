@@ -40,6 +40,9 @@ body {
   font-weight: 200;
 }
 
+.grid-demo-col {
+  background: #e4e4e4;
+}
 
 .header {
   font-weight: 200;

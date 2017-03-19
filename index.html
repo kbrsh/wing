@@ -102,6 +102,27 @@
       </div>
 
       <div class="guide-section">
+        <h3 class="header">GRID</h3>
+        <p class="content">Wing comes with a minimal, 960px, 12 column grid, with intuitive class names.</p>
+        <div id="grid-demo">
+          <button m-on="click:add">Add Column</button>
+          <button m-on="click:remove">Remove Column</button>
+          <div class="row">
+            <div class="col grid-demo-col center" m-for="col in {{cols}}">
+              <p>{{col}}</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <pre><code><span m-html="{{startHTML}}"></span>
+  <column m-for="col in {{cols}}" col="{{col}}"></column>
+<span m-html="{{endHTML}}"></span></code></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="guide-section">
         <h3 class="header">BUTTONS</h3>
         <p class="content">Wing styles buttons with two main styles, filled and outlined. These styles can easily be overwritten, and are there to provide a base for buttons.</p>
         <div class="row">
@@ -148,6 +169,7 @@
       </div>
     </div>
   </section>
+  <script src="./js/lib/moon.min.js"></script>
   <script src="./js/scripts.js"></script>
 </body>
 
