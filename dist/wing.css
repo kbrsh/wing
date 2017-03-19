@@ -155,6 +155,7 @@ button:active, [type=submit]:active {
 
 input[type=text], input[type=password], input[type=email], input[type=search], input[type=number], input[type=file], input[type=tel], select, textarea, textarea[type=text] {
   margin: 1rem 0;
+  padding: 13px 11px;
   width: 100%;
   max-width: 100%;
   border-radius: 2px;
@@ -167,7 +168,7 @@ input[type=text]:hover, input[type=password]:hover, input[type=email]:hover, inp
   border: 1px solid #111111;
 }
 
-input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, input[type=search]:focus, input[type=number], input[type=file], input[type=tel], select:focus textarea:focus, textarea[type=text]:focus {
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, input[type=search]:focus, input[type=number], input[type=file], input[type=tel], select:focus, textarea:focus, textarea[type=text]:focus {
   outline: none;
   border: 1px solid #104cfb;
 }
@@ -177,8 +178,7 @@ input[type=text], input[type=password], input[type=email], input[type=search], i
 }
 
 textarea, textarea[type=text] {
-  height: 10rem;
-  padding: 14px 20px;
+  min-height: 7rem;
 }
 
 .container {
@@ -191,14 +191,12 @@ textarea, textarea[type=text] {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .row > :first-child {
   margin-left: 0;
-}
-
-.row > :last-child {
-  margin-right: 0;
 }
 
 .col {
@@ -210,7 +208,7 @@ textarea, textarea[type=text] {
 }
 
 .col, [class^='col-'], [class*=" col-"] {
-  margin: 1rem;
+  margin-left: 4%;
 }
 
 .col-1 {
@@ -263,7 +261,7 @@ textarea, textarea[type=text] {
 
 @media screen and (max-width: 768px) {
   .col, [class^='col-'], [class*=" col-"] {
-    margin: 0;
+    margin: 1rem 0;
     flex: 0 0 100%;
   }
 }
