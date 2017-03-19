@@ -1,4 +1,4 @@
-# [Wing](http://usewing.ml)
+# Wing
 
 A minimal CSS framework.
 
@@ -23,7 +23,7 @@ $ npm install --save wingcss
 <link rel="stylesheet" href="https://unpkg.com/wingcss"/>
 ```
 
-## [Documentation](http://usewing.ml/#docs)
+## [Documentation](http://usewing.ml/)
 
 ## Find a bug?
 
