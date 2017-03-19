@@ -19,6 +19,10 @@
   min-height: 100vh;
 }
 
+.full-width {
+  width: 100%;
+}
+
 .vertical-align {
   display: flex;
   align-items: center;

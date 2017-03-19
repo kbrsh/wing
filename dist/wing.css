@@ -101,11 +101,14 @@ h6 {
   Links
 ------------------------------------------------------------*/
 a {
+  text-decoration: none;
+  border-bottom: 1px solid #104cfb;
   color: #104cfb;
   transition: all .1s ease;
 }
 
 a:hover {
+  border-bottom: 1px solid #222222;
   color: #222222;
 }
 
@@ -154,7 +157,7 @@ button:active, [type=submit]:active {
 ------------------------------------------------------------*/
 
 input[type=text], input[type=password], input[type=email], input[type=search], input[type=number], input[type=file], input[type=tel], select, textarea, textarea[type=text] {
-  padding: 13px 11px;
+  margin: 1rem 0;
   width: 100%;
   max-width: 100%;
   border-radius: 2px;
@@ -167,13 +170,18 @@ input[type=text]:hover, input[type=password]:hover, input[type=email]:hover, inp
   border: 1px solid #111111;
 }
 
-input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, input[type=search]:focus, input[type=number], input[type=file], input[type=tel], select:focus, textarea:focus, textarea[type=text]:focus {
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, input[type=search]:focus, input[type=number], input[type=file], input[type=tel], select:focus textarea:focus, textarea[type=text]:focus {
   outline: none;
   border: 1px solid #104cfb;
 }
 
+input[type=text], input[type=password], input[type=email], input[type=search], input[type=number], input[type=file], input[type=tel], select {
+  padding: 1.1rem;
+}
+
 textarea, textarea[type=text] {
-  min-height: 7rem;
+  height: 10rem;
+  padding: 14px 20px;
 }
 
 .container {
@@ -186,12 +194,14 @@ textarea, textarea[type=text] {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
 }
 
 .row > :first-child {
   margin-left: 0;
+}
+
+.row > :last-child {
+  margin-right: 0;
 }
 
 .col {
@@ -203,7 +213,7 @@ textarea, textarea[type=text] {
 }
 
 .col, [class^='col-'], [class*=" col-"] {
-  margin-left: 4%;
+  margin: 1rem;
 }
 
 .col-1 {
@@ -256,7 +266,7 @@ textarea, textarea[type=text] {
 
 @media screen and (max-width: 768px) {
   .col, [class^='col-'], [class*=" col-"] {
-    margin: 1rem 0;
+    margin: 0;
     flex: 0 0 100%;
   }
 }
@@ -356,6 +366,10 @@ ol {
   min-height: 100vh;
 }
 
+.full-width {
+  width: 100%;
+}
+
 .vertical-align {
   display: flex;
   align-items: center;
@@ -422,16 +436,13 @@ pre > code {
   word-wrap: break-word;
 }
 
-/*------------------------------------------------------------
-  Navigation
-  ------------------------------------------------------------*/
-
 .nav {
   position: relative;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   padding: 1rem;
+  margin-bottom: 2rem;
 }
 
 .nav-menu,
@@ -452,4 +463,67 @@ pre > code {
   font-weight: bolder;
   font-size: 2rem;
   line-height: 0;
+}
+
+.card {
+  font-size: 1.6rem;
+  flex-direction: column;
+  border: 1px solid rgba(0,0,0,0.2);
+  overflow: hidden;
+  flex: 1 1 0%;;
+}
+
+
+.card:not(:only-child) {
+  border: none;
+}
+
+.card + .card {
+  border-left: 1px solid rgba(0,0,0,0.2);
+}
+
+.card-header {
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding: 1rem 2rem 0;
+}
+
+.card-body {
+  display: flex;
+  padding: 1rem 2rem;
+  min-height: 150px;
+}
+
+.card-footer {
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 700;
+  border-top: 1px solid rgba(0,0,0,0.2);
+  flex: 1;
+}
+
+.card-footer > button {
+  margin: 0;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid rgba(0,0,0,0.2);
+  overflow: hidden;
+  margin: 2rem 0;
+}
+
+@media (max-width: 400px) {
+  .cards > .card {
+    width: 100%;
+    flex: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .cards > .card {
+    width: 50%;
+    flex: auto;
+  }
 }
