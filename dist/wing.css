@@ -167,7 +167,7 @@ input[type=text]:hover, input[type=password]:hover, input[type=email]:hover, inp
   border: 1px solid #111111;
 }
 
-input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, input[type=search]:focus, input[type=number], input[type=file], input[type=tel], select:focus textarea:focus, textarea[type=text]:focus {
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, input[type=search]:focus, input[type=number], input[type=file], input[type=tel], select:focus, textarea:focus, textarea[type=text]:focus {
   outline: none;
   border: 1px solid #104cfb;
 }
@@ -191,14 +191,12 @@ textarea, textarea[type=text] {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .row > :first-child {
   margin-left: 0;
-}
-
-.row > :last-child {
-  margin-right: 0;
 }
 
 .col {
@@ -210,7 +208,7 @@ textarea, textarea[type=text] {
 }
 
 .col, [class^='col-'], [class*=" col-"] {
-  margin: 1rem;
+  margin-left: 4%;
 }
 
 .col-1 {
