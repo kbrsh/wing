@@ -9,8 +9,8 @@ body {
 
 .nav-item a {
   color: #797979;
+  text-decoration: none;
   font-family: "Consolas", "Monaco", "Menlo", monospace;
-  border: none;
 }
 
 .nav-item a:hover {
