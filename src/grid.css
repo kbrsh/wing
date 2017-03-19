@@ -8,14 +8,12 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .row > :first-child {
   margin-left: 0;
-}
-
-.row > :last-child {
-  margin-right: 0;
 }
 
 .col {
@@ -27,7 +25,7 @@
 }
 
 .col, [class^='col-'], [class*=" col-"] {
-  margin: 1rem;
+  margin-left: 4%;
 }
 
 .col-1 {
