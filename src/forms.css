@@ -3,7 +3,6 @@
 ------------------------------------------------------------*/
 
 input[type=text], input[type=password], input[type=email], input[type=search], input[type=number], input[type=file], input[type=tel], select, textarea, textarea[type=text] {
-  margin: 1rem 0;
   padding: 13px 11px;
   width: 100%;
   max-width: 100%;
@@ -20,10 +19,6 @@ input[type=text]:hover, input[type=password]:hover, input[type=email]:hover, inp
 input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, input[type=search]:focus, input[type=number], input[type=file], input[type=tel], select:focus, textarea:focus, textarea[type=text]:focus {
   outline: none;
   border: 1px solid #104cfb;
-}
-
-input[type=text], input[type=password], input[type=email], input[type=search], input[type=number], input[type=file], input[type=tel], select {
-  padding: 1.1rem;
 }
 
 textarea, textarea[type=text] {
