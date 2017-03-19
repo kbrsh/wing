@@ -4,6 +4,7 @@
 
 input[type=text], input[type=password], input[type=email], input[type=search], input[type=number], input[type=file], input[type=tel], select, textarea, textarea[type=text] {
   margin: 1rem 0;
+  padding: 13px 11px;
   width: 100%;
   max-width: 100%;
   border-radius: 2px;
@@ -26,6 +27,5 @@ input[type=text], input[type=password], input[type=email], input[type=search], i
 }
 
 textarea, textarea[type=text] {
-  height: 10rem;
-  padding: 14px 20px;
+  min-height: 7rem;
 }
