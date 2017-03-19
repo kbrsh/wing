@@ -20,8 +20,10 @@ new Moon({
     },
     remove: function() {
       var cols = this.get('cols');
-      cols.pop();
-      this.set('cols', cols);
+      if(cols.length - 1) {
+        cols.pop();
+        this.set('cols', cols);
+      }
     }
   }
 });
