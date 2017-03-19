@@ -56,15 +56,6 @@ body {
   font-size: 1.8rem;
 }
 
-.margin-left-3 {
-  margin-left: 3%;
-}
-
-@media screen and (max-width: 768px) {
-  .margin-left-3 {
-    margin-left: 0;
-  }
-}
 
 /* === Footer === */
 footer {
