@@ -7,5 +7,6 @@ a {
 }
 
 a:hover {
+  cursor: pointer;
   color: #222222;
 }
