@@ -1,6 +1,8 @@
-# [Wing](http://usewing.ml)
+<p align="center"><a href="http://usewing.ml" target="_blank"><img width="125"src="https://github.com/KingPixil/wing/raw/gh-pages/img/Wing.png"></a></p>
 
-A minimal CSS framework.
+<h1 align="center">Wing</h1>
+
+<p align="center">A minimal CSS framework.</p>
 
 [![Build Status](https://travis-ci.org/KingPixil/wing.svg?branch=master)](https://travis-ci.org/KingPixil/wing)
 [![Join the chat at https://gitter.im/KingPixil/wing](https://badges.gitter.im/KingPixil/wing.svg)](https://gitter.im/KingPixil/wing?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg?maxAge=2592000)]()
@@ -23,7 +25,7 @@ $ npm install --save wingcss
 <link rel="stylesheet" href="https://unpkg.com/wingcss"/>
 ```
 
-## [Documentation](http://usewing.ml/#docs)
+## [Documentation](http://usewing.ml/)
 
 ## Find a bug?
 
