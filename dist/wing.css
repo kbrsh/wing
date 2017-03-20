@@ -106,6 +106,7 @@ a {
 }
 
 a:hover {
+  cursor: pointer;
   color: #222222;
 }
 
@@ -265,12 +266,26 @@ textarea, textarea[type=text] {
   Lists
 ------------------------------------------------------------*/
 
+ul, ol {
+  padding-left: 0;
+  margin-top: 0;
+}
+
+ul ul, ul ol, ol ol, ol ul {
+  margin: 1rem 0 1rem 2rem;
+  font-size: 95%;
+}
+
 ul {
   list-style: circle inside;
 }
 
 ol {
   list-style: decimal inside;
+}
+
+li {
+  margin-bottom: 1rem;
 }
 
 /*------------------------------------------------------------
@@ -464,6 +479,7 @@ pre > code {
   font-weight: bolder;
   font-size: 2rem;
   line-height: 0;
+  padding-right: 2rem;
 }
 
 .cards {
