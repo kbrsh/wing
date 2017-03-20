@@ -490,6 +490,12 @@ pre > code {
   margin-bottom: 2rem
 }
 
+@media (max-width: 675px) {
+  .cards > .card {
+    flex: auto;
+  }
+}
+
 .card {
   flex-direction: column;
   overflow: hidden;
@@ -529,10 +535,4 @@ pre > code {
 
 .card-footer-item:not(:first-child) {
   border-left: 1px solid #dbdbdb;
-}
-
-@media (max-width: 675px) {
-  .cards > .card {
-    flex: auto;
-  }
 }
