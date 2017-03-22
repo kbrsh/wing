@@ -14,9 +14,21 @@
   text-align: center;
 }
 
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
 .full-screen {
   width: 100%;
   min-height: 100vh;
+}
+
+.full-width {
+  width: 100%;
 }
 
 .vertical-align {

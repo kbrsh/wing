@@ -366,9 +366,21 @@ li {
   text-align: center;
 }
 
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
 .full-screen {
   width: 100%;
   min-height: 100vh;
+}
+
+.full-width {
+  width: 100%;
 }
 
 .vertical-align {
@@ -468,4 +480,59 @@ pre > code {
   font-size: 2rem;
   line-height: 0;
   padding-right: 2rem;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  overflow: hidden;
+  margin-bottom: 2rem
+}
+
+@media (max-width: 675px) {
+  .cards > .card {
+    flex: auto;
+  }
+}
+
+.card {
+  flex-direction: column;
+  overflow: hidden;
+  flex: 0 1 calc(50% - 0.5rem);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.card-header {
+  font-weight: 600;
+  margin: 0;
+  padding: 2rem 3rem 1rem;
+}
+
+.card-body {
+  padding: 0 3rem 2rem 3rem;
+  min-height: 100px;
+}
+
+.card-footer {
+  display: flex;
+  align-items: stretch;
+  border-top: 1px solid #dbdbdb;
+  flex: 1;
+}
+
+.card-footer .card-footer-item {
+  display: flex;
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 1rem;
+}
+
+.card-footer-item:not(:first-child) {
+  border-left: 1px solid #dbdbdb;
 }
