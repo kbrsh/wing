@@ -469,3 +469,44 @@ pre > code {
   line-height: 0;
   padding-right: 2rem;
 }
+
+.card {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  overflow: hidden;
+  border-radius: 0.25rem;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  font-weight: 600;
+  margin: 0;
+  padding: 3rem 0 0 3rem;
+}
+
+.card-body {
+  padding: 0 3rem 2rem 3rem;
+  min-height: 100px;
+}
+
+.card-footer {
+  display: flex;
+  align-items: stretch;
+  border-top: 1px solid #dbdbdb;
+}
+
+.card-footer .card-footer-item {
+  display: flex;
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 1rem;
+}
+
+.card-footer .card-footer-item:not(:first-child) {
+  border-left: 1px solid #dbdbdb;
+}
