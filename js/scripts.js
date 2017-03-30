@@ -1,14 +1,14 @@
 // Grid Demo
 Moon.component("column", {
   props: ['col'],
-  template: "<div>  <span m-html='&lt;div id=&quot;col&quot;&gt;{{col}}&lt;/div&gt;'></span></div>"
+  template: "<div>  <span m-html='&lt;div class=&quot;col&quot;&gt;{{col}}&lt;/div&gt;'></span></div>"
 });
 
 new Moon({
   el: "#grid-demo",
   data: {
-    startHTML: "&lt;div id=&quot;row&quot;&gt;",
-    codeHTML: `<span>&lt;div id=&quot;col&quot;&gt;{{col}}&lt;/div&gt;</span>`,
+    startHTML: "&lt;div class=&quot;row&quot;&gt;",
+    codeHTML: `<span>&lt;div class=&quot;col&quot;&gt;{{col}}&lt;/div&gt;</span>`,
     endHTML: "&lt;/div&gt;",
     cols: [1, 2, 3, 4]
   },
