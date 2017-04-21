@@ -1,8 +1,37 @@
 // Grid Demo
+
+// template:
+// console.log(Moon.compile("<div>  <span m-html='\"&lt;div class=&quot;col&quot;&gt;\" + col + \"&lt;/div&gt;\"'></span></div>"))
 Moon.component("column", {
   props: ['col'],
-  template: "<div>  <span m-html='&lt;div class=&quot;col&quot;&gt;{{col}}&lt;/div&gt;'></span></div>"
+  render: function(h) {
+    var instance = this; return h("div", {attrs: {}}, {"shouldRender": true, "eventListeners": {}}, [h("#text", {"shouldRender": false, "eventListeners": {}}, "  "), h("span", {attrs: {}, dom: {"innerHTML": ("" + ("&lt;div class=&quot;col&quot;&gt;" + instance.get("col") + "&lt;/div&gt;"))}}, {"shouldRender": true, "eventListeners": {}}, [])])
+  }
 });
+
+// template:
+// console.log(Moon.compile(`<div id="grid-demo">
+// <button m-on:click="add">Add Column</button>
+//   <button m-on:click="remove">Remove Column</button>
+//   <div class="row">
+//     <div class="col grid-demo-col center" m-for="col in cols">
+//       <p>{{col}}</p>
+//     </div>
+//   </div>
+//   <div class="row">
+//     <div class="col">
+//       <pre><code><span m-html="startHTML"></span>
+// <column m-for="col in cols" col="{{col}}"></column>
+// <span m-html="endHTML"></span></code></pre>
+//     </div>
+//   </div>
+// </div>`))
+
+// minified
+// console.log(Moon.compile(`<div id="grid-demo"><button m-on:click="add">Add Column</button> <button m-on:click="remove">Remove Column</button> <div class="row"> <div class="col grid-demo-col center" m-for="col in cols"> <p>{{col}}</p></div></div><div class="row"> <div class="col"> <pre><code><span m-html="startHTML"></span>
+// <column m-for="col in cols" col="{{col}}"></column>
+// <span m-html="endHTML"></span></code></pre> </div></div></div>`))
+
 
 new Moon({
   el: "#grid-demo",
@@ -25,6 +54,9 @@ new Moon({
         this.set('cols', cols);
       }
     }
+  },
+  render: function(h) {
+    var instance = this; return h("div", {attrs: {"id": "grid-demo"}}, {"shouldRender": true, "eventListeners": {}}, [h("button", {attrs: {}}, {"shouldRender": true, "eventListeners": {"click": [function(event) {instance.callMethod("add", [event])}]}}, [h("#text", {"shouldRender": false, "eventListeners": {}}, "Add Column")]), h("#text", {"shouldRender": false, "eventListeners": {}}, " "), h("button", {attrs: {}}, {"shouldRender": true, "eventListeners": {"click": [function(event) {instance.callMethod("remove", [event])}]}}, [h("#text", {"shouldRender": false, "eventListeners": {}}, "Remove Column")]), h("#text", {"shouldRender": false, "eventListeners": {}}, " "), h("div", {attrs: {"class": "row"}}, {"shouldRender": true, "eventListeners": {}}, [].concat.apply([], [h("#text", {"shouldRender": false, "eventListeners": {}}, " "), instance.renderLoop((instance.get("cols")), function(col) { return h("div", {attrs: {"class": "col grid-demo-col center"}}, {"shouldRender": true, "eventListeners": {}}, [h("#text", {"shouldRender": false, "eventListeners": {}}, " "), h("p", {attrs: {}}, {"shouldRender": true, "eventListeners": {}}, [h("#text", {"shouldRender": true, "eventListeners": {}}, "" + (col) + "")])]); })])), h("div", {attrs: {"class": "row"}}, {"shouldRender": true, "eventListeners": {}}, [h("#text", {"shouldRender": false, "eventListeners": {}}, " "), h("div", {attrs: {"class": "col"}}, {"shouldRender": true, "eventListeners": {}}, [h("#text", {"shouldRender": false, "eventListeners": {}}, " "), h("pre", {attrs: {}}, {"shouldRender": true, "eventListeners": {}}, [h("code", {attrs: {}}, {"shouldRender": true, "eventListeners": {}}, [].concat.apply([], [h("span", {attrs: {}, dom: {"innerHTML": ("" + (instance.get("startHTML")))}}, {"shouldRender": true, "eventListeners": {}}, []), h("#text", {"shouldRender": true, "eventListeners": {}}, "\n"), instance.renderLoop((instance.get("cols")), function(col) { return h("column", {attrs: {"col": "" + (col) + ""}}, {"shouldRender": true, "eventListeners": {}}, []); }), h("#text", {"shouldRender": true, "eventListeners": {}}, "\n"), h("span", {attrs: {}, dom: {"innerHTML": ("" + (instance.get("endHTML")))}}, {"shouldRender": true, "eventListeners": {}}, [])]))]), h("#text", {"shouldRender": false, "eventListeners": {}}, " ")])])])
   }
 });
 
