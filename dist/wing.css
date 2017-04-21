@@ -156,12 +156,15 @@ button:active, [type=submit]:active {
 ------------------------------------------------------------*/
 
 input[type=text], input[type=password], input[type=email], input[type=search], input[type=number], input[type=file], input[type=tel], select, textarea, textarea[type=text] {
-  padding: 13px 11px;
   width: 100%;
-  max-width: 100%;
+  height: 45px;
+  padding: 5px 10px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   border-radius: 2px;
   border: 1px solid #a4a4a4;
   font-size: 1.3rem;
+  box-sizing: border-box;
   transition: all .2s ease;
 }
 
@@ -398,6 +401,7 @@ li {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 .right {
