@@ -19,6 +19,9 @@ gulp.task('minify', ['build'], function() {
     .pipe(minifyCSS())
     .pipe($.header(comment))
     .pipe($.size())
+    .pipe($.size({
+      gzip: true
+    }))
     .pipe($.concat('wing.min.css'))
     .pipe(gulp.dest('./dist/'));
 });
