@@ -103,7 +103,11 @@
       <div class="guide-section">
         <h3 class="header">GRID</h3>
         <p class="content">Wing comes with a minimal, 960px, 12 column grid, with intuitive class names.</p>
-        <div id="grid-demo"><button m-on:click="add">Add Column</button> <button m-on:click="remove">Remove Column</button> <div class="row"> <div class="col grid-demo-col center" m-for="col in cols"> <p>{{col}}</p></div></div><div class="row"> <div class="col"> <pre><code><span m-html="startHTML"></span><column m-for="col in cols" col="{{col}}"></column><span m-html="endHTML"></span></code></pre> </div></div></div>
+        <div id="grid-demo"><button m-on:click="add">Add Column</button> <button m-on:click="remove">Remove Column</button><div class="row"><div class="col grid-demo-col center" m-for="col in cols"><p>{{col}}</p></div></div><div class="row"><div class="col"><pre><code>&lt;div class="row"&gt;
+<span m-for="col in cols">
+  &lt;div class="col"&gt;{{col}}&lt;/div&gt;
+</span>
+&lt;/div&gt;</code></pre></div></div></div>
       </div>
 
       <div class="guide-section">
