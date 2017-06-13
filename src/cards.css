@@ -2,7 +2,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  overflow: hidden;
   margin-bottom: 2rem
 }
 
