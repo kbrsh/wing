@@ -1,10 +1,9 @@
-/*
-* Wing 1.0.0-beta
-* Copyright 2016, Kabir Shah
-* http://usewing.ml/
-* Free to use under the MIT license.
-* https://kingpixil.github.io/license
-*/
+/**
+ * Wing v1.0.0-beta
+ * Copyright 2016-2017 Kabir Shah
+ * Released under the MIT License
+ * http://usewing.ml
+ */
 
 /*------------------------------------------------------------
   Base Style
@@ -356,6 +355,94 @@ li {
 }
 
 /*------------------------------------------------------------
+  Navigation
+  ------------------------------------------------------------*/
+
+.nav {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 1rem;
+}
+
+.nav-menu,
+.nav-brand {
+  display: flex;
+}
+
+.nav-menu {
+  flex-flow: row;
+  flex: 1 0 auto;
+}
+
+.nav-item {
+  padding: 1rem 2rem;
+}
+
+.nav-logo {
+  font-weight: bolder;
+  font-size: 2rem;
+  line-height: 0;
+  padding-right: 2rem;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  overflow: hidden;
+  margin-bottom: 2rem
+}
+
+@media (max-width: 675px) {
+  .cards > .card {
+    flex: auto;
+  }
+}
+
+.card {
+  flex-direction: column;
+  overflow: hidden;
+  flex: 0 1 calc(50% - 0.5rem);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.card-header {
+  font-weight: 600;
+  margin: 0;
+  padding: 2rem 3rem 1rem;
+}
+
+.card-body {
+  padding: 0 3rem 2rem 3rem;
+  min-height: 100px;
+}
+
+.card-footer {
+  display: flex;
+  align-items: stretch;
+  border-top: 1px solid #dbdbdb;
+  flex: 1;
+}
+
+.card-footer .card-footer-item {
+  display: flex;
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 1rem;
+}
+
+.card-footer-item:not(:first-child) {
+  border-left: 1px solid #dbdbdb;
+}
+
+/*------------------------------------------------------------
   Utilities
 ------------------------------------------------------------*/
 
@@ -453,92 +540,4 @@ pre > code {
   white-space: -pre-wrap;
   white-space: -o-pre-wrap;
   word-wrap: break-word;
-}
-
-/*------------------------------------------------------------
-  Navigation
-  ------------------------------------------------------------*/
-
-.nav {
-  position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  padding: 1rem;
-}
-
-.nav-menu,
-.nav-brand {
-  display: flex;
-}
-
-.nav-menu {
-  flex-flow: row;
-  flex: 1 0 auto;
-}
-
-.nav-item {
-  padding: 1rem 2rem;
-}
-
-.nav-logo {
-  font-weight: bolder;
-  font-size: 2rem;
-  line-height: 0;
-  padding-right: 2rem;
-}
-
-.cards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  overflow: hidden;
-  margin-bottom: 2rem
-}
-
-@media (max-width: 675px) {
-  .cards > .card {
-    flex: auto;
-  }
-}
-
-.card {
-  flex-direction: column;
-  overflow: hidden;
-  flex: 0 1 calc(50% - 0.5rem);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  margin-bottom: 2rem;
-}
-
-.card-header {
-  font-weight: 600;
-  margin: 0;
-  padding: 2rem 3rem 1rem;
-}
-
-.card-body {
-  padding: 0 3rem 2rem 3rem;
-  min-height: 100px;
-}
-
-.card-footer {
-  display: flex;
-  align-items: stretch;
-  border-top: 1px solid #dbdbdb;
-  flex: 1;
-}
-
-.card-footer .card-footer-item {
-  display: flex;
-  flex-basis: 0;
-  flex-grow: 1;
-  flex-shrink: 0;
-  align-items: center;
-  justify-content: center;
-  margin: 0;
-  padding: 1rem;
-}
-
-.card-footer-item:not(:first-child) {
-  border-left: 1px solid #dbdbdb;
 }
