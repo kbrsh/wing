@@ -1,19 +1,20 @@
-/*------------------------------------------------------------
-  Base Style
-------------------------------------------------------------*/
+/*=============================
+  Base Styles
+=============================*/
 
-html {
-  box-sizing: border-box;
-  font-size: 62.5%;
+html, body {
   margin: 0;
   padding: 0;
 }
 
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
 body {
-  letter-spacing: 0.01em;
   line-height: 1.6;
-  font-size: 1.5em;
+  font-size: 1.6rem;
   font-weight: 400;
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Avenir, "Avenir Next", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }

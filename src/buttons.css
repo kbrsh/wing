@@ -1,22 +1,21 @@
-/*------------------------------------------------------------
+/*=============================
   Buttons
-------------------------------------------------------------*/
+=============================*/
 
 button, [type=submit] {
   padding: 1.1rem 3.5rem;
   margin: 1rem 0;
-  background: #111111;
   color: #f5f5f5;
-  border-radius: 2px;
-  border: 1.5px solid #111111;
   font-size: 1.3rem;
+  background: #111111;
+  border: 1.5px solid #111111;
+  border-radius: 2px;
   transition: all .2s ease;
 }
 
 button.outline, [type=submit].outline {
-  padding: 1.1rem 3.5rem;
-  background: none;
   color: #111111;
+  background: none;
   border: 1.5px solid #111111;
 }
 
@@ -26,8 +25,8 @@ button:hover, [type=submit]:hover {
 
 button.outline:hover, [type=submit].outline:hover {
   background: none;
-  border: 1.5px solid #444444;
-  color: #444444;
+  border: 1.5px solid #222222;
+  color: #222222;
 }
 
 button:focus, [type=submit]:focus {

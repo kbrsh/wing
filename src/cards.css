@@ -1,3 +1,7 @@
+/*=============================
+  Cards
+=============================*/
+
 .cards {
   display: flex;
   flex-wrap: wrap;
@@ -6,7 +10,7 @@
   margin-bottom: 2rem
 }
 
-@media (max-width: 675px) {
+@media (max-width: 768px) {
   .cards > .card {
     flex: auto;
   }

@@ -1,3 +1,7 @@
+/*=============================
+  Grid
+=============================*/
+
 .container {
   max-width: 960px;
   margin: 0 auto;
@@ -17,10 +21,6 @@
 }
 
 .col {
-  -webkit-box-flex: 1;
-  -moz-box-flex: 1;
-  -webkit-flex: 1;
-  -ms-flex: 1;
   flex: 1;
 }
 
@@ -29,51 +29,51 @@
 }
 
 .col-1 {
-  flex: 1;
+  width: 8.333333333333332%;
 }
 
 .col-2 {
-  flex: 2;
+  width: 16.666666666666664%;
 }
 
 .col-3 {
-  flex: 3;
+  width: 25%;
 }
 
 .col-4 {
-  flex: 4;
+  width: 33.33333333333333%;
 }
 
 .col-5 {
-  flex: 5;
+  width: 41.66666666666667%;
 }
 
 .col-6 {
-  flex: 6;
+  width: 50%;
 }
 
 .col-7 {
-  flex: 7;
+  width: 58.333333333333336%;
 }
 
 .col-8 {
-  flex: 8;
+  width: 66.66666666666666%;
 }
 
 .col-9 {
-  flex: 9;
+  width: 75%;
 }
 
 .col-10 {
-  flex: 10;
+  width: 83.33333333333334%;
 }
 
 .col-11 {
-  flex: 11;
+  width: 91.66666666666666%;
 }
 
 .col-12 {
-  flex: 12;
+  width: 100%;
 }
 
 @media screen and (max-width: 768px) {

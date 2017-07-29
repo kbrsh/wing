@@ -1,6 +1,6 @@
-/*------------------------------------------------------------
+/*=============================
   Utilities
-------------------------------------------------------------*/
+=============================*/
 
 .pull-right {
   float: right;
@@ -66,9 +66,13 @@
 }
 
 @media screen and (max-width: 400px) {
-  .hide-phone { display: none; }
+  .hide-phone {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 768px) {
-  .hide-tablet { display: none; }
+  .hide-tablet {
+    display: none;
+  }
 }

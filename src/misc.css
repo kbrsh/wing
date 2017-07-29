@@ -1,6 +1,6 @@
-/*------------------------------------------------------------
+/*=============================
   Misc
-------------------------------------------------------------*/
+=============================*/
 
 code {
   padding: 0.2rem 0.5rem;
@@ -8,7 +8,7 @@ code {
   font-size: 90%;
   white-space: nowrap;
   background: #F1F1F1;
-  border: 1px solid #E1E1E1;
+  border: 1px solid #dbdbdb;
   border-radius: 4px;
   font-family: "Consolas", "Monaco", "Menlo", monospace;
 }
@@ -17,8 +17,5 @@ pre > code {
   display: block;
   padding: 1rem 1.5rem;
   white-space: pre-wrap;
-  white-space: -moz-pre-wrap;
-  white-space: -pre-wrap;
-  white-space: -o-pre-wrap;
   word-wrap: break-word;
 }
