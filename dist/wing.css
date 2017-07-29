@@ -369,12 +369,6 @@ li {
   margin-bottom: 2rem;
 }
 
-@media (max-width: 768px) {
-  .cards > .card {
-    flex: auto;
-  }
-}
-
 .card {
   flex-direction: column;
   overflow: hidden;
@@ -414,6 +408,12 @@ li {
 
 .card-footer-item:not(:first-child) {
   border-left: 1px solid #dbdbdb;
+}
+
+@media (max-width: 768px) {
+  .cards > .card {
+    flex: auto;
+  }
 }
 
 /*=============================
