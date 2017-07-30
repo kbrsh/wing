@@ -189,6 +189,7 @@ textarea, textarea[type=text] {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
+  width: 100%;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
@@ -198,7 +199,7 @@ textarea, textarea[type=text] {
 }
 
 .col {
-  flex: 1;
+  flex: 1 1 0px;
 }
 
 .col, [class^='col-'], [class*=" col-"] {
@@ -206,51 +207,51 @@ textarea, textarea[type=text] {
 }
 
 .col-1 {
-  width: 8.333333333333332%;
+  width: 4.333333333333332%;
 }
 
 .col-2 {
-  width: 16.666666666666664%;
+  width: 12.666666666666664%;
 }
 
 .col-3 {
-  width: 25%;
+  width: 21%;
 }
 
 .col-4 {
-  width: 33.33333333333333%;
+  width: 29.33333333333333%;
 }
 
 .col-5 {
-  width: 41.66666666666667%;
+  width: 37.66666666666667%;
 }
 
 .col-6 {
-  width: 50%;
+  width: 46%;
 }
 
 .col-7 {
-  width: 58.333333333333336%;
+  width: 54.333333333333336%;
 }
 
 .col-8 {
-  width: 66.66666666666666%;
+  width: 62.66666666666666%;
 }
 
 .col-9 {
-  width: 75%;
+  width: 71%;
 }
 
 .col-10 {
-  width: 83.33333333333334%;
+  width: 79.33333333333334%;
 }
 
 .col-11 {
-  width: 91.66666666666666%;
+  width: 87.66666666666666%;
 }
 
 .col-12 {
-  width: 100%;
+  width: 96%;
 }
 
 @media screen and (max-width: 768px) {
