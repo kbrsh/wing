@@ -10,17 +10,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kingpixil/wing.git"
+    "url": "git+https://github.com/kbrsh/wing.git"
   },
   "author": "Kabir Shah",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kingpixil/wing/issues"
+    "url": "https://github.com/kbrsh/wing/issues"
   },
   "homepage": "http://usewing.ml",
   "autoupdate": {
     "source": "git",
-    "target": "git://github.com/KingPixil/wing.git",
+    "target": "git://github.com/kbrsh/wing.git",
     "basePath": "dist",
     "files": [
       "wing.min.css",

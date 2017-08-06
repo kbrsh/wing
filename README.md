@@ -1,11 +1,11 @@
-<p align="center"><a href="http://usewing.ml" target="_blank"><img width="125"src="https://github.com/KingPixil/wing/raw/gh-pages/img/Wing.png"></a></p>
+<p align="center"><a href="http://usewing.ml" target="_blank"><img width="125"src="https://github.com/kbrsh/wing/raw/gh-pages/img/Wing.png"></a></p>
 
 <h1 align="center">Wing</h1>
 
 <p align="center">A minimal CSS framework.</p>
 
-[![Build Status](https://travis-ci.org/KingPixil/wing.svg?branch=master)](https://travis-ci.org/KingPixil/wing)
-[![Join the chat at https://gitter.im/KingPixil/wing](https://badges.gitter.im/KingPixil/wing.svg)](https://gitter.im/KingPixil/wing?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg?maxAge=2592000)]()
+[![Build Status](https://travis-ci.org/kbrsh/wing.svg?branch=master)](https://travis-ci.org/kbrsh/wing)
+[![Packagist](https://img.shields.io/badge/license-MIT-blue.svg)](https://kbrsh.github.io/license)
 
 ## Why should you use it?
 
@@ -29,8 +29,8 @@ $ npm install --save wingcss
 
 ## Find a bug?
 
-Submit it in the [issues](https://github.com/KingPixil/wing/issues)
+Submit it in the [issues](https://github.com/kbrsh/wing/issues)
 
 ## License
 
-Licensed under the [MIT License](http://kingpixil.github.io/license) by by [Kabir Shah](http://kabir.ml)
+Licensed under the [MIT License](http://kbrsh.github.io/license) by [Kabir Shah](http://kabir.ml)
