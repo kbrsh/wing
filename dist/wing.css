@@ -385,6 +385,17 @@ li {
   margin-bottom: 2rem;
 }
 
+.card-image {
+  display: block;
+  position: relative;
+}
+
+.card-image img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
 .card-header {
   font-weight: 600;
   margin: 0;
