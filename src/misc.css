@@ -2,6 +2,11 @@
   Misc
 =============================*/
 
+pre {
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
 code {
   padding: 0.2rem 0.5rem;
   margin: 0 0.2rem;
