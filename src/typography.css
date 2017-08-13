@@ -3,6 +3,8 @@
 =============================*/
 
 h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 2rem;
   font-weight: 400;
   font-family: -apple-system, BlinkMacSystemFont, Avenir, "Avenir Next", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
@@ -35,6 +37,12 @@ h5 {
 h6 {
   font-size: 1.8rem;
   line-height: 1.6;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
 }
 
 @media (max-width: 400px) {

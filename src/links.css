@@ -4,7 +4,7 @@
 
 a {
   color: #104cfb;
-  transition: all .1s ease;
+  transition: color .1s ease;
 }
 
 a:hover {

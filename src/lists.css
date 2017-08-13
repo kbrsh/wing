@@ -5,19 +5,12 @@
 ul, ol {
   padding-left: 0;
   margin-top: 0;
+  list-style-position: inside;
 }
 
 ul ul, ul ol, ol ol, ol ul {
   margin: 1rem 0 1rem 2rem;
   font-size: 95%;
-}
-
-ul {
-  list-style: circle inside;
-}
-
-ol {
-  list-style: decimal inside;
 }
 
 li {
