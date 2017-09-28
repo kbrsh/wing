@@ -1,0 +1,45 @@
+/*=============================
+  Buttons
+=============================*/
+
+button, .button, [type=submit] {
+  padding: 1.1rem 3.5rem;
+  margin-top: 0;
+  margin-bottom: 2rem;
+  color: #f5f5f5;
+  font-size: 1.5rem;
+  background: #111111;
+  border: 1.5px solid #111111;
+  border-radius: 2px;
+  transition: all .2s ease;
+
+  .outline {
+    color: #111111;
+    background: none;
+    border: 1.5px solid #111111;
+
+    &:hover {
+      background: none;
+      border: 1.5px solid #222222;
+      color: #222222;
+    }
+  }
+
+  &:hover {
+    color: #f5f5f5;
+    background: #222222;
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  &:active {
+    transform: scale(.99);
+  }
+
+  .disabled, &:disabled {
+    opacity: 0.8;
+    cursor: not-allowed;
+  }
+}
