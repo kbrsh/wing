@@ -28,16 +28,12 @@
     ]
   },
   "devDependencies": {
-    "bower": "latest",
     "gulp": "^3.9.1",
     "gulp-cli": "^1.2.1",
     "gulp-concat": "latest",
     "gulp-git": "^1.9.0",
     "gulp-header": "^1.8.2",
-    "gulp-load-plugins": "^1.2.4",
     "gulp-clean-css": "latest",
-    "gulp-size": "^2.1.0",
-    "gulp-util": "~2.2.9",
-    "owl-tool": "0.0.3"
+    "gulp-size": "^2.1.0"
   }
 }
