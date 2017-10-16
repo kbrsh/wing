@@ -5,7 +5,7 @@ const minifyCSS = require("gulp-clean-css");
 const concat = require("gulp-concat");
 const header = require("gulp-header");
 const size = require("gulp-size");
-
+const stylus = require("gulp-stylus");
 
 const comment = `/**
  * Wing v${pkg.version}
@@ -15,9 +15,10 @@ const comment = `/**
  */\r\n`;
 
 gulp.task("build", function () {
-  return gulp.src(["./src/base.css", "./src/typography.css", "./src/links.css", "./src/buttons.css", "./src/forms.css", "./src/grid.css", "./src/lists.css", "./src/tables.css", "./src/images.css", "./src/nav.css", "./src/cards.css", "./src/util.css", "./src/misc.css"])
-    .pipe(concat("wing.css"))
-    .pipe(header(comment + "\n"))
+  return gulp.src(["./src/config.styl", "./src/base.styl", "./src/typography.styl", "./src/link.styl", "./src/button.styl", "./src/form.styl", "./src/grid.styl", "./src/list.styl", "./src/image.styl", "./src/nav.styl", "./src/card.styl", "./src/code.styl", "./src/util.styl"])
+    .pipe(concat("wing.styl"))
+    .pipe(stylus())
+    .pipe(header(comment + "\r\n"))
     .pipe(size())
     .pipe(gulp.dest("./dist/"));
 });

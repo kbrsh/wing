@@ -29,11 +29,12 @@
   },
   "devDependencies": {
     "gulp": "^3.9.1",
+    "gulp-clean-css": "latest",
     "gulp-cli": "^1.2.1",
     "gulp-concat": "latest",
     "gulp-git": "^1.9.0",
     "gulp-header": "^1.8.2",
-    "gulp-clean-css": "latest",
-    "gulp-size": "^2.1.0"
+    "gulp-size": "^2.1.0",
+    "gulp-stylus": "^2.6.0"
   }
 }

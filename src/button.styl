@@ -1,0 +1,39 @@
+/*=============================
+  Button
+=============================*/
+
+button, .button, [type=submit]
+  height: 4.5rem
+
+  margin-bottom: 1rem
+  padding: 1rem 3rem
+
+  outline: none
+  text-decoration: none
+
+  color: color-white
+  font-size: 1.5rem
+
+  background: color-black
+
+  round-border(color-black)
+
+  transition: transition
+
+  &:hover, &:focus
+    opacity: .9
+
+  &:active
+    opacity: .7
+
+  &[disabled]
+    opacity: 0.8
+    cursor: not-allowed
+
+  &.outline
+    color: color-black
+    background: none
+
+    &:hover, &:focus
+      color: color-white
+      background: color-black

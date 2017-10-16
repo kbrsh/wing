@@ -1,0 +1,40 @@
+/*=============================
+  Grid
+=============================*/
+
+.container
+  width: 80%
+  max-width: 960px
+  margin: 0 auto
+
+.row
+  display: flex
+  flex-flow: row wrap
+  justify-content: space-between
+  width: 100%
+  margin-bottom: 1rem
+
+  &:last-child
+    margin-bottom: 0
+
+  .col
+    flex: 1 1 0px
+
+  .col, [class^="col-"], [class*=" col-"]
+    padding-right: 1rem
+
+    &:last-child
+      padding-right: 0
+
+  for col-number in 1...(columns + 1)
+    .col-{col-number}
+      width: ((col-number / columns) * 100)%
+
+  @media screen and (max-width: 768px)
+    .col, [class^='col-'], [class*=" col-"]
+      flex: 0 0 100%
+      margin-bottom: 1rem
+      padding: 0
+
+      &:last-child
+        margin-bottom: 0
