@@ -386,6 +386,15 @@ hr {
 /*=============================
   Utilities
 =============================*/
+.position-relative {
+  position: relative;
+}
+.position-absolute {
+  position: absolute;
+}
+.position-fixed {
+  position: fixed;
+}
 .text-left {
   text-align: left;
 }
@@ -404,6 +413,9 @@ hr {
 .full-screen {
   width: 100%;
   min-height: 100vh;
+}
+.hidden {
+  display: none;
 }
 .flex {
   display: flex;
