@@ -16,13 +16,10 @@ body {
   margin: 0;
   padding: 0;
 }
-html {
-  font-size: 62.5%;
-}
 body {
   line-height: 1.6;
   color: #111;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 400;
   font-family: -apple-system, BlinkMacSystemFont, Avenir, "Avenir Next", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
@@ -37,7 +34,7 @@ h5,
 h6,
 p {
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 10px;
   font-family: -apple-system, BlinkMacSystemFont, Avenir, "Avenir Next", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
 h1,
@@ -49,50 +46,50 @@ h6 {
   font-weight: 500;
 }
 h1 {
-  font-size: 5rem;
+  font-size: 2.986rem;
   line-height: 1.2;
 }
 h2 {
-  font-size: 4.09rem;
+  font-size: 2.488rem;
   line-height: 1.25;
 }
 h3 {
-  font-size: 3.35rem;
+  font-size: 2.074rem;
   line-height: 1.3;
 }
 h4 {
-  font-size: 2.74rem;
+  font-size: 1.728rem;
   line-height: 1.35;
 }
 h5 {
-  font-size: 2.24rem;
+  font-size: 1.44rem;
   line-height: 1.5;
 }
 h6 {
-  font-size: 1.83rem;
+  font-size: 1.2rem;
   line-height: 1.6;
 }
 p {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
-@media (max-width: 400px) {
+@media (max-width: 768px) {
   h1 {
-    font-size: 4rem;
+    font-size: 2.027rem;
   }
   h2 {
-    font-size: 3.4rem;
+    font-size: 1.802rem;
   }
   h3 {
-    font-size: 2.88rem;
+    font-size: 1.602rem;
   }
   h4 {
-    font-size: 2.45rem;
+    font-size: 1.424rem;
   }
   h5 {
-    font-size: 2.08rem;
+    font-size: 1.266rem;
   }
   h6 {
-    font-size: 1.77rem;
+    font-size: 1.125rem;
   }
 }
 /*=============================
@@ -100,7 +97,7 @@ p {
 =============================*/
 a {
   color: #0062ff;
-  transition: color 0.1s ease;
+  transition: all 0.2s ease;
 }
 a:hover {
   cursor: pointer;
@@ -112,13 +109,13 @@ a:hover {
 button,
 .button,
 [type=submit] {
-  height: 4.5rem;
-  margin-bottom: 1rem;
-  padding: 1rem 3rem;
+  height: 45px;
+  margin-bottom: 10px;
+  padding: 10px 30px;
   outline: none;
   text-decoration: none;
   color: #f5f5f5;
-  font-size: 1.5rem;
+  font-size: 1rem;
   background: #111;
   border: 1px solid #111;
   border-radius: 2px;
@@ -171,11 +168,11 @@ input[type=tel],
 input[type=url],
 select,
 textarea {
-  height: 4.5rem;
+  height: 45px;
   width: 100%;
-  margin-bottom: 1rem;
-  padding: 1rem;
-  font-size: 1.3rem;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 1rem;
   background: #f5f5f5;
   border: 1px solid #a7a7a7;
   border-radius: 2px;
@@ -207,7 +204,7 @@ textarea:focus {
   border-color: #0062ff;
 }
 textarea {
-  min-height: 7rem;
+  min-height: 70px;
 }
 /*=============================
   Grid
@@ -222,7 +219,7 @@ textarea {
   flex-flow: row wrap;
   justify-content: space-between;
   width: 100%;
-  margin-bottom: 1rem;
+  margin-bottom: 10px;
 }
 .row:last-child {
   margin-bottom: 0;
@@ -233,7 +230,7 @@ textarea {
 .row .col,
 .row [class^="col-"],
 .row [class*=" col-"] {
-  padding-right: 1rem;
+  padding-right: 10px;
 }
 .row .col:last-child,
 .row [class^="col-"]:last-child,
@@ -281,7 +278,7 @@ textarea {
   .row [class^='col-'],
   .row [class*=" col-"] {
     flex: 0 0 100%;
-    margin-bottom: 1rem;
+    margin-bottom: 10px;
     padding: 0;
   }
   .row .col:last-child,
@@ -296,13 +293,13 @@ textarea {
 ul,
 ol {
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 10px;
   padding-left: 0;
   list-style-position: inside;
 }
 ul li,
 ol li {
-  margin-bottom: 1rem;
+  margin-bottom: 10px;
 }
 ul li:last-child,
 ol li:last-child {
@@ -312,14 +309,14 @@ ul ul,
 ol ul,
 ul ol,
 ol ol {
-  margin-left: 1rem;
+  margin-left: 10px;
 }
 /*=============================
   Image
 =============================*/
 img {
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 10px;
 }
 /*=============================
   Navigation
@@ -329,11 +326,11 @@ img {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .nav .nav-item {
-  margin-right: 1rem;
+  margin-right: 10px;
 }
 .nav .nav-item:last-child {
   margin-right: 0;
@@ -345,13 +342,13 @@ img {
   display: flex;
   flex: 0 1 calc(50% - 0.5rem);
   flex-direction: column;
-  margin-bottom: 1rem;
+  margin-bottom: 10px;
   border: 1px solid #a7a7a7;
   border-radius: 2px;
 }
 .card .card-content {
   margin: 0;
-  padding: 1rem;
+  padding: 10px;
 }
 .card .card-image {
   display: block;
@@ -363,11 +360,11 @@ img {
 =============================*/
 pre {
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 10px;
 }
 pre code {
   display: block;
-  padding: 1rem 1rem;
+  padding: 10px 10px;
   white-space: pre-wrap;
   word-wrap: break-word;
 }
@@ -401,27 +398,11 @@ code {
   width: 100%;
   min-height: 100vh;
 }
-.vertical-align {
-  display: flex;
-  align-items: center;
-}
-.horizontal-align {
-  display: flex;
-  justify-content: center;
-}
-.left {
-  display: flex;
-  justify-content: flex-start;
-}
 .center {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-}
-.right {
-  display: flex;
-  justify-content: flex-end;
+  align-items: center;
 }
 .color-black {
   color: #111;
