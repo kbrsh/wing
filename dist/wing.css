@@ -437,6 +437,18 @@ hr {
   justify-content: center;
   align-items: center;
 }
+.border-black {
+  border: 2px solid #111;
+}
+.border-gray {
+  border: 2px solid #a7a7a7;
+}
+.rounded {
+  border-radius: 2px;
+}
+.circle {
+  border-radius: 50%;
+}
 .color-black {
   color: #111;
 }
