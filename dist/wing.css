@@ -326,6 +326,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: space-between;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -340,7 +341,6 @@ img {
 =============================*/
 .card {
   display: flex;
-  flex: 0 1 calc(50% - 0.5rem);
   flex-direction: column;
   margin-bottom: 10px;
   border: 1px solid #a7a7a7;
@@ -375,6 +375,13 @@ code {
   border: 1px solid #d7d7d7;
   border-radius: 2px;
   font-family: "Consolas", "Monaco", "Menlo", monospace;
+}
+/*=============================
+  Divider
+=============================*/
+hr {
+  border-width: 0.5px;
+  border-color: #a7a7a7;
 }
 /*=============================
   Utilities
@@ -465,14 +472,4 @@ code {
 }
 .background-green {
   background-color: #00b30f;
-}
-@media screen and (max-width: 400px) {
-  .hide-phone {
-    display: none;
-  }
-}
-@media screen and (max-width: 768px) {
-  .hide-tablet {
-    display: none;
-  }
 }

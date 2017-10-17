@@ -15,7 +15,7 @@ const comment = `/**
  */\r\n`;
 
 gulp.task("build", function () {
-  return gulp.src(["./src/config.styl", "./src/base.styl", "./src/typography.styl", "./src/link.styl", "./src/button.styl", "./src/form.styl", "./src/grid.styl", "./src/list.styl", "./src/image.styl", "./src/nav.styl", "./src/card.styl", "./src/code.styl", "./src/util.styl"])
+  return gulp.src(["./src/config.styl", "./src/base.styl", "./src/typography.styl", "./src/link.styl", "./src/button.styl", "./src/form.styl", "./src/grid.styl", "./src/list.styl", "./src/image.styl", "./src/nav.styl", "./src/card.styl", "./src/code.styl", "./src/divider.styl", "./src/util.styl"])
     .pipe(concat("wing.styl"))
     .pipe(stylus())
     .pipe(header(comment + "\r\n"))
