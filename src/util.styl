@@ -23,10 +23,35 @@
   width: 100%
   min-height: 100vh
 
-// Vertical/Horizontal Align
+// Flexbox Utilities
+.flex
+  display: flex
+
+.justify-start
+  justify-content: flex-start
+
+.justify-center
+  justify-content: center
+
+.justify-end
+  justify-content: flex-end
+
+.align-start
+  align-items: flex-start
+
+.align-center
+  align-items: center
+
+.align-end
+  align-items: flex-end
+
+.vertical-direction
+  flex-direction: column
+
+.horizontal-direction
+  flex-direction: row
 
 .center
-  display: flex
   flex-direction: column
   justify-content: center
   align-items: center
@@ -49,6 +74,25 @@
 
 .color-green
   color: color-green
+
+// Backgrounds
+.background-black
+  background-color: color-black
+
+.background-white
+  background-color: color-white
+
+.background-blue
+  background-color: color-blue
+
+.background-red
+  background-color: color-red
+
+.background-yellow
+  background-color: color-yellow
+
+.background-green
+  background-color: color-green
 
 @media screen and (max-width: 400px)
   .hide-phone
