@@ -318,6 +318,14 @@ img {
   margin-top: 0;
   margin-bottom: 10px;
 }
+.box {
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border: 1px solid #a7a7a7;
+  border-radius: 2px;
+}
 /*=============================
   Navigation
 =============================*/
