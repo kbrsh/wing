@@ -458,19 +458,37 @@ hr {
   align-items: center;
 }
 .border-black {
-  border: 2px solid #111;
+  border: 1px solid #111;
 }
 .border-gray {
-  border: 2px solid #a7a7a7;
+  border: 1px solid #a7a7a7;
 }
-.rounded {
+.border-white {
+  border: 1px solid #f5f5f5;
+}
+.border-blue {
+  border: 1px solid #0062ff;
+}
+.border-red {
+  border: 1px solid #ff1500;
+}
+.border-yellow {
+  border: 1px solid #ffbf00;
+}
+.border-green {
+  border: 1px solid #00b30f;
+}
+.border-rounded {
   border-radius: 2px;
 }
-.circle {
-  border-radius: 50%;
+.border-circle {
+  border-radius: 2px;
 }
 .color-black {
   color: #111;
+}
+.color-gray {
+  color: #a7a7a7;
 }
 .color-white {
   color: #f5f5f5;
@@ -489,6 +507,9 @@ hr {
 }
 .background-black {
   background-color: #111;
+}
+.background-gray {
+  background-color: #a7a7a7;
 }
 .background-white {
   background-color: #f5f5f5;

@@ -37,6 +37,12 @@ columns = 12
 transition = all .2s ease
 
 // Border
-round-border(color)
+border(color)
   border: 1px solid color
+
+border-radius()
   border-radius: 2px
+
+border-round(color)
+  border(color)
+  border-radius()

@@ -72,20 +72,38 @@
 
 // Borders
 .border-black
-  border: 2px solid color-black
+  border(color-black)
 
 .border-gray
-  border: 2px solid color-gray
+  border(color-gray)
 
-.rounded
-  border-radius: 2px
+.border-white
+  border(color-white)
 
-.circle
+.border-blue
+  border(color-blue)
+
+.border-red
+  border(color-red)
+
+.border-yellow
+  border(color-yellow)
+
+.border-green
+  border(color-green)
+
+.border-rounded
+  border-radius()
+
+.border-circle
   border-radius: 50%
 
 // Colors
 .color-black
   color: color-black
+
+.color-gray
+  color: color-gray
 
 .color-white
   color: color-white
@@ -105,6 +123,9 @@
 // Backgrounds
 .background-black
   background-color: color-black
+
+.background-gray
+  background-color: color-gray
 
 .background-white
   background-color: color-white
