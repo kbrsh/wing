@@ -1,0 +1,16 @@
+/*=============================
+  Navigation
+=============================*/
+
+.nav {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+  .nav-item {
+    padding: 1rem 2rem;
+  }
+}

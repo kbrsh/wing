@@ -1,0 +1,68 @@
+/*=============================
+  Cards
+=============================*/
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+.card {
+  flex-direction: column;
+  flex: 0 1 calc(50% - 0.5rem);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+
+  .card-image {
+    display: block;
+    position: relative;
+
+    img {
+      display: block;
+      height: auto;
+      width: 100%;
+    }
+  }
+
+  .card-header {
+    font-weight: 600;
+    margin: 0;
+    padding: 2rem 3rem 1rem;
+  }
+
+  .card-body {
+    padding: 0 3rem 2rem 3rem;
+    min-height: 100px;
+  }
+
+  .card-footer {
+    display: flex;
+    align-items: stretch;
+    border-top: 1px solid #dbdbdb;
+    flex: 1;
+
+    .card-footer-item {
+      display: flex;
+      flex-basis: 0;
+      flex-grow: 1;
+      flex-shrink: 0;
+      align-items: center;
+      justify-content: center;
+      margin: 0;
+      padding: 1rem;
+
+      &:not(:first-child) {
+        border-left: 1px solid #dbdbdb;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .cards > .card {
+    flex: auto;
+  }
+}

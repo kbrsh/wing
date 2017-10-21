@@ -1,0 +1,13 @@
+/*=============================
+  Links
+=============================*/
+
+a {
+  color: #104cfb;
+  transition: color .1s ease;
+
+  &:hover {
+    cursor: pointer;
+    color: #222222;
+  }
+}
