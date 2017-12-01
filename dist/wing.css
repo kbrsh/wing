@@ -514,6 +514,9 @@ hr {
 .color-green {
   color: #00b30f;
 }
+.color-teal {
+  color: #008080;
+}
 .background-black {
   background-color: #111;
 }
@@ -534,4 +537,7 @@ hr {
 }
 .background-green {
   background-color: #00b30f;
+}
+.background-teal {
+  background-color: #008080;
 }
