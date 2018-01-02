@@ -9,7 +9,7 @@ const stylus = require("gulp-stylus");
 
 const comment = `/**
  * Wing v${pkg.version}
- * Copyright 2016-2017 Kabir Shah
+ * Copyright 2016-2018 Kabir Shah
  * Released under the MIT License
  * http://usewing.ml
  */\r\n`;
