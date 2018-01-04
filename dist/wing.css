@@ -184,6 +184,7 @@ input[type=number],
 input[type=file],
 input[type=tel],
 input[type=url],
+input[type=date],
 select,
 textarea {
   height: 45px;
@@ -204,6 +205,7 @@ input[type=number]:hover,
 input[type=file]:hover,
 input[type=tel]:hover,
 input[type=url]:hover,
+input[type=date]:hover,
 select:hover,
 textarea:hover {
   border-color: #111;
@@ -216,6 +218,7 @@ input[type=number]:focus,
 input[type=file]:focus,
 input[type=tel]:focus,
 input[type=url]:focus,
+input[type=date]:focus,
 select:focus,
 textarea:focus {
   outline: none;
