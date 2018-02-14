@@ -18,7 +18,8 @@
     margin-bottom: 0
 
   .col
-    flex: 1 1 0px
+    flex-grow: 1
+    flex-basis: 0
 
   .col, [class^="col-"], [class*=" col-"]
     padding-top: 10px
@@ -31,7 +32,8 @@
 
   @media screen and (max-width: 768px)
     .col, [class^='col-'], [class*=" col-"]
-      flex: 0 0 100%
+      flex-grow: 0
+      flex-basis: 100%
       margin-bottom: 10px
       padding: 0
 
