@@ -21,10 +21,9 @@
     flex: 1 1 0px
 
   .col, [class^="col-"], [class*=" col-"]
+    padding-top: 10px
     padding-right: 10px
-
-    &:last-child
-      padding-right: 0
+    padding-left: 10px
 
   for col-number in 1...(columns + 1)
     .col-{col-number}

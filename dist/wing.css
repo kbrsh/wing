@@ -47,12 +47,9 @@ body {
 .row .col,
 .row [class^="col-"],
 .row [class*=" col-"] {
+  padding-top: 10px;
   padding-right: 10px;
-}
-.row .col:last-child,
-.row [class^="col-"]:last-child,
-.row [class*=" col-"]:last-child {
-  padding-right: 0;
+  padding-left: 10px;
 }
 .row .col-1 {
   width: 8.333333333333332%;
