@@ -7,7 +7,7 @@
 [![Build Status](https://travis-ci.org/kbrsh/wing.svg?branch=master)](https://travis-ci.org/kbrsh/wing)
 [![Packagist](https://img.shields.io/badge/license-MIT-blue.svg)](https://kbrsh.github.io/license)
 
-## Why should you use it?
+## Features
 
 Everything you need to create a basic project is included, all in a **2kb** file (minified + gzipped). On top of that, almost everything is styled automatically, without the need for learning specific classes. This allows for an intuitive experience developing with Wing, as it's designed to be a boilerplate stylesheet for any project.
 
