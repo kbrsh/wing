@@ -1,3 +1,6 @@
+// Spacing
+base = 16px
+
 // Colors
 color-black = #111111
 color-gray = #A7A7A7
@@ -12,9 +15,9 @@ font = -apple-system, BlinkMacSystemFont, Avenir, "Avenir Next", "Segoe UI", "Ro
 
 // Typography Scale
 // let s = size, b = base (1rem), r = ratio, and l = level -> s = b * (r ^ l)
-typography-size-base = 1rem
+typography-size-base = base
 
-typography-size-ratio = 1.2
+typography-size-ratio = 1.15
 typography-size-1 = round(typography-size-base * (typography-size-ratio ** 6), 3)
 typography-size-2 = round(typography-size-base * (typography-size-ratio ** 5), 3)
 typography-size-3 = round(typography-size-base * (typography-size-ratio ** 4), 3)
@@ -22,7 +25,7 @@ typography-size-4 = round(typography-size-base * (typography-size-ratio ** 3), 3
 typography-size-5 = round(typography-size-base * (typography-size-ratio ** 2), 3)
 typography-size-6 = round(typography-size-base * typography-size-ratio, 3)
 
-typography-size-small-ratio = 1.125
+typography-size-small-ratio = 1.13
 typography-size-small-1 = round(typography-size-base * (typography-size-small-ratio ** 6), 3)
 typography-size-small-2 = round(typography-size-base * (typography-size-small-ratio ** 5), 3)
 typography-size-small-3 = round(typography-size-base * (typography-size-small-ratio ** 4), 3)

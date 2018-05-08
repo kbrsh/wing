@@ -12,7 +12,7 @@
   flex-flow: row wrap
   justify-content: space-between
   width: 100%
-  margin-bottom: 10px
+  margin-bottom: base
 
   &:last-child
     margin-bottom: 0
@@ -22,9 +22,9 @@
     flex-basis: 0
 
   .col, [class^="col-"], [class*=" col-"]
-    padding-top: 10px
-    padding-right: 10px
-    padding-left: 10px
+    padding-top: base
+    padding-right: base
+    padding-left: base
 
   for col-number in 1...(columns + 1)
     .col-{col-number}
@@ -34,7 +34,7 @@
     .col, [class^='col-'], [class*=" col-"]
       flex-grow: 0
       flex-basis: 100%
-      margin-bottom: 10px
+      margin-bottom: base
       padding: 0
 
       &:last-child
