@@ -33,4 +33,4 @@ Submit it in the [issues](https://github.com/kbrsh/wing/issues)
 
 ## License
 
-Licensed under the [MIT License](http://kbrsh.github.io/license) by [Kabir Shah](http://kabir.ml)
+Licensed under the [MIT License](https://kbrsh.github.io/license) by [Kabir Shah](https://kabir.sh)
