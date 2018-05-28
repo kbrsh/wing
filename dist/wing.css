@@ -48,9 +48,12 @@ body {
 .row .col,
 .row [class^="col-"],
 .row [class*=" col-"] {
-  padding-top: 16px;
-  padding-right: 16px;
-  padding-left: 16px;
+  margin-right: 16px;
+}
+.row .col:last-child,
+.row [class^="col-"]:last-child,
+.row [class*=" col-"]:last-child {
+  margin-right: 0;
 }
 .row .col-1 {
   width: 8.333333333333332%;
@@ -94,13 +97,6 @@ body {
   .row [class*=" col-"] {
     flex-grow: 0;
     flex-basis: 100%;
-    margin-bottom: 16px;
-    padding: 0;
-  }
-  .row .col:last-child,
-  .row [class^='col-']:last-child,
-  .row [class*=" col-"]:last-child {
-    margin-bottom: 0;
   }
 }
 /*=============================

@@ -22,9 +22,10 @@
     flex-basis: 0
 
   .col, [class^="col-"], [class*=" col-"]
-    padding-top: base
-    padding-right: base
-    padding-left: base
+    margin-right: base
+
+    &:last-child
+      margin-right: 0
 
   for col-number in 1...(columns + 1)
     .col-{col-number}
@@ -34,8 +35,3 @@
     .col, [class^='col-'], [class*=" col-"]
       flex-grow: 0
       flex-basis: 100%
-      margin-bottom: base
-      padding: 0
-
-      &:last-child
-        margin-bottom: 0
