@@ -25,7 +25,7 @@ $ npm install --save wingcss
 <link rel="stylesheet" href="https://unpkg.com/wingcss"/>
 ```
 
-## [Documentation](http://usewing.ml/)
+## [Documentation](https://kbrsh.github.io/wing/)
 
 ## Find a bug?
 
