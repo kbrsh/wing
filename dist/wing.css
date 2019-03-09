@@ -45,16 +45,6 @@ body {
   flex-grow: 1;
   flex-basis: 0;
 }
-.row .col,
-.row [class^="col-"],
-.row [class*=" col-"] {
-  margin-right: 16px;
-}
-.row .col:last-child,
-.row [class^="col-"]:last-child,
-.row [class*=" col-"]:last-child {
-  margin-right: 0;
-}
 .row .col-1 {
   width: 8.333333333333332%;
 }

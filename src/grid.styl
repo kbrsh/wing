@@ -21,12 +21,6 @@
     flex-grow: 1
     flex-basis: 0
 
-  .col, [class^="col-"], [class*=" col-"]
-    margin-right: base
-
-    &:last-child
-      margin-right: 0
-
   for col-number in 1...(columns + 1)
     .col-{col-number}
       width: ((col-number / columns) * 100)%
