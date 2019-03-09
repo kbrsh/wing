@@ -1,4 +1,4 @@
-<p align="center"><a href="http://usewing.ml" target="_blank"><img width="125"src="https://github.com/kbrsh/wing/raw/gh-pages/img/logo.png"></a></p>
+<p align="center"><a href="https://kbrsh.github.io/wing" target="_blank"><img width="125"src="https://github.com/kbrsh/wing/raw/gh-pages/img/logo.png"></a></p>
 
 <h1 align="center">Wing</h1>
 
