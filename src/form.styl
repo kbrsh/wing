@@ -25,3 +25,10 @@ input[type=text], input[type=password], input[type=email], input[type=search], i
 
 textarea
   min-height: 70px
+
+input[readonly], textarea[readonly], select[readonly]
+  background: lightness(color-white, 80%)
+
+input[disabled], textarea[disabled], select[disabled]
+  background: lightness(color-white, 80%)
+  cursor: not-allowed

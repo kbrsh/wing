@@ -209,6 +209,17 @@ textarea:focus {
 textarea {
   min-height: 70px;
 }
+input[readonly],
+textarea[readonly],
+select[readonly] {
+  background: #ccc;
+}
+input[disabled],
+textarea[disabled],
+select[disabled] {
+  background: #ccc;
+  cursor: not-allowed;
+}
 /*=============================
   Button
 =============================*/
