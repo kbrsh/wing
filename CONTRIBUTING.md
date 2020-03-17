@@ -41,7 +41,16 @@ $ git clone https://github.com/YOUR-USERNAME-HERE/wing.git
 
 5) Run `npm run build` to run builds, and the new distribution files will be in the `dist/` folder ready to go.
 
+**Online setup for adding code in one click**
 
+You can use Gitpod (a free online VS Code-like IDE) for contributing. With a single click it will launch a workspace and automatically:
+
+- clone the wing repo.
+- install the dependencies.
+
+So that anyone interested in contributing can start straight away.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/kbrsh/wing)
 
 **Fixing an Issue**
 
