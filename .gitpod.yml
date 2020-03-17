@@ -1,0 +1,6 @@
+tasks:
+  - init: npm install
+
+vscode:
+  extensions:
+    - sysoev.language-stylus@1.11.0:xX39oruAJ5UQzTNVRdbBaQ==
