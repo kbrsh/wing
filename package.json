@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/kbrsh/wing/issues"
   },
-  "homepage": "http://usewing.ml",
+  "homepage": "https://kbrsh.github.io/wing/",
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/kbrsh/wing.git",
