@@ -11,7 +11,7 @@ const comment = `/**
  * Wing v${pkg.version}
  * Copyright 2016-2018 Kabir Shah
  * Released under the MIT License
- * http://usewing.ml
+ * https://kbrsh.github.io/wing/
  */\r\n`;
 
 gulp.task("build", function () {
